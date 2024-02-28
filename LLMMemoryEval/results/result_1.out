@@ -1,0 +1,1540 @@
+############################################################ Part 0 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000002. I'm looking for a moderately priced 4 star hotel.
+model
+We have no hotels with that criteria, but I can search for a 3-5 star hotel if you'd like.
+user
+The hotel should include free parking and should be in the east
+model
+Ok we have two guesthouses with that criteria, the Carolina Bed and Breakfast, and the Warkworth House.
+user
+I need a reservation for 4 people for 5 nights starting on Sunday
+model
+I was able to book you at Warkworth House, the reference number is VTZK341T . Can I help you with anything else?
+user
+No that is perfect. Thank you very much.
+model
+You are welcome. Thank you for calling the Cambridge TownInfo Centre. Good bye.
+user
+Hi, I'm EJ000003. I need a place to stay in Cambridge. I'm looking for a hotel with 0 stars.
+model
+Is there a certain area you would like to be in?
+user
+I don't really have an area in mind. I would just like for it to have free wifi and be a hotel instead of a guesthouse.
+model
+Cityroomz over in Centre would work perfectly for you then! They do have free wifi and are a moderately priced 0 star hotel. Would you like a room?
+user
+Yes, I would like to book it for 5 nights for two people starting on Monday.
+model
+I have booked the cityroomz for you for 5 nights starting on Monday. The reference number is MSZ63RPW . Is there anything else I can help you with today?
+user
+Yes, I would also like to find a train from Cambridge.
+model
+Okay where is the destination and what day would you like to travel?
+user
+According to the conversation above - What's the question that EJ000000 asked? What's the question that EJ000002 asked? What's the question that EJ000001 asked? 
+model
+**EJ000000's question:** I'm looking for a moderately priced 4 star hotel.
+
+**EJ000002's question:** I need a place to stay in Cambridge. I'm looking for a hotel with 0 stars.
+
+**EJ000001's question:** I would like to find a train from Cambridge.
+############################################################ Part 1 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000005. Hello. Can you recommend a good hotel in the centre?
+model
+I have three hotels in the Centre. Would you like moderate or expensive prince range?
+user
+Price is no object, but i would like free parking and wifi.
+model
+Great, since price is no object I recommend University Arms Hotel. Its an expensive 4 star hotel with free parking and internet. Want me to book it?
+user
+Yea, I'd like to book for 3 people. We will need 4 nights, starting on Wednesday.
+model
+The booking has been successful. Your reference number is NL0GG0ZZ .
+user
+Thank you. Have a good night!
+model
+You're welcome! Have a great night.
+user
+Hi, I'm EJ000006. I'd like for a taxi to pick me up after 13:00 today
+model
+Where would you like the taxi to pick you up from?
+user
+I will leave from the rice house.
+model
+What is your destination? And what time would you like to arrive by?
+user
+According to the conversation above - What's the question that EJ000005 asked? What's the question that EJ000004 asked? What's the question that EJ000003 asked? 
+model
+**EJ000005's question:** Can you recommend a good hotel in the centre?
+
+**EJ000004's question:** Can you book me a taxi for after 13:00 today?
+
+**EJ000003's question:** What is your destination? And what time would you like to arrive by?
+############################################################ Part 2 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000008. I am looking for information in Cambridge.
+model
+Sure I can help you. What kind of information were you looking for?
+user
+I am wondering if you have any restaurants in town that serve eriterean food.
+model
+Yes, there are three restaurants that serves Mediterranean food.
+user
+Umm, actually I had asked about Eriterean food, not Mediterranean.
+model
+we got none that serves that kind of food. will you change the kind of food?
+user
+No, I really want Mediterranean food.
+model
+Okay I have three restaurants serving this. Would you like me to choose one for you?
+user
+Yes please do.
+model
+I like the gardenia. Need me to make a reservation?
+user
+Yes for 2 people on monday at 12:15 please.
+model
+Booking was successful. The table will be reserved for 15 minutes. Reference number is : K8YAC7SK . Can I help with anything else?
+user
+I also need help finding a train going to Cambridge
+model
+Okay! From where?
+user
+I need to leave from birmingham new street
+model
+Great, what day and time do you prefer?
+user
+Monday and I'll need to arrive by 08:30 in Cambridge.
+model
+The first train leaves at 5:40.
+user
+What time does it arrive?
+model
+it will arrive by 08:23. is that fine with you?
+user
+Yes that will work. I need 2 tickets for monday please.
+model
+what day will you be travavelling
+user
+Monday. As I said before, 2 tickets for Monday.
+model
+I have booked two seats on TR3888 arriving in Cambridge at 08:23. Reference number is : 5DPBKIY1 . Can I be of further assistance?
+user
+No, that will be all for today.
+model
+excellent, have a great day!
+user
+Hi, I'm EJ000009. I'm looking for a train that departs out of town on Monday. I'm in Cambridge now.
+model
+There are many trains that match this search. Where would you like your destination to be?
+user
+What trains do you see listed leaving Monday?
+model
+Well, there are 202 total, where would you want to go?
+user
+I'd like to go to London Liverpool Street.
+model
+We have ten trains leaving from Cambridge to London - Liverpool Street. Did you need to arrive by a particular time?
+user
+Yes, I need leave before 1:00 PM.
+model
+Alright. TR7276 Leaves Cambridge at 11:59 and arrives at London Liverpool St at 13:27. Does that work?
+user
+No, I need to arrive by 12:00.
+model
+The TR3085 leaves cambridge on monday at 0959 and arrives at london liverpool street at 11:27. Does that work?
+user
+Yes thanks but I need the price for the train.
+model
+The cost for the train is 16.60 pounds. Would you like me to book it for you?
+user
+Not at this time. Could you also help me find a moderately priced lodging?
+model
+there are 3 available hotels, do you need free parking?
+user
+Yes. I also would like it to be a guesthouse and have a 4 star rating.
+model
+The archway house fits your criteria. Would you like to book there?
+user
+Does the Archway House have internet?
+model
+Yes, I believe it does.
+user
+What's the phone number there?
+model
+Their phone number is 01223575314.
+user
+Great, thanks. Can I please also get the address?
+model
+Sure, it is located at 52 gilbert road, cb43pe. Would you like me to book it for you?
+user
+No that won't be necessary, that's all I needed. Thank You!
+model
+Is there anything else I can help you with?
+user
+No, that's all. Goodbye!
+model
+Thank you for calling!
+user
+According to the conversation above - What's the question that EJ000006 asked? What's the question that EJ000008 asked? What's the question that EJ000007 asked? 
+model
+**EJ000006's question:** I'm looking for information in Cambridge.
+
+**EJ000008's question:** I need to find a train going to Cambridge.
+
+**EJ000007's question:** I need help finding a moderately priced lodging.
+############################################################ Part 3 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000011. I would like a restaurant that serves brazilian food
+model
+there are no restaurants that serve brazilian food.
+user
+Please search for French food. I will also need the address and phone number.
+model
+I found two French restaurants, one in centre and one in north. Do you have a preference on area?
+user
+I don't care.
+model
+Do you have a preference on the price?
+user
+I don't care
+model
+Cote is a good french restaurant. It is located at bridge street city centre and its phone number is 01223311053. Is there anything else I can help you with?
+user
+No, that is all I need. Thank you and goodbye!
+model
+Goodbye.
+user
+Hi, I'm EJ000012. I'm looking for a restaurant in the center of town that serves Singaporean food. Do you have any suggestions?
+model
+I'm sorry, I do not see any Singaporean restaurants in the Centre area. May I help you with something else?
+user
+What about a restaurant in the center part of town that serves British food?
+model
+There are 7 British eateries to choose from. Would you prefer any particular price range? There are restaurants that provide both moderate and expensive price ranges.
+user
+No, can you recommend one?
+model
+restaurant one seven is fantastic can I recommend that one to you?
+user
+Could you provide me please with their phone number, price range and postcode?
+model
+01223337766. cb21ab post code. They are in the moderate range in price.
+user
+Okay thank you. I am also looking for the hotel called express by holiday inn cambridge.
+model
+How many nights do you need?
+user
+Two nights starting on Thursday please.
+model
+And will it be just you staying, or a group?
+user
+There will be two people total.
+model
+Your room at the Express by Holiday Inn Cambridge has been booked. Your reference number is K5RD51DN .
+user
+Thank you so much!
+model
+You're welcome. Would you like me to help with anything else?
+user
+That is all I needed, have a nice day.
+model
+Thank you, and have a great day.
+user
+According to the conversation above - What's the question that EJ000011 asked? What's the question that EJ000009 asked? What's the question that EJ000010 asked? 
+model
+**EJ000011's question:** I would like a restaurant that serves Brazilian food.
+
+**EJ000009's question:** I'm looking for a restaurant in the center of town that serves Singaporean food.
+
+**EJ000010's question:** I am also looking for the hotel called express by holiday inn cambridge.
+############################################################ Part 4 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000014. I'm looking for a cheap indian restaurant please.
+model
+Sure, there are a number of cheap Indian restaraunts. What area of town are you looking for?
+user
+I'd like someplace in the center of town.
+model
+There are three places that match that criteria which are the Kohinoor, The Gandhi, and Mahal of Cambridge. Would you like information about one of those restaurants?
+user
+The Gandhi would be perfect. Could you book it for me for tuesday.
+model
+Sure, I'd be happy to reserve that for you. How many people are in your party and for what time?
+user
+5 at 11:15 on Tuesday.
+model
+Booking was successful. The table will be reserved for 15 minutes.Reference number is : WF5PM422 . thank you for inquiring with us
+user
+Great. Can you also help me find somewhere to visit in town around that same area?
+model
+I found few places you can visit. Do you care if you pay entrance fee ?
+user
+It is not really that necessary .
+model
+No the fee is not an issue.
+user
+Just choose one and tell me the type, address, and postcode
+model
+Old schools is an architecture attraction. The address is trinity lane. The postcode is cb21tt. Anything else today?
+user
+That is all I needed today. Thank you for your help.
+model
+You're welcome and enjoy your visit.
+user
+Hi, I'm EJ000015. Can you give me information about the Yu Garden? It's a restaurant my sister recommended.
+model
+Sure! Yu Garden serves Chinese food on the Eastside. It's prices range toward the expensive side. Would you like more information?
+user
+I would like to book a table for saturday
+model
+What time would you like this reservation?
+user
+I would like a reservation for 14:30 for 5 people please. Can I have the reference number?
+model
+Booking was successful. The table will be reserved for 15 minutes.Reference number is : 9XFOBDBF .
+user
+Can I also get a phone number?
+model
+The phone number is 01223248882.
+user
+Great. I am also looking for places in the centre of town where i can do boating. Any suggestions?
+model
+Yes, there's the Scudamores punting co and the Cambridge punter.
+user
+Could I have the post code and address for both places?
+model
+Scadamores Punting Co is located at Granta Place, Mil Lane and the postcode is cb21rs. Is there anything else I can assist you with?
+user
+No, that's all I need.
+model
+Awesome. Have a great trip!
+user
+According to the conversation above - What's the question that EJ000014 asked? What's the question that EJ000012 asked? What's the question that EJ000013 asked? 
+model
+**EJ000014's question:** Can you recommend a cheap Indian restaurant?
+
+**EJ000012's question:** Can you give me information about the Yu Garden restaurant?
+
+**EJ000013's question:** Can you give me information about places in the center of town where I can do boating?
+############################################################ Part 5 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000017. Hi, can you help me with my planning? I am looking for a restaurant.
+model
+Sure, are you looking for anything specific?
+user
+I would like an indian restaurant in the north.
+model
+There are two restaurants that meet your criteria. Would you prefer the one in the moderate price range or the one in the cheap price range?
+user
+I would like the one in the cheap price range. Can you book it for me?
+model
+I have one listing her for royal spice. Would you like to make a booking?
+user
+I would love that, I need it for 1 person at 17:30 on Wednesday, please include a reference number.
+model
+Booking was successful. The table will be reserved for 15 minutes. Reference number is : AGK03VYR . Is there anything more I can do for you today?
+user
+While I am in the north part of town, I'd like some help finding something to do. Is there a popular attraction around?
+model
+There is the Riverboat Georgina which is located in the North. I'm not sure if it's free or if they charge anything.
+user
+Hi, I'm EJ000018. Where is the nearest hospital?
+model
+Addenbrookes Hospital is on Hills Rd, Cambridge. Is there a particular department you need?
+user
+No particular department, but may I please have the address?
+model
+The address is Hills Rd, Cambridge with a postcode of CB20QQ. Will there be anything else?
+user
+I also need the phone number.
+model
+The general phone number is 01223245151. Do you need any further assistance?
+user
+No that was all. Thank you.
+model
+You're welcome! Have a great day!
+user
+Thank you! You too. Your business provides a really great service.
+model
+Thank you for using Cambridge TownInfo centre. Good bye.
+user
+According to the conversation above - What's the question that EJ000016 asked? What's the question that EJ000015 asked? What's the question that EJ000017 asked? 
+model
+**EJ000016's question:** What are the popular attractions in the north part of town?
+
+**EJ000015's question:** Where is the nearest hospital?
+
+**EJ000017's question:** Can you book me a table at an Indian restaurant in the north?
+############################################################ Part 6 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000020. I'd looking for a good restaurant on the east side. I'd prefer the moderate price range, if possible.
+model
+Would you prefer Indian or Italian food?
+user
+I would like Indian please.
+model
+There is curry prince, and rajmahal, would either of those work for you?
+user
+I'd like to book curry prince for 6 people at 15:45 on saturday please.
+model
+Alright, I have you reservation made. The reference number is SMAMRCQ9 .
+user
+Great, thanks for your help.
+model
+Is there anything else I can help you with?
+user
+No, that will be everything today. Thank you.
+model
+Thank you, goodbye.
+user
+Hi, I'm EJ000021. I have the name of an attraction that I need directions to.
+model
+Okay, what is it called?
+user
+Milton Country Park is the name.
+model
+Milton Country Park is located in the North of the city. I do not have directions, but their phone number is 01223420060
+user
+Great, can you help me find a place to eat that serves expensive Indian food?
+model
+I found several restaurants for you. Do you prefer a certain area?
+user
+Yes, Can your search in the east please?
+model
+Yes, there are two options in the East. Pipasha Restaurant and Sitar Tandoori. Does either of those sound appealing?
+user
+Yes can I get the address, postcode, and phone number for Sitar Tandoori?
+model
+it is in 43 High Street Cherry Hinton Cherry Hinton,cb19hx and phone number is 01223249955
+user
+The last thing I need is a taxi to pick me up at the Milton County Park and take me to the restaurant.
+model
+May I have the time you would like to leave Milton Country Park and arrive at Sitar Tandoori so I can get this booked for you?
+user
+I'd like to leave the park at 14:45 please. Can you tell me the car type and contact number too
+model
+I've booked you a yellow ford with the following contact number 07007541693.
+user
+Thank you. You have been a great help.
+model
+You are so very welcome! Goodbye, and have a great trip!
+user
+According to the conversation above - What's the question that EJ000019 asked? What's the question that EJ000020 asked? What's the question that EJ000018 asked? 
+model
+**EJ000019's question:** Can you help me find a place to eat that serves expensive Indian food?
+
+**EJ000020's question:** I'd like to book curry prince for 6 people at 15:45 on saturday please.
+
+**EJ000018's question:** I have the name of an attraction that I need directions to.
+############################################################ Part 7 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000023. I am planning a trip in Cambridge
+model
+That sounds like fun! What information can I help you find?
+user
+I need to first find out what train will take me away after I am done. I need to get to Peterborough on Sunday by 21:45
+model
+Where will you be departing from?
+user
+Departing from Cambridge. I need the departure time, train ID and price.
+model
+Okay, we've got a few options. The best looks like train TR6958 that leaves Cambridge at 20:34 and arrived in Peterborough at 21:24. The price is 13.2 pounds.
+user
+Thanks! i'm also looking for a place to stay in the east.
+model
+I found the express by holiday inn cambridge. It is a 2 star expensive hotel free parking and internet. The address is15-17 norman way, coldhams business park.
+user
+Hi, I'm EJ000024. I am traveling to Cambridge and excited about seeing local tourist attractions, any suggestions for me?
+model
+There are several attractions in Cambridge. What type of attractions are you interested in?
+user
+Actually, let's find some lodging accommodations first. I'd like something moderately priced with a 4-star rating. Oh, and I'll have my laptop with me so I'd like wifi to be included.
+model
+There are 11 guest houses available. Is there is certain area of the city you prefer?
+user
+Any area is fine, can you book one for 7 people for 2 nights starting on wednesday?
+model
+I'm sorry, apparently none of our guesthouses can accommodate 7 people for 2 nights on Wednesday. Would you like to try a different day or stay period?
+user
+Hmm. I suppose we could leave a little sooner. Are there any that can accommodate us for one night?
+model
+I was able to book you A and B guesthouse for 1 night, reference number is EQG0KVRJ
+user
+Great! Thank you! I'm also looking for places to go in town.
+model
+We're fortunate, Cambridge has many attractions. What did you have in mind?
+user
+I would like to visit a park. Can you tell me about any parks in the city?
+model
+Wandlebury Country Park is in the south of town, would you like to know more?
+user
+Thank you, that's all I need for now.
+model
+You're welcome. Enjoy!
+user
+According to the conversation above - What's the question that EJ000023 asked? What's the question that EJ000021 asked? What's the question that EJ000022 asked? 
+model
+**EJ000023's question:** What train will take me away after I am done in Cambridge to Peterborough on Sunday by 21:45?
+
+**EJ000021's question:** I'm also looking for a place to stay in the east.
+
+**EJ000022's question:** I would like to visit a park.
+############################################################ Part 8 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000026. I am looking for an expensive restaurant that serves Indonesian food.
+model
+I'm sorry, there are no expensive restaurants that serve indonesian food. Can I help you with something else?
+user
+can i have a thai food instead?
+model
+bangkok city is thai restaurant in the expensive price range located in the centre city.
+user
+address and phone number, please
+model
+Sure, bangkok city is located at 24 green street city centre and its phone number is 01223 354382. Is there anything else I can help you with?
+user
+Sorry what type of food do they serve?
+model
+They serve thai food.
+user
+No, thank you! I've got all the info I needed. Goodbye.
+model
+Thank you.
+user
+Hi, I'm EJ000027. Good evening. I'm kind of in a situation. The hotel I had planned to stay was overbooked and I need to find me a room pretty quickly. Can you help?
+model
+There are many hotels available, do you have any preferences to price or area?
+user
+Not really. But it should be in the North.
+model
+There are two hotels on the north end, the Ashley Hotel and the Lovell Lodge. Which would you like?
+user
+I would prefer a guesthouse thats 4 star rated. Do either of those fit the bill?
+model
+No, I'm afraid they're both two stars. Would you like to try one of them anyway?
+user
+Do they have free wifi at either of them?
+model
+Yes both have free internet. Which one do you prefer?
+user
+I would really like a four star guesthouse in the north area, I don't need parking.
+model
+Okay, I've found several place that meet those requirements. I suggest the Avalon. Would you like me to make a reservation for you?
+user
+First could you tell me the price range for the Avalon?
+model
+The price range at the Avalon is moderate. Do you have any more questions?
+user
+Yes, can you confirm if the Avalon has Internet, please?
+model
+Yes they does, but no free parking though.
+user
+Cool. Thanks I'm good now. Goodbye.
+model
+You have a wonderful day!
+user
+According to the conversation above - What's the question that EJ000024 asked? What's the question that EJ000025 asked? What's the question that EJ000026 asked? 
+model
+**EJ000024's question:** I'm looking for an expensive restaurant that serves Indonesian food.
+
+**EJ000025's question:** Can I have a Thai food instead?
+
+**EJ000026's question:** Do they have free wifi at either of them?
+############################################################ Part 9 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000029. I am checking on the train schedule from Peterborough to Cambridge.
+model
+Sure many trains use that route. It would be helpful if you could narrow down a specific travel time.
+user
+I want to leave after 10:00.
+model
+What day do you want to depart?
+user
+i want to depart on thursday.
+model
+TR418 leaves at 10:19. Whould you like me to book it?
+user
+I will book it myself.
+model
+OK - is there anything else I can help you with today?
+user
+I also need an attraction.
+model
+Ok, I can help you with that. What type of attraction are you looking for?
+user
+I'm just looking for something fun to do in the centre of town. Do you have any recommendations?
+model
+I'd recommend Vue Cinema. Would you like more information?
+user
+Can I get the phone number please?
+model
+Sure, their number is 08712240240. Is there anything else I can help with?
+user
+No thank you. That is all for today. Goodbye
+model
+thank you and enjoy your stay.
+user
+Hi, I'm EJ000030. Can you help me find a train leaving after 12:15 on friday?
+model
+Sure, what's the departure and destination.
+user
+from broxbourne to cambridge
+model
+The TR3158 meets your description. Would you like to make a booking?
+user
+What is the arrival time? I'll also need the travel time and train ID.
+model
+The arrival time is 13:32. The train ID is TR3158. And the travel time for this route is 60 minutes. Anything else I can do for you?
+user
+I also need to find a hotel with free parking and wifi.
+model
+There are 8 hotels available with internet and parking. What price range and area of the city are you interested in?
+user
+I want to to have a 4 star rating & be a guesthouse. It can be in any area of the town.
+model
+There are 16 options available. Can I narrow it down for you by price range?
+user
+The price doesn't matter. Is there one that you would recommend?
+model
+I would recommend the Allenbell which is in the center and cheap. Would you like to make a reservation there?
+user
+Yes please, for 3 people. We'll need 3 nights starting Friday. Can you please give me the reference number once it's booked?
+model
+Your room has been booked. Reference number is 77BQDD6I .
+user
+Great, you have been very helpful today. Thanks. That is all I need. Bye.
+model
+It's my pleasure. Have a good day.
+user
+According to the conversation above - What's the question that EJ000028 asked? What's the question that EJ000029 asked? What's the question that EJ000027 asked? 
+model
+**EJ000028's question:**
+
+What is the train schedule from Peterborough to Cambridge after 10:00?
+
+**EJ000029's question:**
+
+Can you find a train leaving after 12:15 on Friday?
+
+**EJ000027's question:**
+
+Can you find a hotel with free parking and wifi?
+############################################################ Part 10 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000032. Hello, I'm looking for a nearby hospital that has inpatient occupational therapy. Can you help me with this?
+model
+Telephone : 01223245151 Address : Hills Rd, Cambridge Postcode : CB20QQ
+user
+Is that the phone number for the inpatient occupational therapy department?
+model
+No, their direct number is 01223216881.
+user
+Thank you that is all I need.
+model
+Thank you for using our system!
+user
+Hi, I'm EJ000033. Hi there, can you help me with my trip planning? I am trying to find a good place to stay.
+model
+Sure thing! I found a few hotels that you may be interested in. What area and how many nights do you need the hotel for?
+user
+I want it in the east area and I don't have have a length of stay.
+model
+I have one hotel available in the east and some guesthouses as well. Would you like me to book a room for you?
+user
+Are any of the guesthouses in the east?
+model
+The autumn house is in the east what day would you like it for.
+user
+According to the conversation above - What's the question that EJ000031 asked? What's the question that EJ000032 asked? What's the question that EJ000030 asked? 
+model
+**EJ000031's question:** I'm looking for a nearby hospital that has inpatient occupational therapy.
+
+**EJ000032's question:** Can you help me with my trip planning? I am trying to find a good place to stay.
+
+**EJ000030's question:** Are any of the guesthouses in the east?
+############################################################ Part 11 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000035. Please provide the location of the nearest police station.
+model
+The nearest police station in Parkside Cambridge, the telephone number is 01223358966.
+user
+Thank you goodbye
+model
+You're welcome. The postcode is CB11JG in case you need it. Goodbye.
+user
+Hi, I'm EJ000036. I am looking for places to see in town. Can you help me?
+model
+Cambridge offers many attractions. Is there a certain part of town or type of attraction you'd like to narrow your search down to?
+user
+I really don't have a preference. I'll let you pick! I'll need the address, postcode and the phone number. Thanks so much!
+model
+Little saint mary's church is an architecture site, their address is little saint mary's lane, and postcode is cb21qy, and the phone number is 01223366202
+user
+Thank you. I'm also looking for a train that leaves on Monday. It will need to leave after 21:45.
+model
+what is your destination.
+user
+I'm leaving from Cambridge going to stevenage.
+model
+The TR6906 departs at 23:21 and arrives at 24:10. Would you like me to book it for you?
+user
+I just need the price on that one please.
+model
+The price is 12.80 pounds
+user
+That's exactly what I needed. Thank you. Goodbye!
+model
+Have a great trip. Goodbye.
+user
+According to the conversation above - What's the question that EJ000033 asked? What's the question that EJ000035 asked? What's the question that EJ000034 asked? 
+model
+**EJ000033's question:** Where is the location of the nearest police station?
+
+**EJ000035's question:** I'm looking for places to see in town. Can you help me?
+
+**EJ000034's question:** I'm leaving from Cambridge going to stevenage. Can you tell me the train schedule?
+############################################################ Part 12 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000038. Is there an expensive French restaurant in town?
+model
+I show two french restaurants. Cote and Restaurant two two.
+user
+Which is closest to me?
+model
+What area is closer to you, North or Centre?
+user
+What is the food type they serve ?
+model
+They serve french food .
+user
+I don't know.
+model
+Cote is located at Bridge Street City Centre, and Restaurant Two Two is at 22 Chesterton Road Chesterton. How else may I assist you?
+user
+Thank You
+model
+Thank you. Good bye.
+user
+Hi, I'm EJ000039. I would like a moderately priced restaurant in the north part of town
+model
+golden wok is a moderately priced restaurant in the north part of town
+user
+Is there anything else?
+model
+The Nirala is moderately priced restaurant in the north of town as well.
+user
+What kind of food does The Nirala serve?
+model
+The Nirala serves Indian
+user
+What is their phone number?
+model
+The phone number for the nirala is 01223 360966. Can I help you with anything else today?
+user
+No, thank you. I have all the information that I need now.
+model
+Thank you for using our system. Good bye
+user
+Good bye
+model
+Goodbye.
+user
+According to the conversation above - What's the question that EJ000037 asked? What's the question that EJ000038 asked? What's the question that EJ000036 asked? 
+model
+**EJ000037's question:** Is there an expensive French restaurant in town?
+
+**EJ000038's question:** Is there a moderately priced restaurant in the north part of town?
+
+**EJ000036's question:** What is the food type they serve at The Nirala?
+############################################################ Part 13 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000041. Hello, I'm looking for a hotel named cityroomz. Can you provide me information about it please?
+model
+Yes. It's a 0 star hotel that's located at sleeperz hotel, station road in the centre of town. Would you like their phone number as well?
+user
+No thanks, but can you book me for 3 people and 5 nights starting on saturday? I'll also need the reference number.
+model
+I booked it for you. The reference is L30FIVE7 . Do you need anything else?
+user
+Im looking for a place to go in the centre area with multiple sports.
+model
+I am sorry but there are no multiple sports in the centre area. Do you want me to try a different area or a different attraction?
+user
+How about let's try a nightclub?
+model
+Yes I found 5 nightclubs. Would like to try the Ballare located at Heidelberg Gardens, Lion yard?
+user
+I think that would work. Can you tell me their entrance fee and postcode please?
+model
+Yeah, the entrance fee is 5 pounds, and the postcode is cb23na.
+user
+Can you book me a taxi between the two locations please?
+model
+When would you like to be picked up?
+user
+at 17:00 hours please
+model
+Okay. You'll be expecting a blue Ford. Their number is 07043795737. Anything else?
+user
+Was that taxi booking for leaving by 18:45?
+model
+It was at 17:00, quite a bit before 18:45. Would you prefer a later booking?
+user
+I just need to arrive at my attraction by 18:45. Can I get the car type and contact number please?
+model
+It's a blue ford and the contact number is 07043795737.
+user
+Thanks for your help!
+model
+Thank you for using the help desk! Good bye!
+user
+Hi, I'm EJ000042. I would like a moderately priced restaurant that serves brazilian food
+model
+Unfortunately, there are no brazilian restaurants available. Is there a second food option you would like to try?
+user
+Is there any restaurants that have gastropub type of food?
+model
+Backstreet Bistro is a gastropub located in the centre part of town and in the expensive price range.
+user
+May I have their address and phone number please?
+model
+Backstreet Bistro is located at 2 Sturton Street City Centre and their phone number is 01223 306306.
+user
+Thank you goodbye.
+model
+Goodbye.
+user
+According to the conversation above - What's the question that EJ000040 asked? What's the question that EJ000041 asked? What's the question that EJ000039 asked? 
+model
+**EJ000040's question:** I'm looking for a hotel named cityroomz. Can you provide me information about it please?
+
+**EJ000041's question:** I'm looking for a place to go in the centre area with multiple sports.
+
+**EJ000039's question:** Can you book me a taxi between the two locations please?
+############################################################ Part 14 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000044. Hi, I'm looking for a train going to Stevenage that leaves after 10:30 please.
+model
+Where are you leaving from?
+user
+I am leaving from Cambridge.
+model
+the TR3043 leaves at 11:21 if that works for you.
+user
+That sounds like it might work, but what is its arrival time if I may ask?
+model
+TR3043 arrives in Stevenage at 12:10.
+user
+I would also like to explore the local architecture while in town. Can you suggest a place to visit?
+model
+what about all saints church? its lovely
+user
+That sounds great! Can you give me the address, postcode, and phone number please?
+model
+phone is 01223452587 postcode is cb58bs and address is jesus lane
+user
+Great, thanks! That'll be all I need. Bye!
+model
+enjoy your time
+user
+Hi, I'm EJ000045. Hi I will be in cambridge next week and I need to find a type of boat, in the north can you help me find one?
+model
+Sure, the riverboat georgina offer passenger cruisers and they are located in the north.
+user
+Sounds interesting. What is the fee? Also can I have their phone number and postcode?
+model
+I don't have the entrance fee, but the phone number is 01223902091 and the post code is cb43ax.
+user
+Thanks. I also am looking for a restaurant to dine in that serves Chinese food and would prefer close to the attraction.
+model
+I have 3 options here. Do you have a preference for the pricerange?
+user
+No, no preference. Can you tell me the names of the 3?
+model
+We have hakka, golden wok, and the hotpot. Can I book one, if so what date, time and for how many people?
+user
+That would be for one person at 19:00 on friday please.
+model
+Hi, I was able to book Your table at Hakka. the reference number is JRF1SH26 .
+user
+Great, thanks! That's all I need today. You've been a wonderful help.
+model
+You are welcome. Thanks for calling Cambridge TownInfo Centre. Have a good day.
+user
+According to the conversation above - What's the question that EJ000044 asked? What's the question that EJ000042 asked? What's the question that EJ000043 asked? 
+model
+**EJ000044's question:** Train going to Stevenage that leaves after 10:30.
+
+**EJ000042's question:** Can you give me the address, postcode, and phone number for the boat rental company?
+
+**EJ000043's question:** Can you suggest a restaurant to dine in that serves Chinese food and would prefer close to the attraction?
+############################################################ Part 15 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000047. I'm looking for a restaurant in cambridge that serves italian. I would like it to be in the south.
+model
+There are two italian places. Pizza Hut and Frankie and Bennys. Would you like to make a reservation at one of them?
+user
+Maybe. I need a place that serves expensive food. Does either place fit the bill?
+model
+Yes, Frankie and Benny's is expensive.
+user
+I would like to book a table for 6 people at 19:00 on Monday. I need the reference number for the booking as well.
+model
+I have your booking for 6 people on Monday at 19:00, your reference number is 554BXNRB . Can I help with anything else?
+user
+I would also like to find a hotel with free parking.
+model
+i have many options for you! any particular part of town?
+user
+Yes, I would like it to be in the same area as the restaurant please.
+model
+I would suggest the allenbell.
+user
+Okay. do they have free parking? if so are they in the same area as frankie and benny's?
+model
+unfortunately they are in different areas. let me find something that will work. i have the lensfield hotel. it is expensive in the south and offers free parking and wifi.
+user
+Thank you. You just answered all my questions. Have a good day. Goodbye.
+model
+If you decide to make reservations, we will be glad to help you.
+user
+Hi, I'm EJ000048. I want to find a museum located in the west.
+model
+how about cafe jello gallery? it's gotten great reviews.
+user
+What is the entrance fee? Can you please provide the address and postcode?
+model
+cafe jello gallery, 13 magdalene street. Postcode cb30af
+user
+I also need a dining place. International food in expensive range would work for me.
+model
+I'm sorry but it doesn't look like we have any listings for expensive international restaurants. Would you like to choose a different type of food?
+user
+are you sure?it should be in the west
+model
+I'm afraid there aren't any. Would you like to try a different price range or cuisine?
+user
+How about Indian?
+model
+There are 5 restaurants in the west that serve expensive Indian food. May I make a reservation for you?
+user
+As long as it serves indian we're good. I need the address and phone number
+model
+I recommend India House! It's located at 31 Newnham Road Newnham. Their phone number is 01223461661. Can I do anything else for you?
+user
+Can I get a taxi to take me between the two? I need to leave the Cafe Jello attraction by 21:00. I need the contact Number and car type?
+model
+Done! The car will be a red Tesla, and you may call 07730461220. Can I help you with anything else?
+user
+That is all of the information that I need, thank you.
+model
+Your welcome and if there is anything else please don't hesitate to give me a call back.
+user
+According to the conversation above - What's the question that EJ000045 asked? What's the question that EJ000047 asked? What's the question that EJ000046 asked? 
+model
+**EJ000045's question:** What is the question that EJ000047 asked?
+
+**EJ000047's question:** I'm looking for a restaurant in cambridge that serves Italian. I would like it to be in the south.
+
+**EJ000046's question:** I need a dining place. International food in expensive range would work for me.
+############################################################ Part 16 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000050. I am looking for a local restaurant in the south that offers modern European cuisine
+model
+I found one for you called restaurant alimentum. Would you like me to book it for you?
+user
+Yes!
+model
+What day would you like to book your reservation?
+user
+Two people at 11:15 for 2 people.
+model
+For which day shall I book the table?
+user
+Tuesday, please.
+model
+Booking was successful. The table will be reserved for 15 minutes. Reference number is : IMSY2GMJ . Is there anything else I can do for you today?
+user
+No, thank you
+model
+Have a great day!
+user
+Hi, I'm EJ000051. Are there any eritrean restaurants in town?
+model
+No, there are no eritrean restaurants in town. Would you like a different restaurant?
+user
+How about Chinese food?
+model
+There is a wide variety of Chinese restaurants, do you have an area preference or a price preference to narrow it down?
+user
+I would like the East part of town.
+model
+Yu Garden is a chinese restaurant in the east area.
+user
+Could I get the address, phone number, and postcode of Yu Garden?
+model
+Phone is 01223 248882, address and postcode are 529 Newmarket Road Fen Ditton C.B 5, 8 P.A
+user
+Thank you. That is all the information I needed. Bye bye!
+model
+Bye!
+user
+According to the conversation above - What's the question that EJ000049 asked? What's the question that EJ000048 asked? What's the question that EJ000050 asked? 
+model
+**EJ000049's question:** Is there a local restaurant in the south that offers modern European cuisine?
+
+**EJ000048's question:** How about Chinese food?
+
+**EJ000050's question:** Could I get the address, phone number, and postcode of Yu Garden?
+############################################################ Part 17 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000053. I am looking for a five star guesthouse to stay in.
+model
+There are no 5 Star Guest Houses in the area. Do you have any other preferences?
+user
+Are there any 5 star hotels in that area?
+model
+I am not finding any 5 star hotels. Would you like to try a different rating?
+user
+Okay, let's try a 4 star rating instead. Do you have any guesthouses listed with a 4 star rating?
+model
+yes, there are 18 guesthouses with 4 star ratings.
+user
+What is the price range and area?
+model
+They are located all across town, from all price ranges. Do you have any preferences?
+user
+I don't care about the location or price.
+model
+In that case may I suggest the Acorn Guest House? It's located in the north and has a moderate price range with a four star rating.
+user
+Do they have internet?
+model
+Yes, they offer both parking and internet. Would you like to make a booking?
+user
+No thanks but I'm looking for something to do around town
+model
+Do you have any preferences on things to do or area?
+user
+I need an attraction in the type of concerthall.
+model
+The man on the moon is the only concerthall, but it is in the the centre, would you like more info on that or for me to run another sarch?
+user
+what is its entrance fee?
+model
+We don't have information on the entrance fee, but their number is 01223474144 if you would like to contact them.
+user
+Thank you for the information.
+model
+Can I look up anything else for you?
+user
+That is all I needed.
+model
+Ok! Have a great day!
+user
+Hi, I'm EJ000054. What is the closest four star hotel with free wifi?
+model
+What is your location preference?
+user
+Location is not a priority, it could be a hotel or guesthouse, either way is fine.
+model
+Acorn Guest House is located at 154 Chesterton Road. Will that work for you?
+user
+Is this a cheap place to stay? I really want to book a cheap place.
+model
+The Acorn is moderately priced. We do have some cheap ones with 4 stars and the internet. The Cambridge Belfry is a hotel that fits your description.
+user
+Yes, can you please book The Cambridge Belfry for me for 8 people for 2 nights starting on Sunday. If Sunday is not available, Monday is also okay.
+model
+Yes, I've made the booking for you and your reference number is FTZQCNPH .
+user
+Thank you. Could you recommend a place to go in the centre of town?
+model
+sure, how about the fez club?
+user
+That will work can I get the address please?
+model
+Yes, it is located at 8 Market Passage, postcode cb23hx. What else can I assist you with today?
+user
+Is there a entrance fee?
+model
+Yes, the entrance fee is 5 pounds.
+user
+I need the phone number as well please.
+model
+sorry about that it is 01223519224, anything else today?
+user
+That will be it for now. Have a good day! Thank you!
+model
+You are very welcome. Enjoy your stay! Good-bye.
+user
+According to the conversation above - What's the question that EJ000051 asked? What's the question that EJ000053 asked? What's the question that EJ000052 asked? 
+model
+**EJ000051's question:** What is the closest four star hotel with free wifi?
+
+**EJ000053's question:** I am looking for a five star guesthouse to stay in.
+
+**EJ000052's question:** Is there a cheap place to stay?
+############################################################ Part 18 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000056. I want to find a restaurant in the centre part of town and serves persian food.
+model
+There are no restaurants serving Persian food in the Centre part of town.
+user
+I would like a thai restaurant then.
+model
+I see several options for Thai food in the city centre. Would you like to narrow them down by price?
+user
+Yes please. Like to hear least to most expensive first.
+model
+bangkok city is the only result and it is expensive.
+user
+What is the address and phone number?
+model
+The address for Bangkok city is 24 Green Street City Centr, and the phone number is 01223 354382 . Is there anything else I can help you with?
+user
+Thank you, goodbye
+model
+Have a nice day!
+user
+Hi, I'm EJ000057. Please help me find a moderately priced restaurant located in the centre. Thanks.
+model
+how about Colto, it serves british food, is in the city centre and is moderately priced
+user
+No thanks, is there any turkish restaurants in the same price range and area?
+model
+Yes, there are 2 restaurants that fit that criteria, Anatolia and Efes Restaurant.
+user
+give me its address,phone number, and postcode please
+model
+Anatolia is at 30 bridge street city centre, 01223362372 and postcode is cb21uj. efes is at king street city centre. Phone is 01223500005 and postcode is cb11ln.
+user
+Thank you. I also need a train going to London Liverpool Street please
+model
+What day were you looking to travel?
+user
+I would like to travel on Friday, departing from cambridge and arriving by 18:00.
+model
+Okay, the TR9956 leaves at 15:59 and arrives by 17:27. Would you like me to book a reservation for you?
+user
+yes please and make them three tickets
+model
+Booking was successful, the total fee is 49.8 GBP payable at the station. Reference number is : O2OFXV6A . Is there anything else I can assist you with today?
+user
+That is all I needed today thank you.
+model
+enjoy your stay in Cambridge!
+user
+According to the conversation above - What's the question that EJ000054 asked? What's the question that EJ000055 asked? What's the question that EJ000056 asked? 
+model
+**EJ000054:** I want to find a restaurant in the centre part of town and serves Persian food.
+
+**EJ000055:** I would like a Thai restaurant then.
+
+**EJ000056:** I'm EJ000056. I want to find a restaurant in the centre part of town and serves Persian food.
+############################################################ Part 19 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000059. Hello, can you give me some information on places to go in town?
+model
+Can I get the type of attraction you would like to go to?
+user
+I would like to go to a swimming pool.
+model
+I show 4 swimmingpools. Do you have a preference of an area?
+user
+No area preference in mind. Please get me the address and entrance fee - if any - for one of them.
+model
+i'm not sure about the entrance fee but i can give you the address for abbey pool and astroturf pitch
+user
+ok what's the address?
+model
+Abbey pool and astroturf pitch is located at pool way, whitehill road, off newmarket road. Is there anything else you needed to know?
+user
+Yes, are there any seafood restaurants in the centre?
+model
+Yes, Loch Fyne is a seafood restaurant in the centre. I must warn you that it is expensive. Would you like me to book it?
+user
+Yes please I need it for 6 people for 14:15 on a Wednesday. I will need the reference number.
+model
+Booking was successful. The table will be reserved for 15 minutes. Reference number is : PEY9RURV .
+user
+Thank you that is all I need for now. Have a great day. Goodbye
+model
+Have a great time in Cambridge.
+user
+Hi, I'm EJ000060. I'm looking to find a guesthouse with free wifi for the night.
+model
+I'd be happy to help with your request, to help narrow down the results, what area are you looking to stay in?
+user
+I'd like to stay in Cambridge centre.
+model
+when would you like to move into the guest house
+user
+Starting on Monday please.
+model
+For how many days would you like this reservation?
+user
+I plan to stay for 3 nights
+model
+Booking was unsuccessful. Please book another day or a shorter stay.
+user
+alright. enjoyed your services. keep that up
+model
+You are more than welcome!
+user
+According to the conversation above - What's the question that EJ000059 asked? What's the question that EJ000057 asked? What's the question that EJ000058 asked? 
+model
+**EJ000059's question:** Where are some places to go in town?
+
+**EJ000057's question:** Can I get the address and entrance fee - if any - for one of the swimmingpools?
+
+**EJ000058's question:** Are there any seafood restaurants in the centre?
+############################################################ Part 20 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000062. Hello, I'm looking for a train out of Cambridge.
+model
+What day would you be traveling and where would you like to go?
+user
+I would be leaving on Friday and i would be traveling to London Liverpool street and i would like to leave after 21:15
+model
+You could take the TR9557 at 21:59, or the TR3138 two hours later.
+user
+I'll take the earlier train. could you tell me the travel time, and at what time I will be arriving at London Liverpool street?
+model
+Sure, the travel time is 88 minutes and you will arrive at 23:27. Would you like me to book the train for you?
+user
+That would be great, thanks. I am also looking for a hotel. I would prefer a 3 star hotel. I do not need parking.
+model
+Certainly. I have many hotels matching that description. Do you have a preference for what area you stay in?
+user
+I don't really care. Could you please find me a moderately priced one, though? I'd like a 3 star if possible.
+model
+Excellent, we have 4 options, all 3-star and moderately priced. They only differ by location (north, south, west) and wifi availability. Do you have any preferences given this new information?
+user
+I would really like a guesthouse. Is one of those a guesthouse?
+model
+Yes, Alpha-milton guesthouse is a 3 star in the north in a moderate price range but no internet. Does this hotel interest you?
+user
+Yes. Can I get the phone number and address please.
+model
+The phone number for alpha-milton guest house is 01223311625. It is located at 63 milton road. Is there anything else I can assist you with today?
+user
+No, I think that's it. Thanks for all your help today!
+model
+Alright. Enjoy your stay in Cambridge!
+user
+Hi, I'm EJ000063. I need to go out tonight - what's the hottest nightclub on the west side?
+model
+There are no nightclubs on the west side of town.
+user
+That sucks. How about museums in the west?
+model
+We have 7 different museums in the west part of town. Do you want me to give you a recommendation?
+user
+Yes, please. I would appreciate that.
+model
+I would suggest kettles yard.
+user
+Thanks, what is the postcode and entrance fee for kettles yard?
+model
+The postcode is cb30aq and it is free.
+user
+I also need to book a table at the royal spice restaurant.
+model
+I'd be happy to help, first I'll need more information. Please tell me the day, time and number in your party for your reservation.
+user
+It will be for one, Wednesday.
+model
+What time did you want to make the reservation for?
+user
+18:45 on weds
+model
+How many people?
+user
+It will just be me
+model
+Ok, booking was successful. Reference number is : SVJX0QE7 . Can I help with anything else?
+user
+No that will be all. Thank you.
+model
+You are most welcome! Good bye.
+user
+According to the conversation above - What's the question that EJ000062 asked? What's the question that EJ000060 asked? What's the question that EJ000061 asked? 
+model
+**EJ000062's question:** I'm looking for a train out of Cambridge.
+
+**EJ000060's question:** I need to go out tonight - what's the hottest nightclub on the west side?
+
+**EJ000061's question:** I also need to book a table at the royal spice restaurant.
+############################################################ Part 21 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000065. I need a train to take me to Cambridge departing from London Liverpool Street.
+model
+What day were you thinking of traveling on?
+user
+On Thursday. I need to arrive by 20:45
+model
+May I suggest train TR7360 arriving at 19:07?
+user
+That would be fine. I'll need the travel time, departure time, and train ID, please?
+model
+As mentioned, it is TR7360. It leaves liverpool on thursday at 17:39. It arrives at cambridge at at 19:07. The cost is 16.60 pounds per ticket.
+user
+What's the duration of the trip?
+model
+The duration is 88 minutes. Is there anything else I can help you with?
+user
+Yes, I also need a boat type of place to go in the north.
+model
+we have riverboat georgina
+user
+Can you give me the phone number, address and entrance fee?
+model
+Yes, the address is Cambridge passenger crusiers, jubilee house. Their phone number is 01223902091. I'm not sure about the entrance fee. You could call them and find out?
+user
+Okay. Thank you for your time!
+model
+Before I let you go, has everything been resolved or are there other questions?
+user
+Have a great day. I am all set. Goodbye.
+model
+welcome and thanks for using our services.
+user
+Hi, I'm EJ000066. Well, I am planning a trip and could use some help with a place to stay.
+model
+I have 33 choices. Is there a particular area you would like to stay in?
+user
+I don't have a particular area. It does need to be moderately priced.
+model
+Do you have a parking or internet preference?
+user
+Yes, I'd like free parking and free wifi. Thanks!
+model
+I have 14 hotels that meet your criteria. I can narrow that down further depending on which part of town you want to stay in.
+user
+I would like to to be a guesthouse.
+model
+There are 12 guest houses that are moderate pricing and offer both free parking and Internet what part of town do you want
+user
+According to the conversation above - What's the question that EJ000063 asked? What's the question that EJ000065 asked? What's the question that EJ000064 asked? 
+model
+**EJ000063:** What day were you thinking of traveling on?
+
+**EJ000065:** I need to arrive by 20:45.
+
+**EJ000064:** I would like to to be a guesthouse.
+
+The questions have been answered as requested.
+############################################################ Part 22 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000068. Hello, I am looking for a cheap restaurant that serves Malaysian food.
+model
+No matches found for cheap Malaysian food
+user
+How about Italian food?
+model
+What area would you like the restaurant to be in?
+user
+I don't care.
+model
+zizzi cambridge is a cheap Italian restaurant in the Cambridge area
+user
+address and phone number please
+model
+Zizzi Cambridge in the centre of the city. They are located at 47-53 Regent Street and their phone number is 01223 365599.
+user
+Thank you, goodbye.
+model
+Thank you and have a great day!
+user
+Hi, I'm EJ000069. Can you help me find a guesthouse that offers free wifi?
+model
+I sure can. There are 23 guesthouse with free wifi. Would you prefer a certain part of town?
+user
+I'd love something in the east, hopefully with free parking.
+model
+Okay, there are 5 options. Do you have a price range in mind?
+user
+I would like to stay in a hotel, not a guesthouse.
+model
+Sounds like you are looking for express by holiday inn cambridge. Can I reserve a room for you?
+user
+Yes please book that for 2 people and 4 nights starting from Tuesday. I will also need the reference number.
+model
+The booking was successful and reference number is ZDG5KJ7S . Is there anything else I can assist with?
+user
+No that is all for now. Thank you!
+model
+You're welcome and enjoy your visit.
+user
+According to the conversation above - What's the question that EJ000067 asked? What's the question that EJ000068 asked? What's the question that EJ000066 asked? 
+model
+**EJ000067's question:** I'm looking for a cheap restaurant that serves Malaysian food.
+
+**EJ000068's question:** I'm looking for a guesthouse that offers free wifi.
+
+**EJ000066's question:** I would like to stay in a hotel, not a guesthouse.
+############################################################ Part 23 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000071. Is there anything fun to see or do on the West end?
+model
+Cambridge offers many museums on the West end. The Cafe Jello Gallery is one that looks fun. Would you like to know about more of them?
+user
+I just need the phone number, please.
+model
+The phone number for Cafe Jello Gallery is 01223312112. Is there anything else I can help you with?
+user
+Can I get a train arriving by 09:30 on wednesday?
+model
+Where will you be traveling to and from?
+user
+I need to go from cambridge to stevenage, please.
+model
+I have a train that arrives by 08:10.
+user
+Okay that will work. I need to book it for 7 people.
+model
+You have 7 tickets for the train, your reference # is: 9VEQHOIF . The fee is 89.6, pay at the station. Is there anything else I can help you with?
+user
+No thank you. That will be all
+model
+Great! Have a nice night!
+user
+Hi, I'm EJ000072. I'm looking for a train to cambridge leaving after 09:30, can you help?
+model
+Hello, we have many trains going to cambridge. Where will you be departing from?
+user
+I am departing from Norwich. I would also like to leave on Wednesday.
+model
+There are a total of 14 trains leaving Norwich on Wednesday every hour beginning at 10:16. Would you like to book the 10:16 train or any later train?
+user
+The 10:16 will be great, I'd like to book for 1 person please.
+model
+Your fee will be 17.6 GBP, payable at the station, and your reference number is J3K7VE8G . Do you need anything else today?
+user
+Yes, I would like some suggestions on places to go on the west side of town.
+model
+clare hall is an excellent choice on the west end.
+user
+Is this a type of entertainment?
+model
+No, Clare Hall is a college.
+user
+I am looking for attractions on the west side of town related to entertainment. Please recommend one and provide the postcode
+model
+I recommend Whale of a time and the post code is cb238el
+user
+Ok thank you, that's all I need today.
+model
+You're welcome. Please come back if you have any other questions!
+user
+According to the conversation above - What's the question that EJ000071 asked? What's the question that EJ000070 asked? What's the question that EJ000069 asked? 
+model
+**EJ000071's question:** Is there anything fun to see or do on the West end?
+
+**EJ000070's question:** I need to go from cambridge to stevenage, please.
+
+**EJ000069's question:** I am looking for attractions on the west side of town related to entertainment.
+############################################################ Part 24 ############################################################
+system
+All the question should be answered as brief as possible - even only keywords! And don't talk about other information that the user doesn't ask.
+user
+Hi, I'm EJ000074. Yes, I need help locating Pizza Hut City Centre.
+model
+Sure, the Pizza Hut City Centre is located at Regent Street City Centre. Their postcode is cb21ab. Can I help with anything else today?
+user
+What is the price range?
+model
+They're listed as cheap.
+user
+Do you have their phone number?
+model
+Yes, it's 01223323737. Is there anything else I can help with?
+user
+Thanks, that's all I need. Have a nice day.
+model
+You're welcome. Have a great day!
+user
+Hi, I'm EJ000075. I need a south restaurant with some greek food.
+model
+Is there a specific price range you are looking for?
+user
+No, any price range is fine.
+model
+I'm sorry, but there are no Greek restaurants in the south part of town.
+user
+How about italian?
+model
+frankie and bennys is an italian restaurant in the south part of town. Would you like their location?
+user
+phone number and postcode, please.
+model
+The postcode is C.B 1, 7 D.Y and the phone number is 01223 412430
+user
+Thank you goodbye.
+model
+Okay thank you
+user
+Thank you goodbye.
+model
+thank you good bye
+user
+According to the conversation above - What's the question that EJ000073 asked? What's the question that EJ000074 asked? What's the question that EJ000072 asked? 
+model
+**EJ000073's question:** I need help locating Pizza Hut City Centre.
+
+**EJ000074's question:** I need a south restaurant with some Greek food.
+
+**EJ000072's question:** Not included in the text provided.
+############################################################ Part 25 ############################################################

@@ -1,0 +1,1 @@
+python ../eval/eval_gemma.py --data_dir "../datasets/data/frames/frames_grouped_3.json" --answers_file "../results/frames/gemma_3_turns.jsonl"pus
