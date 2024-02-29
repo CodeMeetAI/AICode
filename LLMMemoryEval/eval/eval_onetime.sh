@@ -6,7 +6,7 @@ metric_script="/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/eval/metric
 cd /home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/results
 
 # 遍历 frames 和 multiwoz 文件夹中的所有 jsonl 文件
-for folder in frames multiwoz
+for folder in frames multiwoz natural_questions
 do
     echo "Evaluating results in $folder..."
 

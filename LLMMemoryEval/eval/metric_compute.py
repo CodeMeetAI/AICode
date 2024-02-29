@@ -11,9 +11,9 @@ def eval(args, correct_answer="A"):
     
     responds = []
     for res in inference_result:
-        answer = re.search(r"\([^A-Z]*([A-Z])[^A-Z]*\)",res['answer'])
+        answer = re.search(r"[A-Z]", res['answer']) # re.search(r"\([^A-Z]*([A-Z])[^A-Z]*\)",res['answer'])
         if answer:  
-            responds.append(answer.group(1))
+            responds.append(answer.group(0))
 
     accuracy = np.mean(np.array(responds) == correct_answer)
     print(accuracy)
