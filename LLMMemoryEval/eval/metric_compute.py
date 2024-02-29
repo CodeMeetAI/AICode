@@ -1,9 +1,9 @@
 import json
 import argparse
-
+import re
 import numpy as np
 
-def eval(args):
+def eval(args, correct_answer="A"):
     inference_result = []
     with open(args.result_path, "r") as f:
         for line in f:
@@ -11,9 +11,11 @@ def eval(args):
     
     responds = []
     for res in inference_result:
-        responds.append(res['answer'][1])
+        answer = re.search(r"\([^A-Z]*([A-Z])[^A-Z]*\)",res['answer'])
+        if answer:  
+            responds.append(answer.group(1))
 
-    accuracy = np.mean(np.array(responds) == "A")
+    accuracy = np.mean(np.array(responds) == correct_answer)
     print(accuracy)
     
 

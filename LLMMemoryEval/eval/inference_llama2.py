@@ -1,22 +1,26 @@
 import argparse
 import json
 import os
+from datetime import datetime
 
 from transformers import AutoTokenizer, LlamaForCausalLM, AutoModelForCausalLM
 from tqdm import tqdm
 
 def eval(args):
     token = "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"
-    model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-chat-hf",token = token).to("cuda").eval()
+    model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-chat-hf",token = token).to("cuda")
+    model.eval()
     tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-chat-hf",token = token)
 
     tokenizer.pad_token = tokenizer.eos_token
     print("model loaded")
     
+    answers_file = args.answers_file + datetime.now().strftime("-%m-%d-%H-%m") + ".jsonl"
+    
     with open(args.data_dir, "r") as f:
         conversations = json.load(f)
     
-    answers_file = os.path.expanduser(args.answers_file)
+    answers_file = os.path.expanduser(answers_file)
     os.makedirs(os.path.dirname(answers_file), exist_ok=True)
     ans_file = open(answers_file, "w")
     print("start inference")
@@ -32,7 +36,7 @@ def eval(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_dir", type=str, default="../datasets/data/frames/frames_multiple_choice_3.json")
-    parser.add_argument("--answers_file", type=str, default="../results/frames/llama2_3_turns.jsonl")
+    parser.add_argument("--answers_file", type=str, default="../results/frames/llama2_3_turns")
 
     args = parser.parse_args()
     eval(args)

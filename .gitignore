@@ -1,3 +1,5 @@
 *.json
+*.jsonl
 *.pkl
 *.pdf
+*.out
