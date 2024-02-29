@@ -1,7 +1,7 @@
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
- name: mem-eval-pvc
+ name: mem-eval-pvc-large
 spec:
  accessModes:
   - ReadWriteOnce

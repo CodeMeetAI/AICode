@@ -1,11 +1,13 @@
 import argparse
-from transformers import AutoTokenizer, LlamaForCausalLM, AutoModelForCausalLM
 import json
 import os
 
+from transformers import AutoTokenizer, LlamaForCausalLM, AutoModelForCausalLM
+from tqdm import tqdm
+
 def eval(args):
     token = "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"
-    model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-chat-hf",token = token).to("cuda")
+    model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-chat-hf",token = token).to("cuda").eval()
     tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-chat-hf",token = token)
 
     tokenizer.pad_token = tokenizer.eos_token
@@ -18,12 +20,11 @@ def eval(args):
     os.makedirs(os.path.dirname(answers_file), exist_ok=True)
     ans_file = open(answers_file, "w")
     print("start inference")
-    for grouped_conversation in conversations:
+    for grouped_conversation in tqdm(conversations):
         prompt = " ".join(message["content"] for message in grouped_conversation)
         inputs = tokenizer(prompt, return_tensors="pt", padding=True).to("cuda")
         generate_ids = model.generate(inputs.input_ids, max_length=inputs.input_ids.shape[1] + 8)
         out = tokenizer.decode(generate_ids[:, inputs.input_ids.shape[1]:][0], skip_special_tokens=True)
-        print("answer: ", out)
         ans_file.write(json.dumps({"answer": out}) + "\n")
         ans_file.flush()
     ans_file.close()

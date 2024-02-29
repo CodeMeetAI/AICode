@@ -62,7 +62,7 @@ class MultipleChoiceDataset:
         grouped_dataset = []
         
         for index in range(0, len(self.raw_data), window_size):
-            
+
             bulk_sample_dict = self.raw_data[index: index + window_size]
             if len(bulk_sample_dict) < window_size:
                 continue
@@ -103,13 +103,17 @@ class MultipleChoiceDataset:
 
 
 if __name__ == "__main__":
-    data_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/frames/frames.json"
-    save_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/frames/"
+    data_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/MultiWOZ_2.2/multiwoz_2.2.json"
+    save_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/MultiWOZ_2.2/"
+    # data_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/frames/frames.json"
+    # save_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/frames/"
     # data_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/natural_questions/nq_dialogues_gemma.json"
     # save_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/natural_questions/"
     
-    multiple_choice_dataset = MultipleChoiceDataset(data_dir=data_dir, save_dir=save_dir)
-    multiple_choice_dataset.save_json(file_name = "frames_grouped_3.json")
+    window_len = 6
+    multiple_choice_dataset = MultipleChoiceDataset(data_dir=data_dir, save_dir=save_dir, window_size=window_len)
+    multiple_choice_dataset.save_json(file_name = f"multiwoz_grouped_{window_len}.json")
+    # multiple_choice_dataset.save_json(file_name = f"frames_grouped_{window_len}.json")
     # multiple_choice_dataset.save_json(file_name = "natural_questions_grouped.json")
 
             

@@ -7,7 +7,7 @@ import os
 
 def eval(args):
     token = "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"
-    model = GemmaForCausalLM.from_pretrained("google/gemma-7b-it", token=token).to("cuda")
+    model = GemmaForCausalLM.from_pretrained("google/gemma-7b-it", token=token).to("cuda:1").eval()
     tokenizer = AutoTokenizer.from_pretrained("google/gemma-7b-it", token=token)
 
     print("model loaded")
@@ -21,7 +21,7 @@ def eval(args):
     print("start inference")
     for grouped_conversation in conversations:
         prompt = tokenizer.apply_chat_template(grouped_conversation, tokenize=False, add_generation_prompt=True)
-        inputs = tokenizer(prompt, return_tensors="pt", add_special_tokens=False).to("cuda")
+        inputs = tokenizer(prompt, return_tensors="pt", add_special_tokens=False).to("cuda:1")
         generate_ids = model.generate(inputs.input_ids, max_new_tokens = 8)
         out = tokenizer.batch_decode(generate_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
         print("answer: ", out)
