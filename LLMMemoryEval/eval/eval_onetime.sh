@@ -6,18 +6,24 @@ metric_script="/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/eval/metric
 cd /home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/results
 
 # 遍历 frames 和 multiwoz 文件夹中的所有 jsonl 文件
-for folder in frames multiwoz natural_questions
+for position in first middle last
 do
-    echo "Evaluating results in $folder..."
-
-    cd $folder
-
-    for file in *.jsonl
+cd $position
+echo ""
+echo "----------------Evaluating results in $position ----------------"
+    #for folder in frames multiwoz natural_questions
+    for folder in natural_questions
     do
+        echo ""
+        echo "Evaluating results in $folder..."
+        cd $folder
+        for file in *.jsonl
+        do
         echo "Processing $file..."
-
         python3 "$metric_script" --result_path "$PWD/$file"
+        done
+        cd ..
     done
-    cd ..
+cd ..
 done
 

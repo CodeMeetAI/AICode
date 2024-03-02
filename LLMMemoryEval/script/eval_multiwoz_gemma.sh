@@ -1,7 +1,14 @@
-python ../eval/inference_gemma.py --data_dir "../datasets/data/multiwoz/multiwoz_grouped_3_middle.json" --answers_file "../results/multiwoz/gemma_3_middle" --device "cuda:1"
+#!/bin/bash
 
-python ../eval/inference_gemma.py --data_dir "../datasets/data/multiwoz/multiwoz_grouped_4_middle.json" --answers_file "../results/multiwoz/gemma_4_middle" --device "cuda:1"
+turns=(3 4 5 6 7 8)
+modes=("first" "middle" "last")
+device=$1
 
-python ../eval/inference_gemma.py --data_dir "../datasets/data/multiwoz/multiwoz_grouped_5_middle.json" --answers_file "../results/multiwoz/gemma_5_middle" --device "cuda:1"
-
-python ../eval/inference_gemma.py --data_dir "../datasets/data/multiwoz/multiwoz_grouped_6_middle.json" --answers_file "../results/multiwoz/gemma_6_middle" --device "cuda:1"
+for turn in "${turns[@]}"; do
+    for mode in "${modes[@]}"; do
+        data_dir="../datasets/data/multiwoz/multiwoz_grouped_${turn}_${mode}.json"
+        answers_file="../results/${mode}/multiwoz/gemma_${turn}_${mode}"
+        
+        python ../eval/inference_gemma.py --data_dir "$data_dir" --answers_file "${answers_file}"  --device "${device}"
+    done
+done

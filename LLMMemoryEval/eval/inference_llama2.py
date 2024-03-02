@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+import torch
 from datetime import datetime
 
 from transformers import AutoTokenizer, LlamaForCausalLM, AutoModelForCausalLM
@@ -15,7 +16,7 @@ def eval(args):
     tokenizer.pad_token = tokenizer.eos_token
     print("model loaded")
     
-    answers_file = args.answers_file + datetime.now().strftime("-%m-%d-%H-%m") + f"_{args.data_dir.split("_")[-1].split(".")[0]}.jsonl"
+    answers_file = args.answers_file + datetime.now().strftime("-%m-%d-%H-%m") + ".jsonl"
     
     with open(args.data_dir, "r") as f:
         conversations = json.load(f)
@@ -27,7 +28,8 @@ def eval(args):
     for grouped_conversation in tqdm(conversations):
         prompt = " ".join(message["content"] for message in grouped_conversation)
         inputs = tokenizer(prompt, return_tensors="pt", padding=True).to(args.device)
-        generate_ids = model.generate(inputs.input_ids, max_length=inputs.input_ids.shape[1] + 8)
+        with torch.no_grad():
+            generate_ids = model.generate(inputs.input_ids, max_length=inputs.input_ids.shape[1] + 3)
         out = tokenizer.decode(generate_ids[:, inputs.input_ids.shape[1]:][0], skip_special_tokens=True)
         ans_file.write(json.dumps({"answer": out}) + "\n")
         ans_file.flush()
