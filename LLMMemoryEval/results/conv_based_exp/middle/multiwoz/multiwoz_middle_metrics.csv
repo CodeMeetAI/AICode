@@ -1,0 +1,11 @@
+Metric,Value
+gemma_new_4_middle-03-02-22-03.jsonl,0.765
+gemma_new_5_middle-03-02-22-03.jsonl,0.803
+gemma_new_6_middle-03-02-23-03.jsonl,0.789
+gemma_new_7_middle-03-02-23-03.jsonl,0.812
+gemma_new_8_middle-03-02-23-03.jsonl,0.826
+llama2_new_4_middle-03-03-00-03.jsonl,0.47
+llama2_new_5_middle-03-03-00-03.jsonl,0.415
+llama2_new_6_middle-03-03-00-03.jsonl,0.398
+llama2_new_7_middle-03-03-00-03.jsonl,0.339
+llama2_new_8_middle-03-03-00-03.jsonl,0.34
