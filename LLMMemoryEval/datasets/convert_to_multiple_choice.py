@@ -19,15 +19,14 @@ class MultipleChoiceDataset:
         self.window_size = window_size
         self.raw_data = self.load_dataset()
         self.position = target_position
-        self.questions = self.get_questions()
+        
+        self.prefix = "[turn {index}] "
+        self.postfix = "What does user say in [turn {index}]? Answer the question using a letter only.\n"
+        self.conversations = self.get_conversations()
+        self.conversations_content = self.get_conversations_content()
+        
         self.n_labels = n_labels
         self.labels = None
-        
-        if question is None:
-            self.question = "According to the context, what's the first question that {user_id} asked?"
-            # self.question = "According to the context, what's the first question that {user_id} asked? Choose from the options: "
-        else:
-            self.question = question
             
         if target_position == 0: # choose the first person
             self.chat, self.labels = self.grouping_sample(window_size=window_size, target_position=target_position)
@@ -46,22 +45,15 @@ class MultipleChoiceDataset:
             raw_data = json.load(f)
         return raw_data
     
-    def insert_user_id(self, conversations, user_id):
-        conversations[0]['content'] = f"Hi, I'm {user_id}, "  + conversations[0]['content']
-        return conversations
-    
-    def pad_truncate_labels(self, labels, gt):
-        if len(labels) > self.n_labels - 1:
-            labels = labels[:self.n_labels - 1]
-        else:
-            # self.questions store all questions(conversation's first question)
-            # remove the gt from self.questions and then random select questions for padding
-            questions = copy.deepcopy(self.questions)
-            questions.remove(gt)
-            pad_question = random.sample(questions, self.n_labels - 1 - len(labels))
-            labels += pad_question
-
-        return labels
+    def construct_multiple_choices(self, ground_truth):
+        conversations = self.conversations_content
+        conversations.remove(ground_truth)
+        random_sampled_choices = random.sample(conversations, self.n_labels - 1)
+        random_sampled_choices.append(ground_truth)
+        
+        random.shuffle(random_sampled_choices)
+        conversations.append(ground_truth)
+        return random_sampled_choices
     
     def add_options(self, labels):
         """_summary_
@@ -76,12 +68,22 @@ class MultipleChoiceDataset:
         labels_with_options = [f"({chr(65 + i)}): {item}" for i, item in enumerate(labels)]
         return ' '.join(labels_with_options)
     
-    def get_questions(self):
-        questions = []
+    def get_conversations_content(self):
+        conversation_content = []
+        for conv in self.conversations:
+            conversation_content.append(conv['content'])
+                
+        return conversation_content
+    
+    def get_conversations(self):
+        conversations = []
+        last_role = None
         for sample in self.raw_data:
-            questions.append(sample['label'])
-        
-        return questions
+            for i, conv in enumerate(sample['conversations']):
+                if conv['role'] != last_role:
+                    conversations.append(conv)
+                last_role = sample['conversations'][i % len(sample['conversations'])]['role']
+        return conversations
     
     def grouping_sample(self, window_size, target_position = 0):
         """_summary_
@@ -96,46 +98,47 @@ class MultipleChoiceDataset:
         grouped_dataset = []
         ground_truths = []
         
-        for index in range(0, len(self.raw_data), window_size):
-
-            bulk_sample_dict = self.raw_data[index: index + window_size]
-            if len(bulk_sample_dict) < window_size:
+        conversations = self.conversations
+        
+        
+        # assert len(conversations) % 2 == 0, "n user input != n model output, exsit incomplete conversations"
+        
+        last_role = None
+        
+        for conv_index in range(0, len(conversations), window_size * 2):
+            
+            conversations_per_group = conversations[conv_index: conv_index + window_size * 2]
+            
+            if conversations_per_group[-1]['role'] == 'user':
+                conversations_per_group = conversations_per_group[:-1]
+            
+            if len(conversations_per_group) < window_size * 2:
                 continue
             
-            grouped_conversations = []
-            grouped_labels = []
+            target_user_input_per_group = conversations_per_group[target_position * 2] # User's input
+            target_assistant_output_per_group = conversations_per_group[target_position * 2 + 1] # Assistant's input
+            multiple_choice = self.construct_multiple_choices(target_user_input_per_group['content'])
+            multiple_choice_string = self.add_options(multiple_choice)
+            user_input_label = chr(65+multiple_choice.index(target_user_input_per_group['content']))
+            assistant_input_label = None
             
-            target_user_id = bulk_sample_dict[target_position]["user_id"]
-            
-            for single_sample_dict in bulk_sample_dict:
-                user_id = single_sample_dict['user_id']
+            for group_conv_index in range(0, len(conversations_per_group), 2):
                 
-                conversations = self.insert_user_id(single_sample_dict['conversations'], user_id)
-                if conversations[-1]['role'] == "user":
-                    conversations = conversations[:-1]
-                grouped_conversations.extend(conversations)
-                grouped_labels.append(single_sample_dict['label'])
-        
-            label = grouped_labels[target_position]
+                self.prefix.format(index=int(group_conv_index / 2)) + conversations_per_group[group_conv_index]['content']
+
             
-            grouped_labels.remove(label)
-            processed_labels = self.pad_truncate_labels(grouped_labels, gt=label)
-            processed_labels.append(label)
-            
-            random.shuffle(processed_labels)
-            
-            multiple_choice_str = self.add_options(processed_labels)
-            ground_truths.append(chr(65+processed_labels.index(label)))
-                
-            
-            question = self.question.format(user_id=target_user_id).strip() + multiple_choice_str + "\nAnswer:<only one character of A to D>"
-            
-            user_query_dict = {
+            conversations_per_group.append({
                 "role": "user",
-                "content": question
-            }
-            grouped_conversations.append(user_query_dict)
-            grouped_dataset.append(grouped_conversations)
+                "content": " ".join([self.postfix.format(index=target_position), multiple_choice_string, "\nAnswer<A-D>:"])
+            })
+            
+            grouped_dataset.append(conversations_per_group)
+            ground_truths.append({
+                "user input": user_input_label,
+                "assistant output": assistant_input_label
+            })
+            if len(ground_truths) >= 1000:
+                break
         
         return grouped_dataset, ground_truths
 
@@ -159,14 +162,14 @@ if __name__ == "__main__":
     data_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/natural_questions/nq_dialogues.json"
     save_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/natural_questions/"
     
-    window_lens = [2,3,4,5,6,7,8]
+    window_lens = [4,5,6,7,8]
     target_positions = [0, 1, 2]
     for window_len in window_lens:
         for target_position in target_positions:
             multiple_choice_dataset = MultipleChoiceDataset(data_dir=data_dir, save_dir=save_dir, window_size=window_len, target_position=target_position)
-            # multiple_choice_dataset.save_json(file_name = f"multiwoz_grouped_{window_len}")
-            # multiple_choice_dataset.save_json(file_name = f"frames_grouped_{window_len}")
-            multiple_choice_dataset.save_json(file_name = f"natural_questions_grouped_{window_len}")
+            # multiple_choice_dataset.save_json(file_name = f"multiwoz_grouped_new_{window_len}")
+            # multiple_choice_dataset.save_json(file_name = f"frames_grouped_new_{window_len}")
+            multiple_choice_dataset.save_json(file_name = f"natural_questions_grouped_new_{window_len}")
             
             print("win_size: {}, n_sample: {}, n_labels: {}".format(window_len, len(multiple_choice_dataset.chat), len(multiple_choice_dataset.labels)))
             

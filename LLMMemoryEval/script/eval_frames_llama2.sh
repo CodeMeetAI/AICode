@@ -1,7 +1,14 @@
-python ../eval/inference_llama2.py --data_dir "../datasets/data/frames/frames_grouped_3_middle.json" --answers_file "../results/middle/frames/llama2_3_middle"
+#!/bin/bash
 
-python ../eval/inference_llama2.py --data_dir "../datasets/data/frames/frames_grouped_4_middle.json" --answers_file "../results/middle/frames/llama2_4_middle"
+turns=(4 5 6 7 8)
+modes=("first" "middle" "last")
+device=$1
 
-python ../eval/inference_llama2.py --data_dir "../datasets/data/frames/frames_grouped_5_middle.json" --answers_file "../results/middle/frames/llama2_5_middle"
-
-python ../eval/inference_llama2.py --data_dir "../datasets/data/frames/frames_grouped_6_middle.json" --answers_file "../results/middle/frames/llama2_6_middle"
+for turn in "${turns[@]}"; do
+    for mode in "${modes[@]}"; do
+        data_dir="../datasets/data/frames/frames_grouped_new_${turn}_${mode}.json"
+        answers_file="../results/conv_based_exp/${mode}/frames/llama2_${turn}_${mode}"
+        
+        python ../eval/inference_llama2.py --data_dir "$data_dir" --answers_file "${answers_file}"  --device "${device}"
+    done
+done
