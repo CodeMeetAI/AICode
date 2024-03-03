@@ -11,9 +11,9 @@ from tqdm import tqdm
 
 def inference(args):
     token = "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"
-    model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-chat-hf",token = token).to(args.device)
+    model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-13b-chat-hf",token = token).to(args.device)
     model.eval()
-    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-chat-hf",token = token)
+    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-13b-chat-hf",token = token)
 
     options = json.load(open(args.option_file, 'r'))
     choices = list(map(lambda x: x['choices'], options))
@@ -29,21 +29,23 @@ def inference(args):
         prompt = tokenizer.apply_chat_template(context, tokenize=False, add_generation_prompt=True)
         
         context_input = tokenizer(prompt, return_tensors="pt", add_special_tokens=False).to(args.device)
-        
-        outputs = model(**context_input, use_cache=True)
+        with torch.no_grad():
+            with torch.cuda.amp.autocast():
+                outputs = model(**context_input, use_cache=True)
         past_key_values = outputs.past_key_values
         option_scores = []
         for c in choice:
             choice_input = tokenizer(c, return_tensors='pt', add_special_tokens=False).to(args.device)
-            
-            outputs = model(**choice_input, past_key_values=past_key_values)
+            with torch.no_grad():
+                with torch.cuda.amp.autocast():
+                    outputs = model(**choice_input, past_key_values=past_key_values)
             
             logits = outputs.logits
             log_probs = F.log_softmax(logits, dim=-1)
             input_ids = choice_input['input_ids']
             shifted_input_ids = input_ids[:, 1:]
             gathered_log_probs = torch.gather(log_probs[:, :-1], 2, shifted_input_ids.unsqueeze(-1)).squeeze(-1)
-            average_log_prob = gathered_log_probs.sum(dim=1) / shifted_input_ids.ne(tokenizer.pad_token_id).sum(dim=1)
+            average_log_prob = gathered_log_probs.sum(dim=1) / shifted_input_ids.sum(dim=1)
             option_scores.append(average_log_prob.item())
         best_option_index = option_scores.index(max(option_scores))
         best_option = choice[best_option_index]

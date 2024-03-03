@@ -9,6 +9,6 @@ for turn in "${turns[@]}"; do
         context_file="../datasets/data/multiwoz/multiwoz_grouped_new_${turn}_${mode}.json"
         option_file="../datasets/data/multiwoz/labels/multiwoz_grouped_new_${turn}_${mode}-label.json"
         answers_file="../results/likelihood_exp/${mode}/multiwoz/llama2_${turn}_${mode}"
-        python ../eval/inference_likelihood_llama2.py --data_dir "$data_dir" --answers_file "${answers_file}"  --device "${device}"
+        python ../eval/inference_likelihood_llama2.py --context_file "$context_file" --option_file "${option_file}" --answers_file "$answers_file"  --device "${device}"
     done
 done

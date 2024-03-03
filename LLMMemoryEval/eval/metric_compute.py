@@ -17,7 +17,7 @@ def eval(args):
 
     accuracy = correct_count / total_count if total_count > 0 else 0
 
-    print(f'acc: {accuracy:.2f}')
+    print(f'acc: {accuracy}')
     
 
 if __name__ == "__main__":

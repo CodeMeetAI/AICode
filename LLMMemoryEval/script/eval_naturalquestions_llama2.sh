@@ -8,7 +8,7 @@ for turn in "${turns[@]}"; do
     for mode in "${modes[@]}"; do
         context_file="../datasets/data/natural_questions/natural_questions_grouped_new_${turn}_${mode}.json"
         option_file="../datasets/data/natural_questions/labels/natural_questions_grouped_new_${turn}_${mode}-label.json"
-        answers_file="../results/likelihood_exp/${mode}/natural_questions/llama2_${turn}_${mode}"
-        python ../eval/inference_likelihood_llama2.py --data_dir "$data_dir" --answers_file "${answers_file}"  --device "${device}"
+        answers_file="../results/likelihood_exp/${mode}/natural_questions/llama2_13b_${turn}_${mode}"
+        python ../eval/inference_likelihood_llama2.py --context_file "$context_file" --option_file "${option_file}" --answers_file "$answers_file"  --device "${device}"
     done
 done
