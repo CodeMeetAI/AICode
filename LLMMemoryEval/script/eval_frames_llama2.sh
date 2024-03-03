@@ -6,9 +6,10 @@ device=$1
 
 for turn in "${turns[@]}"; do
     for mode in "${modes[@]}"; do
-        data_dir="../datasets/data/frames/frames_grouped_new_${turn}_${mode}.json"
-        answers_file="../results/conv_based_exp/${mode}/frames/llama2_${turn}_${mode}"
-        
-        python ../eval/inference_llama2.py --data_dir "$data_dir" --answers_file "${answers_file}"  --device "${device}"
+        context_file="../datasets/data/frames/frames_grouped_new_${turn}_${mode}.json"
+        option_file="../datasets/data/frames/labels/frames_grouped_new_${turn}_${mode}-label.json"
+        answers_file="../results/likelihood_exp/${mode}/frames/llama2_${turn}_${mode}"
+        python ../eval/inference_likelihood_llama2.py --data_dir "$data_dir" --answers_file "${answers_file}"  --device "${device}"
     done
 done
+

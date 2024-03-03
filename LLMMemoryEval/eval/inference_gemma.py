@@ -26,6 +26,7 @@ def eval(args):
     print("start inference")
     for grouped_conversation in tqdm(conversations):
         prompt = tokenizer.apply_chat_template(grouped_conversation, tokenize=False, add_generation_prompt=True)
+        print(prompt)
         inputs = tokenizer(prompt, return_tensors="pt", add_special_tokens=False).to(args.device)
         with torch.no_grad():
             generate_ids = model.generate(inputs.input_ids, max_new_tokens = 8)

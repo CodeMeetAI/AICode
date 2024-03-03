@@ -4,40 +4,24 @@ import re
 import numpy as np
 
 def eval(args):
-    inference_result = []
-    correct_answers = []
+    total_count = 0
+    correct_count = 0
 
-    with open(args.answer_path, "r") as f:
-        correct_answers_file = json.load(f)
-        correct_answers = []
-        for item in correct_answers_file:
-            correct_answer = re.search(r"[ABCDEF]", item['user input'])
-            correct_answers.append(correct_answer.group(0))
-    
-    with open(args.result_path, "r") as f:
-        for line in f:
-            inference_result.append(json.loads(line))
-    
-    assert len(inference_result) == len(correct_answers)
-    
-    responds = []
-    for res in inference_result:
-        answer = re.search(r"[ABCDEF]", res['answer'])
-        if answer:  
-            responds.append(answer.group(0))
-        else:
-            responds.append("X")
-    assert len(responds) == len(inference_result), "The length is incorrect."
-    accuracy = np.mean(np.array(responds) == np.array(correct_answers))
-    #print(responds)
-    #print(correct_answers[0:1000])
-    print(accuracy)
+    with open(args.result_path, 'r', encoding='utf-8') as file:
+        for line in file:
+            data = json.loads(line)
 
+            total_count += 1
+            if data['answer'] == data['gt']:
+                correct_count += 1
+
+    accuracy = correct_count / total_count if total_count > 0 else 0
+
+    print(f'acc: {accuracy:.2f}')
     
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--result_path", type=str, default="../results/frames/llama2_3_turns.jsonl")
-    parser.add_argument("--answer_path", type=str, default="../datasets/data/frames/labels/frames_grouped_2_first-label.json")
+    parser.add_argument("--result_path", type=str, default="/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/results/likelihood_exp/first/frames/gemma_4_new_likelihood-03-03-15-03.jsonl")
     args = parser.parse_args()
     eval(args)

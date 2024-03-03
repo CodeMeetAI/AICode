@@ -4,7 +4,7 @@ import os
 import torch
 from datetime import datetime
 
-from transformers import AutoTokenizer, LlamaForCausalLM, AutoModelForCausalLM
+from transformers import AutoTokenizer, LlamaForCausalLM
 from tqdm import tqdm
 
 def eval(args):
@@ -28,13 +28,23 @@ def eval(args):
     for grouped_conversation in tqdm(conversations):
         prompt = " ".join(message["content"] for message in grouped_conversation)
         inputs = tokenizer(prompt, return_tensors="pt", padding=True).to(args.device)
+        
+        options = None
+        option_inputs = tokenizer(options, return_tensor='pt', padding=True)
+        
         with torch.no_grad():
-            generate_ids = model.generate(inputs.input_ids, max_new_tokens = 8)
-        # out = tokenizer.batch_decode(generate_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
-        # print(out)
-        # filtered_out = out.split("\nAnswer:\nmodel\n")[-1].split("\n")[0].split(".")[0]
-        out = tokenizer.decode(generate_ids[:, inputs.input_ids.shape[1]:][0], skip_special_tokens=True)
-        ans_file.write(json.dumps({"answer": out}) + "\n")
+            context_output = model(input_ids=inputs.input_ids, max_new_tokens=8)
+            # generate_ids = model.generate(inputs.input_ids, max_new_tokens = 8)
+            past_key_values = context_output.past_key_values
+
+        likelihood = []
+        option_output = model(option_inputs.input_ids, past_key_values=past_key_values)
+        
+        option_output
+
+        ans = likelihood.index(min(likelihood))
+
+        ans_file.write(json.dumps({"answer": ans}) + "\n")
         ans_file.flush()
     ans_file.close()
 

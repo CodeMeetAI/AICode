@@ -21,7 +21,7 @@ class MultipleChoiceDataset:
         self.position = target_position
         
         self.prefix = "[turn {index}] "
-        self.postfix = "What does user say in [turn {index}]? Answer the question using a letter only.\n"
+        self.postfix = "What does user say in [turn {index}]? Answer:"
         self.conversations = self.get_conversations()
         self.conversations_content = self.get_conversations_content()
         
@@ -96,7 +96,7 @@ class MultipleChoiceDataset:
             _type_: _description_
         """
         grouped_dataset = []
-        ground_truths = []
+        options = []
         
         conversations = self.conversations
         
@@ -116,11 +116,15 @@ class MultipleChoiceDataset:
                 continue
             
             target_user_input_per_group = conversations_per_group[target_position * 2] # User's input
-            target_assistant_output_per_group = conversations_per_group[target_position * 2 + 1] # Assistant's input
+            # target_assistant_output_per_group = conversations_per_group[target_position * 2 + 1] # Assistant's input
             multiple_choice = self.construct_multiple_choices(target_user_input_per_group['content'])
-            multiple_choice_string = self.add_options(multiple_choice)
-            user_input_label = chr(65+multiple_choice.index(target_user_input_per_group['content']))
-            assistant_input_label = None
+
+            options.append({
+                "choices": multiple_choice,
+                "gt": target_user_input_per_group['content']
+            })
+            
+            
             
             for group_conv_index in range(0, len(conversations_per_group), 2):
                 
@@ -129,18 +133,15 @@ class MultipleChoiceDataset:
             
             conversations_per_group.append({
                 "role": "user",
-                "content": " ".join([self.postfix.format(index=target_position), multiple_choice_string, "\nAnswer<A-D>:"])
+                "content": self.postfix.format(index=target_position)
             })
             
             grouped_dataset.append(conversations_per_group)
-            ground_truths.append({
-                "user input": user_input_label,
-                "assistant output": assistant_input_label
-            })
-            if len(ground_truths) >= 1000:
+        
+            if len(grouped_dataset) >= 1000:
                 break
         
-        return grouped_dataset, ground_truths
+        return grouped_dataset, options
 
     def save_json(self, file_name):
         pos = {0: "_first", 1: "_middle", 2:"_last"}
