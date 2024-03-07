@@ -8,7 +8,6 @@ class MultipleChoiceDataset:
         self, 
         data_dir,
         save_dir,
-        question = None,
         window_size = 3,
         target_position = 0,
         n_labels = 4
@@ -126,9 +125,9 @@ class MultipleChoiceDataset:
             
             
             
-            for group_conv_index in range(0, len(conversations_per_group), 2):
+            # for group_conv_index in range(0, len(conversations_per_group), 2):
                 
-                self.prefix.format(index=int(group_conv_index / 2)) + conversations_per_group[group_conv_index]['content']
+            #     self.prefix.format(index=int(group_conv_index / 2)) + conversations_per_group[group_conv_index]['content']
 
             
             conversations_per_group.append({
@@ -156,23 +155,28 @@ class MultipleChoiceDataset:
 
 if __name__ == "__main__":
     random.seed(42)
-    # data_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/multiwoz/multiwoz_2.2.json"
+    data_dirs = ["multiwoz", "frames", "natural_questions"]
+    save_dirs = ["multiwoz.json", "frames.json", "nq_dialogues.json"]
+    # data_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/multiwoz/multiwoz.json"
     # save_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/multiwoz/"
-    # data_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/frames/frames.json"
+    # data_dir = f"/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/frames/frames.json"
     # save_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/frames/"
-    data_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/natural_questions/nq_dialogues.json"
-    save_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/natural_questions/"
+    # data_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/natural_questions/nq_dialogues.json"
+    # save_dir = "/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/natural_questions/"
     
-    window_lens = [4,5,6,7,8]
+    window_lens = [20]
     target_positions = [0, 1, 2]
-    for window_len in window_lens:
-        for target_position in target_positions:
-            multiple_choice_dataset = MultipleChoiceDataset(data_dir=data_dir, save_dir=save_dir, window_size=window_len, target_position=target_position)
-            # multiple_choice_dataset.save_json(file_name = f"multiwoz_grouped_new_{window_len}")
-            # multiple_choice_dataset.save_json(file_name = f"frames_grouped_new_{window_len}")
-            multiple_choice_dataset.save_json(file_name = f"natural_questions_grouped_new_{window_len}")
-            
-            print("win_size: {}, n_sample: {}, n_labels: {}".format(window_len, len(multiple_choice_dataset.chat), len(multiple_choice_dataset.labels)))
+    for dataset,save_file in zip(data_dirs, save_dirs):
+        data_dir = f"/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/{dataset}/{save_file}"
+        save_dir = f"/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/datasets/data/{dataset}/"
+        for window_len in window_lens:
+            for target_position in target_positions:
+                multiple_choice_dataset = MultipleChoiceDataset(data_dir=data_dir, save_dir=save_dir, window_size=window_len, target_position=target_position)
+                # multiple_choice_dataset.save_json(file_name = f"multiwoz_grouped_new_{window_len}")
+                multiple_choice_dataset.save_json(file_name = f"{dataset}_grouped_new_{window_len}")
+                # multiple_choice_dataset.save_json(file_name = f"natural_questions_grouped_new_{window_len}")
+                
+                print("win_size: {}, n_sample: {}, n_labels: {}".format(window_len, len(multiple_choice_dataset.chat), len(multiple_choice_dataset.labels)))
             
     
         

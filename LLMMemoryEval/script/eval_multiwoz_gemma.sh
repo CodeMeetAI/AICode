@@ -2,7 +2,7 @@
 
 turns=(4 5 6 7 8)
 modes=("first" "middle" "last")
-device=$1
+device="cuda:0"
 
 for turn in "${turns[@]}"; do
     for mode in "${modes[@]}"; do

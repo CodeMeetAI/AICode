@@ -11,12 +11,12 @@ from tqdm import tqdm
 
 def inference(args):
     token = "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"
-    model = GemmaForCausalLM.from_pretrained("google/gemma-13b-it", token=token).to(args.device)
+    model = GemmaForCausalLM.from_pretrained("google/gemma-7b-it", token=token).to(args.device)
     model.eval()
-    tokenizer = AutoTokenizer.from_pretrained("google/gemma-13b-it", token=token)
+    tokenizer = AutoTokenizer.from_pretrained("google/gemma-7b-it", token=token)
 
     options = json.load(open(args.option_file, 'r'))
-    choices = list(map(lambda x: x['choices'], options))
+    choices = list(map(lambda x: x['options'], options))
     labels = list(map(lambda x: x['gt'], options))
 
     contexts = json.load(open(args.context_file, 'r'))
@@ -41,12 +41,14 @@ def inference(args):
                     outputs = model(**choice_input, past_key_values=past_key_values)
             
             logits = outputs.logits
+            
             log_probs = F.log_softmax(logits, dim=-1)
             input_ids = choice_input['input_ids']
             shifted_input_ids = input_ids[:, 1:]
             gathered_log_probs = torch.gather(log_probs[:, :-1], 2, shifted_input_ids.unsqueeze(-1)).squeeze(-1)
             average_log_prob = gathered_log_probs.sum(dim=1) / shifted_input_ids.ne(tokenizer.pad_token_id).sum(dim=1)
             option_scores.append(average_log_prob.item())
+            
         best_option_index = option_scores.index(max(option_scores))
         best_option = choice[best_option_index]
 

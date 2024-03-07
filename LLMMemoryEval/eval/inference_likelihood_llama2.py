@@ -11,12 +11,12 @@ from tqdm import tqdm
 
 def inference(args):
     token = "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"
-    model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-13b-chat-hf",token = token).to(args.device)
+    model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-chat-hf",token = token).to(args.device)
     model.eval()
-    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-13b-chat-hf",token = token)
+    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-chat-hf",token = token)
 
     options = json.load(open(args.option_file, 'r'))
-    choices = list(map(lambda x: x['choices'], options))
+    choices = list(map(lambda x: x['options'], options))
     labels = list(map(lambda x: x['gt'], options))
 
     contexts = json.load(open(args.context_file, 'r'))

@@ -1,13 +1,16 @@
 import json
 import argparse
-import re
-import numpy as np
+import os
+from collections import defaultdict
 
-def eval(args):
+import pandas as pd
+
+def eval(result_path):
     total_count = 0
     correct_count = 0
 
-    with open(args.result_path, 'r', encoding='utf-8') as file:
+    with open(result_path, 'r', encoding='utf-8') as file:
+        print(result_path)
         for line in file:
             data = json.loads(line)
 
@@ -17,11 +20,45 @@ def eval(args):
 
     accuracy = correct_count / total_count if total_count > 0 else 0
 
-    print(f'acc: {accuracy}')
+    print(accuracy)
+    return accuracy
     
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--result_path", type=str, default="/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/results/likelihood_exp/first/frames/gemma_4_new_likelihood-03-03-15-03.jsonl")
+    parser.add_argument("--result_file_root", type=str, default="/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/results/dialogue_based")
     args = parser.parse_args()
-    eval(args)
+    
+    resuls_file_root = args.result_file_root
+    
+    results = defaultdict(list)
+    
+    for position_dir in os.listdir(resuls_file_root):
+        if "csv" in position_dir:
+            continue
+        full_position_dir = os.path.join(resuls_file_root, position_dir)
+        
+        for dataset_dir in os.listdir(full_position_dir):
+            full_dataset_dir = os.path.join(full_position_dir, dataset_dir)
+            
+            for inference_file in os.listdir(full_dataset_dir):
+                if "csv" in inference_file:
+                    continue
+                full_inference_file = os.path.join(full_dataset_dir, inference_file)
+                metric_score = eval(full_inference_file)
+
+                model_name = inference_file.split("_")[0]
+                turn = inference_file.split("_")[1]
+                
+                results[model_name].append({
+                    'position': position_dir,
+                    'dataset': dataset_dir,
+                    'turn': turn,
+                    'metric scores': metric_score
+                })
+    
+    for model_name, res in results.items():
+        df = pd.DataFrame(res)
+        df.to_csv(resuls_file_root + model_name + ".csv")
+    
+    # eval(args.result_path)

@@ -1,11 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: mem-eval-pod-h100
+  name: mem-eval-pod-large
 spec:
  containers:
- - name: mem-eval-pod-h100
-   image: pytorch/pytorch:2.0.1-cuda11.7-cudnn8-devel
+ - name: mem-eval-pod-large
+   #image: pytorch/pytorch:2.0.1-cuda11.7-cudnn8-devel
+   image: pytorch/pytorch:2.2.1-cuda12.1-cudnn8-devel
    command: ["sleep"]
    args: ["infinity"]
    volumeMounts:
@@ -25,4 +26,4 @@ spec:
  volumes:
  - name: volume
    persistentVolumeClaim:
-    claimName: mem-eval-pvc-h100
+    claimName: mem-eval-pvc-large
