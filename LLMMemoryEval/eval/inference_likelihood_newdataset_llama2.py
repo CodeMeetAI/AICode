@@ -10,9 +10,9 @@ from tqdm import tqdm
 
 def inference(args):
     token = "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"
-    model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-chat-hf", token=token).to(args.device)
+    model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-13b-chat-hf", token=token).to(args.device)
     model.eval()
-    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-chat-hf", token=token)
+    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-13b-chat-hf", token=token)
 
     options = json.load(open(args.option_file, 'r'))
     contexts = json.load(open(args.context_file, 'r'))
@@ -25,16 +25,17 @@ def inference(args):
     for option, context in tqdm(zip(options, contexts)):
         prompt = tokenizer.apply_chat_template(context, tokenize=False, add_generation_prompt=True)
         context_input = tokenizer(prompt, return_tensors="pt", add_special_tokens=True).to(args.device)
+        with torch.inference_mode(mode=True):
+            context_outputs = model(**context_input, use_cache=True)
+        past_key_values = context_outputs.past_key_values
         option_scores = []
         for c in option['options']:
-            combined_input = tokenizer(prompt + c, return_tensors='pt', add_special_tokens=True).to(args.device)
-            with torch.no_grad():
-                outputs = model(**combined_input)
-            logits = outputs.logits
-            # 直接计算最后一个token的log softmax，代表该选项的概率
+            option_input = tokenizer(c, return_tensors='pt', add_special_tokens=True).to(args.device)
+            with torch.inference_mode(mode=True):
+                option_outputs = model(**option_input, past_key_values=past_key_values)
+            logits = option_outputs.logits
             log_probs = F.log_softmax(logits[:, -1, :], dim=-1)
-            # 获取与输入对应的log_probs
-            target_id = combined_input['input_ids'][0, -1]
+            target_id = option_input['input_ids'][0, -1]
             log_prob = log_probs[:, target_id].item()
             option_scores.append(log_prob)
         

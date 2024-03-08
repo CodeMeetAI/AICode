@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from collections import defaultdict
 from typing import List, Dict
 import random
+import argparse
 
 def load_json(file_path):
     with open(file_path, 'r') as f:
@@ -59,23 +60,23 @@ class ReasoningGroupDialogue:
     
 
 class MultiwozDataset:
-    def __init__(self, dataset_folder_path, propotion=1):
-        self.raw_data = self.load_from_dir(dataset_folder_path, propotion)
+    def __init__(self, dataset_folder_path, proportion=1):
+        self.raw_data = self.load_from_dir(dataset_folder_path, proportion)
         self.data = self.build_dataset(self.raw_data)
     
-    def load_from_dir(self, dir_pth, propotion):
+    def load_from_dir(self, dir_pth, proportion):
         """
         Load all the json files from a directory and return a list of json data.
         
         Args:
-            propotion (float): the propotion of the data to be loaded. Default is 1.
+            proportion (float): the proportion of the data to be loaded. Default is 1.
         """
         concat_data = []
         for root, _, files in os.walk(dir_pth):
             for file in files:
                 if file.endswith(".json"):
                     concat_data = concat_data + load_json(os.path.join(root, file))
-        return concat_data[:int(len(concat_data) * propotion)]
+        return concat_data[:int(len(concat_data) * proportion)]
     
     def remove_inconsistency(self, dataset):
         filtered_dataset = []
@@ -148,7 +149,7 @@ class MultihopReasoningQA:
 
     Attributes:
         dataset_folder_path (str): The folder path where the dataset is located.
-        propotion (float): The proportion of the data to be used from the dataset.
+        proportion (float): The proportion of the data to be used from the dataset.
         target_position (int): The target dialogue's position for reasoning tasks.
         window_size (int): The number of dialogues to consider for each reasoning task.
         mode (str): The mode of reasoning, e.g., 'service' or 'intent'.
@@ -164,7 +165,7 @@ class MultihopReasoningQA:
     def __init__(
         self,
         dataset_folder_path,
-        propotion,
+        proportion,
         target_position,
         window_size,
         mode="service",
@@ -179,7 +180,7 @@ class MultihopReasoningQA:
         
         random.seed(seed)
 
-        self.multiwoz = MultiwozDataset(dataset_folder_path=dataset_folder_path,propotion=propotion)
+        self.multiwoz = MultiwozDataset(dataset_folder_path=dataset_folder_path,proportion=proportion)
         self.options_pool = self.build_options_pool(self.multiwoz, mode)
         self.group_dataset = self.build_dataset()
 
@@ -193,13 +194,16 @@ class MultihopReasoningQA:
                 continue
             
         elif mode == "inference":
-            pass
+            for dialogue in dataset.data:
+                options_pool.extend(dialogue.services)
+        
         else:
             raise NotImplementedError
             
         return list(set(options_pool))
 
     def build_multiple_choice(self, n_options: int, groud_truth: str, options_pool: List[str]) -> List[str]:
+        
         options_pool.remove(groud_truth)
         options_without_gt = random.sample(options_pool, n_options - 1)
         
@@ -246,9 +250,9 @@ class MultihopReasoningQA:
                 option_idx = random.randint(0, 1)
                 option = options[option_idx]
                 
-                mh_question = f"Is the statement correct? statement: In the dialogue [{self.target_position}], the user request for a {src_request}, another topic user ask for {option} {tar_service}. Answer(yes/no):"
-                
-                mh_answer = answers[option_idx]
+                # mh_question = f"Is the statement correct? statement: In the dialogue [{self.target_position}], the user request for a {src_request}, another topic user ask for {option} {tar_service}. Answer(yes/no):"
+                mh_question = f"In the dialogue [{self.target_position}], the user request for a {src_request}. What is the other topic user talk about?\n Answer in a word:"
+                mh_answer = tar_service
             
         else:
             raise NotImplementedError
@@ -297,10 +301,9 @@ class MultihopReasoningQA:
 
             postfix_question = group_reasoning_dialogues[self.target_position].mh_question
             groud_truth = group_reasoning_dialogues[self.target_position].mh_answer
-            if self.mode != "inference":
-                multi_choices = self.build_multiple_choice(self.n_options, groud_truth, self.options_pool)
-            else:
-                multi_choices = ["no", "yes"]
+
+            multi_choices = self.build_multiple_choice(self.n_options, groud_truth, self.options_pool)
+
             
             
             group_dataset.append(ReasoningGroupDialogue(
@@ -339,9 +342,31 @@ class MultihopReasoningQA:
             
             formatted_dataset.append(formatted_group_dialogue)
         
-        with open(os.path.join(root_path, f"multiwoz-{self.window_size}-{self.target_position}.json"), 'w') as f:
+        with open(os.path.join(root_path, f"multiwoz-{self.window_size}-{self.target_position}-{self.mode}.json"), 'w') as f:
             json.dump(formatted_dataset, f, indent=4)
             
-        with open(os.path.join(os.path.join(root_path, "labels"), f"multiwoz-{self.window_size}-{self.target_position}-label.json"), 'w') as f:
+        with open(os.path.join(os.path.join(root_path, "labels"), f"multiwoz-{self.window_size}-{self.target_position}-label-{self.mode}.json"), 'w') as f:
             json.dump(options_and_gts, f, indent=4)
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--dataset_folder_path", type=str, required=True)
+    parser.add_argument("--proportion", type=float, default=1.0)
+    parser.add_argument("--target_position", type=int, required=True)
+    parser.add_argument("--window_size", type=int, default=3)
+    parser.add_argument("--mode", type=str, default="inference")
+    parser.add_argument("--mode", type=str, default="inference")
+    parser.add_argument("--root_path", type=str, required=True)
+
+    args = parser.parse_args()
+    
+    
+    dataset_mh = MultihopReasoningQA(
+        dataset_folder_path=args.dataset_folder_path,
+        proportion=args.proportion,
+        target_position=args.target_position,
+        window_size=args.window_size,
+        mode=args.mode
+    )
+    dataset_mh.save_as_json(root_path=args.root_path)
 

@@ -47,8 +47,8 @@ if __name__ == "__main__":
                 full_inference_file = os.path.join(full_dataset_dir, inference_file)
                 metric_score = eval(full_inference_file)
 
-                model_name = inference_file.split("_")[0]
-                turn = inference_file.split("_")[1]
+                model_name = inference_file.split("-")[0]
+                turn = inference_file.split("-")[1]
                 
                 results[model_name].append({
                     'position': position_dir,

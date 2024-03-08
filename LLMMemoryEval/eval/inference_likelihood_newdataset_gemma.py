@@ -24,19 +24,21 @@ def inference(args):
     for option, context in tqdm(zip(options, contexts)):
         prompt = tokenizer.apply_chat_template(context, tokenize=False, add_generation_prompt=True)
         context_input = tokenizer(prompt, return_tensors="pt", add_special_tokens=True).to(args.device)
+        with torch.no_grad():
+            with torch.cuda.amp.autocast():
+                outputs = model(**context_input, use_cache=True)
+        past_key_values = outputs.past_key_values
         option_scores = []
         for c in option['options']:
-            combined_input = tokenizer(prompt + c, return_tensors='pt', add_special_tokens=True).to(args.device)
+            option_input = tokenizer(c, return_tensors='pt', add_special_tokens=True).to(args.device)
             with torch.no_grad():
-                outputs = model(**combined_input)
+                with torch.cuda.amp.autocast():
+                    outputs = model(**option_input, past_key_values=past_key_values)
             logits = outputs.logits
-            # 直接计算最后一个token的log softmax，代表该选项的概率
             log_probs = F.log_softmax(logits[:, -1, :], dim=-1)
-            # 获取与输入对应的log_probs
-            target_id = combined_input['input_ids'][0, -1]
+            target_id = option_input['input_ids'][0, -1]
             log_prob = log_probs[:, target_id].item()
             option_scores.append(log_prob)
-            print(option_scores)
         
         best_option_index = option_scores.index(max(option_scores))
         best_option = option['options'][best_option_index]

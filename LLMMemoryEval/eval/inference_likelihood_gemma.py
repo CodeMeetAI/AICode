@@ -31,16 +31,16 @@ def inference(args):
         context_input = tokenizer(prompt, return_tensors="pt", add_special_tokens=False).to(args.device)
         with torch.no_grad():
             with torch.cuda.amp.autocast():
-                outputs = model(**context_input, use_cache=True)
-        past_key_values = outputs.past_key_values
+                context_outputs = model(**context_input, use_cache=True)
+        past_key_values = context_outputs.past_key_values
         option_scores = []
         for c in choice:
             choice_input = tokenizer(c, return_tensors='pt', add_special_tokens=False).to(args.device)
             with torch.no_grad():
                 with torch.cuda.amp.autocast():
-                    outputs = model(**choice_input, past_key_values=past_key_values)
+                    option_outputs = model(**choice_input, past_key_values=past_key_values)
             
-            logits = outputs.logits
+            logits = option_outputs.logits
             
             log_probs = F.log_softmax(logits, dim=-1)
             input_ids = choice_input['input_ids']
