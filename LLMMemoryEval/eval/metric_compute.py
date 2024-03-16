@@ -2,15 +2,17 @@ import json
 import argparse
 import os
 from collections import defaultdict
-
-import pandas as pd
+import csv
 
 def eval(result_path):
     total_count = 0
     correct_count = 0
 
+    # detect whether result_path is a directory
+    if os.path.isdir(result_path):
+        return None
+    
     with open(result_path, 'r', encoding='utf-8') as file:
-        print(result_path)
         for line in file:
             data = json.loads(line)
 
@@ -20,45 +22,40 @@ def eval(result_path):
 
     accuracy = correct_count / total_count if total_count > 0 else 0
 
-    print(accuracy)
     return accuracy
+
+def save_results_to_csv(results, file_path):
+    with open(file_path, 'w', newline='', encoding='utf-8') as csvfile:
+        fieldnames = ['model_name', 'turn', 'key', 'metric_score']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+        writer.writeheader()
+        for result in results:
+            writer.writerow({'model_name': result[0], 'turn': result[1], 'key': result[2], 'metric_score': result[3]})
     
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--result_file_root", type=str, default="/home/eidf018/eidf018/s2484588-epcc/MLP/LLMMemoryEval/results/dialogue_based")
+    parser.add_argument("--result_file_root", type=str, required=True)
     args = parser.parse_args()
     
-    resuls_file_root = args.result_file_root
+    results_file_root = args.result_file_root
+    output_file = results_file_root+"/results.csv"
     
-    results = defaultdict(list)
-    
-    for position_dir in os.listdir(resuls_file_root):
-        if "csv" in position_dir:
-            continue
-        full_position_dir = os.path.join(resuls_file_root, position_dir)
-        
-        for dataset_dir in os.listdir(full_position_dir):
-            full_dataset_dir = os.path.join(full_position_dir, dataset_dir)
+    results = []
             
-            for inference_file in os.listdir(full_dataset_dir):
-                if "csv" in inference_file:
-                    continue
-                full_inference_file = os.path.join(full_dataset_dir, inference_file)
-                metric_score = eval(full_inference_file)
+    for inference_file in os.listdir(results_file_root):
+        full_inference_file = os.path.join(results_file_root, inference_file)
+        if full_inference_file.endswith(".jsonl"):
+            metric_score = eval(full_inference_file)
+            if metric_score is None:
+                continue    
 
-                model_name = inference_file.split("-")[0]
-                turn = inference_file.split("-")[1]
-                
-                results[model_name].append({
-                    'position': position_dir,
-                    'dataset': dataset_dir,
-                    'turn': turn,
-                    'metric scores': metric_score
-                })
+            parts = inference_file.split("-")
+            model_name = parts[0]
+            turn = parts[1]
+            key = "-".join(parts[:3])
+
+            results.append((model_name, turn, key, metric_score))
     
-    for model_name, res in results.items():
-        df = pd.DataFrame(res)
-        df.to_csv(resuls_file_root + model_name + ".csv")
-    
-    # eval(args.result_path)
+    save_results_to_csv(results, output_file)

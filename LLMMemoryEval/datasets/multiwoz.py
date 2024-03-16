@@ -1,10 +1,10 @@
 import json
+import re
 import os
 from dataclasses import dataclass
 from collections import defaultdict
 from typing import List, Dict
 import random
-import argparse
 
 def load_json(file_path):
     with open(file_path, 'r') as f:
@@ -29,6 +29,7 @@ class Dialogue:
     uid: str
     services: List[str]
     turns: List[Turn]
+    turns_count: int
 
 
 @dataclass
@@ -56,27 +57,31 @@ class ReasoningGroupDialogue:
     target_position: int
     postfix_question: str
     multi_choices: List[str]
-    groud_truth: str
+    ground_truth: str
     
 
 class MultiwozDataset:
-    def __init__(self, dataset_folder_path, proportion=1):
-        self.raw_data = self.load_from_dir(dataset_folder_path, proportion)
+    def __init__(self, dataset_folder_path, propotion=1):
+        random.seed(42)
+        self.raw_data = self.load_from_dir(dataset_folder_path, propotion)
         self.data = self.build_dataset(self.raw_data)
+        self.data = self.delete_topics()
+        for i in range(5):
+            random.shuffle(self.data)
     
-    def load_from_dir(self, dir_pth, proportion):
+    def load_from_dir(self, dir_pth, propotion):
         """
         Load all the json files from a directory and return a list of json data.
         
         Args:
-            proportion (float): the proportion of the data to be loaded. Default is 1.
+            propotion (float): the propotion of the data to be loaded. Default is 1.
         """
         concat_data = []
         for root, _, files in os.walk(dir_pth):
             for file in files:
                 if file.endswith(".json"):
                     concat_data = concat_data + load_json(os.path.join(root, file))
-        return concat_data[:int(len(concat_data) * proportion)]
+        return concat_data[:int(len(concat_data) * propotion)]
     
     def remove_inconsistency(self, dataset):
         filtered_dataset = []
@@ -107,7 +112,7 @@ class MultiwozDataset:
                     active_intent = state['active_intent']
                     service = category['service']
                     break
-                
+
                 if len(slot_values.keys()) == 0:
                     continue
                 
@@ -129,18 +134,30 @@ class MultiwozDataset:
                 )
                 parsed_turns.append(parsed_turn)
             
-            if len(dialogue['services']) == 2:
+            if len(dialogue['services']) == 2 and len(parsed_turns) >= 0 and len(parsed_turns) < 100:
             
                 parsed_dialogue = Dialogue(
                     uid=dialogue_id,
                     services=tuple(dialogue['services']),
-                    turns=parsed_turns
+                    turns=parsed_turns,
+                    turns_count=len(parsed_turns)
                 )
                 multiwoz.append(parsed_dialogue)
         
         multiwoz = self.remove_inconsistency(multiwoz)
         
         return multiwoz
+        
+    def delete_topics(self):
+        multiwoz = []
+        for dialogue in self.data:
+            if "taxi" not in dialogue.services and "bus" not in dialogue.services:
+                multiwoz.append(dialogue)
+            
+        return multiwoz
+
+    def get_target_dialogues(self, n_target_dialogue):
+        return random.sample(self.data, n_target_dialogue)
             
 
 class MultihopReasoningQA:
@@ -149,7 +166,7 @@ class MultihopReasoningQA:
 
     Attributes:
         dataset_folder_path (str): The folder path where the dataset is located.
-        proportion (float): The proportion of the data to be used from the dataset.
+        propotion (float): The proportion of the data to be used from the dataset.
         target_position (int): The target dialogue's position for reasoning tasks.
         window_size (int): The number of dialogues to consider for each reasoning task.
         mode (str): The mode of reasoning, e.g., 'service' or 'intent'.
@@ -165,11 +182,11 @@ class MultihopReasoningQA:
     def __init__(
         self,
         dataset_folder_path,
-        proportion,
+        propotion,
         target_position,
         window_size,
         mode="service",
-        n_options=4,
+        n_options=3,
         seed=42
     ):
         self.dataset_foler_path = dataset_folder_path
@@ -177,13 +194,26 @@ class MultihopReasoningQA:
         self.window_size = window_size
         self.mode = mode
         self.n_options = n_options
+        self.appeared_options = []
         
         random.seed(seed)
 
-        self.multiwoz = MultiwozDataset(dataset_folder_path=dataset_folder_path,proportion=proportion)
+        self.multiwoz = MultiwozDataset(dataset_folder_path=dataset_folder_path,propotion=propotion)
         self.options_pool = self.build_options_pool(self.multiwoz, mode)
+        
+        n_target_dialogue = len(self.multiwoz.data) // 5
+        self.target_dialogues = self.multiwoz.get_target_dialogues(n_target_dialogue=n_target_dialogue)
+        
         self.group_dataset = self.build_dataset()
 
+    def get_all_slot_values_key(self):
+        all_keys = defaultdict(int)
+        for dialogue in self.multiwoz.data:
+            for turn in dialogue.turns:
+                for key in turn.slot_values.keys():
+                    all_keys[key] += 1
+        
+        return all_keys
     def build_options_pool(self, dataset: MultiwozDataset, mode) -> List[str]:
         options_pool = []
         if mode == "service":
@@ -202,16 +232,19 @@ class MultihopReasoningQA:
             
         return list(set(options_pool))
 
-    def build_multiple_choice(self, n_options: int, groud_truth: str, options_pool: List[str]) -> List[str]:
-        
-        options_pool.remove(groud_truth)
+    def build_multiple_choice(self, n_options: int, ground_truth: str, options_pool: List[str], appeared_option=None) -> List[str]:
+        options_pool.remove(ground_truth)
+        if appeared_option is not None:
+            options_pool.remove(appeared_option)
         options_without_gt = random.sample(options_pool, n_options - 1)
         
         full_options = options_without_gt
-        full_options.append(groud_truth)
+        full_options.append(ground_truth)
         random.shuffle(full_options)
         
-        options_pool.append(groud_truth)
+        options_pool.append(ground_truth)
+        if appeared_option is not None:
+            options_pool.append(appeared_option)
         
         return full_options
     
@@ -228,8 +261,6 @@ class MultihopReasoningQA:
         elif mode == "inference":
             mh_question = ""
             mh_answer = ""
-            options = ["isn't", "is"]
-            answers = ["no", "yes"]
             if len(dialogue.services) != 2:
                 mh_question = None
                 mh_answer = None
@@ -246,12 +277,10 @@ class MultihopReasoningQA:
                 tar_turn = turns_by_service[tar_service]
                 
                 src_request = list(src_turn[0].slot_values.values())[0][0] + " " + src_turn[0].service
-                
-                option_idx = random.randint(0, 1)
-                option = options[option_idx]
+                src_request = src_request.strip()
                 
                 # mh_question = f"Is the statement correct? statement: In the dialogue [{self.target_position}], the user request for a {src_request}, another topic user ask for {option} {tar_service}. Answer(yes/no):"
-                mh_question = f"In the dialogue [{self.target_position}], the user request for a {src_request}. What is the other topic user talk about?\n Answer in a word:"
+                mh_question = f"Question: There are two topics in dialogue {self.target_position}, one topic is '{src_turn[0].service}'. What's the another topic?\n Options: " + "{options}\n Your choice: "
                 mh_answer = tar_service
             
         else:
@@ -266,14 +295,17 @@ class MultihopReasoningQA:
         return sh_question, sh_answer
 
     def build_dataset(self):
+        
         window_size = self.window_size
-        position = self.target_position
-        dataset = self.multiwoz.data
         group_dataset = []
-        for group_id in range(0, len(dataset), window_size):
-            if group_id + window_size > len(dataset):
-                continue
-            group_dialogues: List[Dialogue] = dataset[group_id: group_id+window_size]
+        all_dialogue = self.multiwoz.data
+        
+        prefixes = ['(A).', '(B).', '(C).']
+        
+        all_context_dialogue = remove_elements(all_dialogue, self.target_dialogues)
+        for group_id, target_dialogue in enumerate(self.target_dialogues):
+            group_dialogues, all_context_dialogue = sample_and_remove(all_context_dialogue, window_size - 1)
+            group_dialogues.insert(self.target_position, target_dialogue)
             group_reasoning_dialogues = []
             for dialogue_id, dialogue in enumerate(group_dialogues):
                 reasoning_turns = []
@@ -282,7 +314,7 @@ class MultihopReasoningQA:
                         uid=turn.uid,
                         conversation=turn.conversation
                     ))
-                
+
                 mh_question, mh_answer = self.build_mh_qa(dialogue, mode=self.mode)
                 sh_question, sh_answer = self.build_sh_qa(dialogue)    
                 
@@ -295,39 +327,52 @@ class MultihopReasoningQA:
                     mh_answer=mh_answer,
                     sh_question=sh_question,
                     sh_answer=sh_answer,
-                    if_target= str(dialogue.uid) == str(position)
+                    if_target= str(dialogue.uid) == str(self.target_position)
                 ))
             
 
             postfix_question = group_reasoning_dialogues[self.target_position].mh_question
-            groud_truth = group_reasoning_dialogues[self.target_position].mh_answer
+            ground_truth = group_reasoning_dialogues[self.target_position].mh_answer
+            if self.mode == "inference":
+                appeared_option = re.search(r"'(.*?)'", postfix_question).group(1)
+                multi_choices = self.build_multiple_choice(self.n_options, ground_truth, self.options_pool, appeared_option=appeared_option)
+                ground_truth_option = prefixes[multi_choices.index(ground_truth)] + ground_truth
+                multi_choices_str = " ".join(f"{prefixes[i]} {option}" for i, option in enumerate(multi_choices))
+                self.appeared_options.append(appeared_option)
+                
+            else:
+                multi_choices = self.build_multiple_choice(self.n_options, ground_truth, self.options_pool)
 
-            multi_choices = self.build_multiple_choice(self.n_options, groud_truth, self.options_pool)
-
-            
+            dialogue_grouped_with_options = []
+            for dialogue in group_reasoning_dialogues:
+                dialogue.mh_question = dialogue.mh_question.format(options=multi_choices_str)
+                dialogue_grouped_with_options.append(dialogue)
             
             group_dataset.append(ReasoningGroupDialogue(
                 uid=group_id,
-                dialogues=group_reasoning_dialogues,
+                dialogues=dialogue_grouped_with_options,
                 target_position=self.target_position,
                 postfix_question=postfix_question,
-                multi_choices=multi_choices,
-                groud_truth=groud_truth
+                multi_choices=[f"{prefixes[i]}{option}" for i, option in enumerate(multi_choices)],
+                ground_truth=ground_truth_option
             ))
+        
+        assert len(self.appeared_options) == len(group_dataset), "Mismatch"
         
         return group_dataset
     
     def save_as_json(self, root_path, mode="inference"):
         formatted_dataset = []
         options_and_gts = []
-        for grouped_dialogue in self.group_dataset:
+        for i, grouped_dialogue in enumerate(self.group_dataset):
             formatted_group_dialogue = []
 
-            for dialogue in grouped_dialogue.dialogues:
+            for j, dialogue in enumerate(grouped_dialogue.dialogues):
+                dialogue.turns[0].conversation[0]["content"] = f"dialogue {j} started.\n" + dialogue.turns[0].conversation[0]['content']
                 for turn in dialogue.turns:
-                    turn.conversation[0]['content'] = f"[dialogue {dialogue.uid}] " + turn.conversation[0]['content']
                     formatted_group_dialogue.extend(turn.conversation)
-            
+
+                
             target_dialogue = grouped_dialogue.dialogues[self.target_position]
             
             formatted_group_dialogue.append({
@@ -337,36 +382,31 @@ class MultihopReasoningQA:
             
             options_and_gts.append({
                 "options": grouped_dialogue.multi_choices,
-                "gt": target_dialogue.mh_answer
+                "gt": grouped_dialogue.ground_truth,
             })
             
             formatted_dataset.append(formatted_group_dialogue)
         
-        with open(os.path.join(root_path, f"multiwoz-{self.window_size}-{self.target_position}-{self.mode}.json"), 'w') as f:
+        with open(os.path.join(root_path, f"multiwoz-{self.window_size}-{self.target_position}-{self.mode}-new.json"), 'w') as f:
             json.dump(formatted_dataset, f, indent=4)
             
-        with open(os.path.join(os.path.join(root_path, "labels"), f"multiwoz-{self.window_size}-{self.target_position}-label-{self.mode}.json"), 'w') as f:
+        with open(os.path.join(os.path.join(root_path, "labels"), f"multiwoz-{self.window_size}-{self.target_position}-label-{self.mode}-new.json"), 'w') as f:
             json.dump(options_and_gts, f, indent=4)
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset_folder_path", type=str, required=True)
-    parser.add_argument("--proportion", type=float, default=1.0)
-    parser.add_argument("--target_position", type=int, required=True)
-    parser.add_argument("--window_size", type=int, default=3)
-    parser.add_argument("--mode", type=str, default="inference")
-    parser.add_argument("--mode", type=str, default="inference")
-    parser.add_argument("--root_path", type=str, required=True)
 
-    args = parser.parse_args()
+def sample_and_remove(lst, k):
     
+    selected_indices = random.sample(range(len(lst)), k)
     
-    dataset_mh = MultihopReasoningQA(
-        dataset_folder_path=args.dataset_folder_path,
-        proportion=args.proportion,
-        target_position=args.target_position,
-        window_size=args.window_size,
-        mode=args.mode
-    )
-    dataset_mh.save_as_json(root_path=args.root_path)
+    sampled_elements = [lst[i] for i in selected_indices]
+    
+    for i in sorted(selected_indices, reverse=True):
+        del lst[i]
+    
+    return sampled_elements, lst
 
+def remove_elements(lst, elements_to_remove):
+    
+    updated_list = [item for item in lst if item not in elements_to_remove]
+    
+    return updated_list

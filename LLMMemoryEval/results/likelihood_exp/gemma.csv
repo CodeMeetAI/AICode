@@ -1,8 +1,0 @@
-,position,dataset,turn,metric scores
-0,last,natural_questions,60,0.8533653846153846
-1,last,multiwoz,60,0.8393234672304439
-2,middle,natural_questions,60,0.7163461538461539
-3,middle,multiwoz,60,0.7082452431289641
-4,first,natural_questions,60,0.8990384615384616
-5,first,multiwoz,15,0.977
-6,first,multiwoz,60,0.872093023255814

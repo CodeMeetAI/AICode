@@ -5,7 +5,6 @@ metadata:
 spec:
  containers:
  - name: mem-eval-pod-large
-   #image: pytorch/pytorch:2.0.1-cuda11.7-cudnn8-devel
    image: pytorch/pytorch:2.2.1-cuda12.1-cudnn8-devel
    command: ["sleep"]
    args: ["infinity"]
