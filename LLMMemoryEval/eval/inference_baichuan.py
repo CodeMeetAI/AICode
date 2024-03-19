@@ -9,6 +9,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from datetime import datetime
 from typing import List
 from tqdm import tqdm
+from copy import deepcopy
 
 
 def build_chat_input(model, tokenizer, messages: List[dict], max_new_tokens: int=0):
@@ -81,25 +82,16 @@ def inference(args):
     for option, context in tqdm(zip(options, contexts)):
         option_scores = []
         for c in option['options']:
-            # option_input = torch.tensor(tokenizer.encode(c), device=args.device).unsqueeze(0)
-            context.append({"role": "assistant", "content": c})
-            option_input = build_chat_input(model, tokenizer, context)
-            # option_input = torch.cat([context_input, option_input], dim=1)
-            # print(option_input.shape)
-            # option_input.insert(0, 1)
-            option_input = {"input_ids": option_input}
+            tmp_context = deepcopy(context)
+            if tmp_context[-1]["role"] == "user":
+                tmp_context[-1]["content"] += c
+            else:
+                tmp_context = tmp_context + [{"role": "user", "content": c}]
+            prompt = tokenizer.apply_chat_template(tmp_context, tokenize=False, add_generation_prompt=True)
+            context_input = tokenizer(prompt, return_tensors="pt", add_special_tokens=True).to(args.device)
             with torch.inference_mode(mode=True):
-                option_outputs = model(**option_input)
-            logits = option_outputs.logits
-            log_probs = F.log_softmax(logits[:, 1:, :], dim=-1)
-            
-            # target_id = option_input['input_ids'][0, -1]
-            # log_prob = log_probs[:, target_id].item()
-            # option_scores.append(log_prob)
-            input_ids = option_input['input_ids']
-            # print(input_ids, log_probs.shape)
-            gathered_log_probs = torch.gather(log_probs, 2, input_ids[:, log_probs.shape[-2] - 1:].unsqueeze(-1)).squeeze(-1)
-            average_log_prob = torch.mean(gathered_log_probs)
+                option_outputs = model(**context_input, labels=context_input["input_ids"])
+            average_log_prob = option_outputs.loss * -1
             option_scores.append(average_log_prob.item())
         
         best_option_index = option_scores.index(max(option_scores))

@@ -3,6 +3,13 @@ import argparse
 import os
 import csv
 import pandas as pd
+import re
+
+def extract_option_label(full_text):
+    match = re.match(r"\((.*?)\)", full_text)
+    if match:
+        return match.group(1) 
+    return None
 
 def calculate_ap(gt, options_dist):
     sorted_options = sorted(options_dist, key=lambda x: x[1], reverse=True)
@@ -23,17 +30,16 @@ def eval(result_path):
     with open(result_path, 'r', encoding='utf-8') as file:
         for line in file:
             data = json.loads(line)
+            answer_label = extract_option_label(data['answer'])
+            gt_label = extract_option_label(data['gt'])
 
             total_count += 1
-            correct_option = data['gt'].split(')')[0][1]  # A, B, C
-            gt_category = data['gt'].split('.')[1]
-            option_accuracy[correct_option][1] += 1
+            if answer_label and gt_label:
+                option_accuracy[gt_label][1] += 1  
+                if answer_label == gt_label:
+                    correct_count += 1
+                    option_accuracy[gt_label][0] += 1  
             
-            if data['answer'] == data['gt']:
-                correct_count += 1
-                option_accuracy[correct_option][0] += 1 
-                category_counts[gt_category][0] += 1
-            category_counts[gt_category][1] += 1
             ap = calculate_ap(data['gt'], data['options_dist'])
             ap_list.append(ap)
 
@@ -41,21 +47,19 @@ def eval(result_path):
     accuracy = round(correct_count / total_count, 3) if total_count > 0 else 0
     map_score = round(sum(ap_list) / len(ap_list),3) if ap_list else 0
     option_accuracy_rates = {opt: (round(correct / total,3) if total > 0 else 0) for opt, (correct, total) in option_accuracy.items()}
-    ategory_accuracies = {category: round(correct / total,3) if total > 0 else 0 for category, (correct, total) in category_counts.items()}
 
 
-    return accuracy, map_score,option_accuracy_rates,ategory_accuracies
+    return accuracy, map_score,option_accuracy_rates
 
 def save_results_to_csv(results, file_path):
     with open(file_path, 'w', newline='', encoding='utf-8') as csvfile:
-        fieldnames = ['model_name', 'turn', 'key', 'acc_score', 'map_score', 'acc_A', 'acc_B', 'acc_C', 'hotel_acc', 'train_acc', 'attraction_acc', 'restaurant_acc']
+        fieldnames = ['model_name', 'turn', 'key', 'acc_score', 'map_score', 'acc_A', 'acc_B', 'acc_C']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
         writer.writeheader()
         for result in results:
             writer.writerow({'model_name': result[0], 'turn': result[1], 'key': result[2], 'acc_score': result[3], 'map_score': result[4],
-                            'acc_A': result[5]['A'], 'acc_B': result[5]['B'], 'acc_C': result[5]['C'],
-                            'hotel_acc': result[6]['hotel'], 'train_acc': result[6]['train'], 'attraction_acc': result[6]['attraction'], 'restaurant_acc': result[6]['restaurant']
+                            'acc_A': result[5]['A'], 'acc_B': result[5]['B'], 'acc_C': result[5]['C']
                             })
     
         df = pd.DataFrame(list(map(lambda x: dict(zip(fieldnames, x)),  results)))
@@ -75,7 +79,7 @@ if __name__ == "__main__":
     for inference_file in sorted(os.listdir(results_file_root)):
         full_inference_file = os.path.join(results_file_root, inference_file)
         if full_inference_file.endswith(".jsonl"):
-            acc_score,map_score,option_accuracy_rates,ategory_accuracies = eval(full_inference_file)
+            acc_score,map_score,option_accuracy_rates = eval(full_inference_file)
             if acc_score is None:
                 continue    
             if map_score is None:
@@ -85,6 +89,6 @@ if __name__ == "__main__":
             turn = parts[1]
             key = "-".join(parts[:3])
 
-            results.append((model_name, turn, key, acc_score, map_score,option_accuracy_rates,ategory_accuracies))
+            results.append((model_name, turn, key, acc_score, map_score,option_accuracy_rates))
     
     save_results_to_csv(results, output_file)

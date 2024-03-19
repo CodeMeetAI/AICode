@@ -43,13 +43,15 @@ def inference(args):
             option_length = len(tokenizer.encode(c, add_special_tokens=False))
             target_ids    = input_ids[0, -option_length:]
             with torch.inference_mode(mode=True):
-                outputs = model.generate(
-                    **context_input,
-                    max_length=prompt_length + 2, # + len(tokenizer.encode(c, add_special_tokens=False))+8,
-                    return_dict_in_generate=True,
-                    output_logits=True,
-                    # max_new_tokens=1,
-            )
+                outputs = model(**context_input)
+                
+                # outputs = model.generate(
+                #     **context_input,
+                #     max_length=prompt_length + 2, # + len(tokenizer.encode(c, add_special_tokens=False))+8,
+                #     return_dict_in_generate=True,
+                #     output_logits=True,
+                #     # max_new_tokens=1,
+                # )
                 
             # transition_scores = model.compute_transition_scores(
             #     outputs.sequences,
