@@ -1,0 +1,946 @@
+{"answer": "No, I'll also need to find a place to stay with a 4 star rating please.", "gt": "No, I'll also need to find a place to stay with a 4 star rating please."}
+{"answer": "I'm looking for a cheap indian restaurant please.", "gt": "I'm looking for a cheap indian restaurant please."}
+{"answer": "Could you double check for a 3 or 4 star hotel on the east side with free parking?", "gt": "Could you double check for a 3 or 4 star hotel on the east side with free parking?"}
+{"answer": "No thank you. You've been very helpful.", "gt": "Yes, that's it! Thanks so much, bye!"}
+{"answer": "Thank you for using our services.", "gt": "I just need to arrive at my attraction by 18:45. Can I get the car type and contact number please?"}
+{"answer": "Would you like me to book it for you?", "gt": "I would like the East part of town."}
+{"answer": "ok what's the address?", "gt": "ok what's the address?"}
+{"answer": "You are welcome. Thank you for calling.", "gt": "I don't care."}
+{"answer": "I'm looking for a cheap restaurant in the centre.", "gt": "Great! Thanks so much! Can you also help me find a guesthouse?"}
+{"answer": "Thank you and yes. I'd like a train from Cambridge to Leicester for Sunday.", "gt": "Thank you and yes. I'd like a train from Cambridge to Leicester for Sunday."}
+{"answer": "Okay Thank you. That is all I need.", "gt": "Okay Thank you. That is all I need."}
+{"answer": "I'm not very particular about departure time so any train that gets me to cambridge by 08:30 is fine", "gt": "I'm not very particular about departure time so any train that gets me to cambridge by 08:30 is fine"}
+{"answer": "That sounds good book it for 3 on wednesday at 12:15 please and I'll need the reference number too", "gt": "That sounds good book it for 3 on wednesday at 12:15 please and I'll need the reference number too"}
+{"answer": "Yes those are fine. I also need find an attraction in the centre of town to visit.", "gt": "Do those hotels have free parking?"}
+{"answer": "Thank you. That sounds good.", "gt": "Thank you. That sounds good."}
+{"answer": "I'd like to visit a museum if possible.", "gt": "I'd like to visit a museum if possible."}
+{"answer": "You're welcome, have a great day!", "gt": "Thanks! I also need a train from Norwich on Thursday."}
+{"answer": "You're welcome. Have a nice day.", "gt": "Could I get a phone number for the restaurant please?"}
+{"answer": "Hi, I'm looking for a place to stay in the north side. Can you recommend anything with at least 2 stars?", "gt": "Hi, I'm looking for a place to stay in the north side. Can you recommend anything with at least 2 stars?"}
+{"answer": "How about 18:30 then?", "gt": "How about 18:30 then?"}
+{"answer": "I would like the phone number and address of da vinci pizzeria", "gt": "I would like the phone number and address of da vinci pizzeria"}
+{"answer": "Hi, I want to eat at an expensive seafood restaurant in Cambridge. Where can I go?", "gt": "Hi, I want to eat at an expensive seafood restaurant in Cambridge. Where can I go?"}
+{"answer": "Yes, could you find me a train from ely that same day?", "gt": "Yes, could you find me a train from ely that same day?"}
+{"answer": "I need a train to go from Leicester to Cambridge. This will be on Satruday. Please, look again.", "gt": "I need a train to go from Leicester to Cambridge. This will be on Satruday. Please, look again."}
+{"answer": "Ok, great. Have a wonderful day!", "gt": "Can you try moderately priced?"}
+{"answer": "Ok, thank you very much for your help.", "gt": "Ok, thank you very much for your help."}
+{"answer": "Okay great. No that will be it.", "gt": "Okay great. No that will be it."}
+{"answer": "Can you help me find a train leaving after 12:15 departing from cambridge?", "gt": "Can you help me find a train leaving after 12:15 departing from cambridge?"}
+{"answer": "Ok, thanks. Could I also get the address and postal code? I need it for directions.", "gt": "Ok, thanks. Could I also get the address and postal code? I need it for directions."}
+{"answer": "I'm looking for a restaurant on the west side that serves basque food.", "gt": "I'm looking for a restaurant on the west side that serves basque food."}
+{"answer": "Thank you that is all I needed today.", "gt": "Yes please and I need the postcode and address."}
+{"answer": "Great, thanks! I'll also need a train from cambridge that leaves after 11:00. Can you help me with that?", "gt": "Great, thanks! I'll also need a train from cambridge that leaves after 11:00. Can you help me with that?"}
+{"answer": "Do you have a cheap restaurant that serves indian food. In the mood for curry.", "gt": "Do you have a cheap restaurant that serves indian food. In the mood for curry."}
+{"answer": "I need to go on Sunday, sometime after 16:00.", "gt": "I need to go on Sunday, sometime after 16:00."}
+{"answer": "Of course!", "gt": "Of course!"}
+{"answer": "please recommend another hotel in that same price range.", "gt": "please recommend another hotel in that same price range."}
+{"answer": "Great. Would you like me to make a reservation for you?", "gt": "How about Indian food instead?"}
+{"answer": "That's perfect. Thanks so much for your help.", "gt": "May I please get the address for Old Schools?"}
+{"answer": "Can you help me find a train coming from cambridge leaving on thursday?", "gt": "Can you help me find a train coming from cambridge leaving on thursday?"}
+{"answer": "No, thank you.", "gt": "I need it to leave from birmingham new street."}
+{"answer": "Is that a guesthouse? I definitely prefer a guesthouse.", "gt": "Is that a guesthouse? I definitely prefer a guesthouse."}
+{"answer": "I'd like to go to the theatre, can you tell me about what's available in Cambridge, please?", "gt": "Yes, can I have the address?"}
+{"answer": "The reservation is just for me this Saturday at 15:45, please.", "gt": "The reservation is just for me this Saturday at 15:45, please."}
+{"answer": "Find me a moderately cheap restaurant in Cambridge that serves russian food", "gt": "Find me a moderately cheap restaurant in Cambridge that serves russian food"}
+{"answer": "Thank you so much, that is everything that I need.", "gt": "I will be traveling on Friday from London Liverpool Street to Cambridge."}
+{"answer": "Thanks! I appreciate your help.", "gt": "Thanks! I appreciate your help."}
+{"answer": "I'm leaving from cambridge, and I need to go to bishops stortford.", "gt": "I'm leaving from cambridge, and I need to go to bishops stortford."}
+{"answer": "Great! Thank you for your help.", "gt": "Great! Thank you for your help."}
+{"answer": "Would you like me to book a room for you?", "gt": "Thanks for your time, goodbye."}
+{"answer": "Okay, that's all I need, thank you so much!", "gt": "I don't care. As longs as it is moderately priced."}
+{"answer": "Goodbye.", "gt": "I think you should try again. Cambridge to Bishop Stafford on Thursday."}
+{"answer": "As long as its departing on Saturday from Cambridge to london kings kross arriving by 13:00 that works. Please just confirm the train ID and departure time.", "gt": "As long as its departing on Saturday from Cambridge to london kings kross arriving by 13:00 that works. Please just confirm the train ID and departure time."}
+{"answer": "Well, I also need to book a taxi. I want to leave the hotel by 19:30.", "gt": "Well, I also need to book a taxi. I want to leave the hotel by 19:30."}
+{"answer": "Ok. Thank you for the information.", "gt": "That'll be all. Thanks for you help."}
+{"answer": "I am planning a visit to Cambridge soon and want to visit a specific attraction people are talking about. Have you heard of the funky fun house?", "gt": "I am planning a visit to Cambridge soon and want to visit a specific attraction people are talking about. Have you heard of the funky fun house?"}
+{"answer": "I would like to go to queens' college and I want to leave the restaurant after 22:30.", "gt": "I would like to go to queens' college and I want to leave the restaurant after 22:30."}
+{"answer": "Ok perfect, that is all that I needed. Thank you for your help! Goodbye.", "gt": "Ok perfect, that is all that I needed. Thank you for your help! Goodbye."}
+{"answer": "Thank you! I also need a swimming pool in the north area of Cambridge.", "gt": "Thank you! I also need a swimming pool in the north area of Cambridge."}
+{"answer": "I'm in need of a train leaving Tuesday from Peterborough, can you help me find one?", "gt": "I'm in need of a train leaving Tuesday from Peterborough, can you help me find one?"}
+{"answer": "I'm sorry, I need that taxi to take me from the hotel to the restaurant. I need to arrive at 13:30", "gt": "I'm sorry, I need that taxi to take me from the hotel to the restaurant. I need to arrive at 13:30"}
+{"answer": "Thank you for all your help today.", "gt": "Thank you for all your help today."}
+{"answer": "I need to take a train to cambridge on tuesday.", "gt": "I need to take a train to cambridge on tuesday."}
+{"answer": "No that's all. Thanks for your help.", "gt": "Yes. It'll be just me dining. I want to reserve thursday at 18:00 there. Give me the reference number too please"}
+{"answer": "I am also looking for a restaurant, should be cheap and in the south, near to my hotel. Do you have any options?", "gt": "I am also looking for a restaurant, should be cheap and in the south, near to my hotel. Do you have any options?"}
+{"answer": "How about just a place in the north with a 4 star rating?", "gt": "How about just a place in the north with a 4 star rating?"}
+{"answer": "Hi. I am looking for a hotel to stay in.", "gt": "I am planning a trip in Cambridge."}
+{"answer": "Hello, I am looking for a moderately priced restaurant in the south part of town.", "gt": "Sure and I would like the address also. Thanks"}
+{"answer": "Please book a table for 4 people at Zizzi Cambridge for 19:15 on Monday and provide me the reference number.", "gt": "I have everything. Thanks"}
+{"answer": "Alright, I'd like to book for 5 people and 2 nights on the same day as the train.", "gt": "Alright, I'd like to book for 5 people and 2 nights on the same day as the train."}
+{"answer": "I just need the area it is located in and the phone number please.", "gt": "I just need the area it is located in and the phone number please."}
+{"answer": "I will be leaving from Kings Lynn.", "gt": "I will be leaving from Kings Lynn."}
+{"answer": "I've just has a dispute involving an auto accident. I need some help urgently!", "gt": "I've just has a dispute involving an auto accident. I need some help urgently!"}
+{"answer": "I am looking for a Japanese restaurant in the centre of town.", "gt": "I am looking for a Japanese restaurant in the centre of town."}
+{"answer": "Thank you for your help. Good Bye!", "gt": "Thank you for your help. Good Bye!"}
+{"answer": "Thank you, that will be all I need for today.", "gt": "I'm looking for any type of attraction in the centre."}
+{"answer": "No, I'm all set. Thanks!", "gt": "Actually, can you please book a taxi from the boats to my hotel."}
+{"answer": "You're welcome. You have a great day as well.", "gt": "You're welcome. You have a great day as well."}
+{"answer": "Booking was successful. The table will be reserved for 15 minutes. Reference number is : BVU67RNQ . Is there anything else?", "gt": "Thanks, will you please get me a reservation for 4 people at 16:00 on monday there?"}
+{"answer": "I'm looking to go to a theatre in town. Can you help me find one?", "gt": "I'm looking to go to a theatre in town. Can you help me find one?"}
+{"answer": "Have a nice day.", "gt": "Have a nice day."}
+{"answer": "I'm also looking for a place to stay.", "gt": "I'm also looking for a place to stay."}
+{"answer": "Can I help you with anything else?", "gt": "Yes, let's try for 4 nights instead."}
+{"answer": "Have a great time and enjoy your visit to Cambridge!", "gt": "Are there any available for less than $200 a night?"}
+{"answer": "I need a moderately priced restaurant in the centre.", "gt": "Thank you, thatll be all for now."}
+{"answer": "There are 4 boating attractions. Two are in the centre of town, one in the east, and one in the north. Would you like any additional information?", "gt": "Yes what are the other options?"}
+{"answer": "Yes, I'll be departing from peterborough and it needs to arrive by 20:45.", "gt": "Yes, I'll be departing from peterborough and it needs to arrive by 20:45."}
+{"answer": "I'm looking for a hotel in the north to stay in. Can you help me?", "gt": "I'm looking for a hotel in the north to stay in. Can you help me?"}
+{"answer": "I'm also looking for a place to dine. The restaurant should be in the cheap price range and should serve spanish food", "gt": "I'm also looking for a place to dine. The restaurant should be in the cheap price range and should serve spanish food"}
+{"answer": "Goodbye.", "gt": "Yes cheap please."}
+{"answer": "I am looking for a hotel with a 3 star rating and free parking", "gt": "I am looking for a train."}
+{"answer": "Thank you. Could you also give me information about an attraction called The Man on the Moon?", "gt": "Thank you. Could you also give me information about an attraction called The Man on the Moon?"}
+{"answer": "I don't have a preference.", "gt": "I'm looking for a restaurant serving sri lanken food in the south."}
+{"answer": "Thank you! I would also like a taxi to get from the guesthouse to the restaurant.", "gt": "No,that is all thanks."}
+{"answer": "Yes I am looking for a particular restaurant called Shanghai Family Restaurant.", "gt": "Yes I am looking for a particular restaurant called Shanghai Family Restaurant."}
+{"answer": "Perfect, thanks so much for your help today, that's everything I needed.", "gt": "Perfect, thanks so much for your help today, that's everything I needed."}
+{"answer": "I am also looking for a train on Saturday.", "gt": "I am also looking for a train on Saturday."}
+{"answer": "Yes thank you very much that's all I needed!", "gt": "Yes thank you very much that's all I needed!"}
+{"answer": "Train Tr5953 leaves at 17:24 and arrives in Cambridge at 17:52. Would this work for you?", "gt": "Could we try for 14:00 instead?"}
+{"answer": "I have heard nice things about Tenpin. Can I please have their address?", "gt": "I have heard nice things about Tenpin. Can I please have their address?"}
+{"answer": "No that is all thank you", "gt": "No that is all thank you"}
+{"answer": "Can you give me the address to the one in the south please?", "gt": "Can you give me the address to the one in the south please?"}
+{"answer": "Yes, please book a table for 7 people at 16:00 on tuesday.", "gt": "Yes, please book a table for 7 people at 16:00 on tuesday."}
+{"answer": "I am leaving Tuesday and need to take a train from Cambridge to Ely", "gt": "I am leaving Tuesday and need to take a train from Cambridge to Ely"}
+{"answer": "That sounds good. Can you book it for 4 at 12:15 on Friday, please?", "gt": "That sounds good. Can you book it for 4 at 12:15 on Friday, please?"}
+{"answer": "Hi, I need a train from stansted airport that arrives by 14:30. Can you help?", "gt": "Hi, I need a train from stansted airport that arrives by 14:30. Can you help?"}
+{"answer": "Yes it is. Would you like me to book that for you.", "gt": "I would like lebanese food."}
+{"answer": "Certainly. The number for the Parkside Police Station is 01223358966. Is there anything else I can help you with?", "gt": "Yes, what is their phone number and address?"}
+{"answer": "I am looking for some rest as a traveler so I choose travellers rest. There will be four of us for Saturday at 11:00. Please book.", "gt": "I am looking for some rest as a traveler so I choose travellers rest. There will be four of us for Saturday at 11:00. Please book."}
+{"answer": "Sweet could you give me their phone and address?", "gt": "Sweet could you give me their phone and address?"}
+{"answer": "I need one in the east area. Is one of them in the east.", "gt": "I need one in the east area. Is one of them in the east."}
+{"answer": "You're welcome, goodbye.", "gt": "Great, I also need a taxi to go between the two!"}
+{"answer": "Can I book 4 nights for 6 people on that same Wednesday?", "gt": "Can I book 4 nights for 6 people on that same Wednesday?"}
+{"answer": "Yes, I would need 5 people for 5 nights starting thursday, can they accommodate me?", "gt": "Yes, I would need 5 people for 5 nights starting thursday, can they accommodate me?"}
+{"answer": "I am looking for activities tomorrow within the town.", "gt": "I am looking for activities tomorrow within the town."}
+{"answer": "No, that's all I need. Thanks.", "gt": "No, that's all I need. Thanks."}
+{"answer": "I am looking for a gueshouse type hotel with at least three stars for 8 people for 5 nights starting Friday.", "gt": "I am looking for a gueshouse type hotel with at least three stars for 8 people for 5 nights starting Friday."}
+{"answer": "No thank you, goodbye", "gt": "No thank you, goodbye"}
+{"answer": "I need a table for 7 people at 17:45 on Thursday.", "gt": "I need a table for 7 people at 17:45 on Thursday."}
+{"answer": "Can you give me the address for an indian restaurant in the south part of town?", "gt": "I got it.Thank you."}
+{"answer": "I will be departing cambridge and going to arriving at birmingham new street.", "gt": "I will be departing cambridge and going to arriving at birmingham new street."}
+{"answer": "Perfect. Thank you very much. I think that is all I need today.", "gt": "Can you tell me about nightclubs in the centre area?"}
+{"answer": "Oh wait, I was also looking for a particular restaurant, by the name of the royal standard.", "gt": "Oh wait, I was also looking for a particular restaurant, by the name of the royal standard."}
+{"answer": "I'm also needing a train that departs from Norwich and goes to Cambridge.", "gt": "I'm also needing a train that departs from Norwich and goes to Cambridge."}
+{"answer": "What price range are you looking for?", "gt": "Yes for 8 people at 19:00 on tuesday"}
+{"answer": "Thank you so much. That was all I needed today.", "gt": "Thank you so much. That was all I needed today."}
+{"answer": "I would like to make reservations for 5 people.", "gt": "I would like to make reservations for 5 people."}
+{"answer": "Hi, I need a train the is heading towards birmingham new street.", "gt": "Hi, I need a train the is heading towards birmingham new street."}
+{"answer": "Great. Thanks for all the help!", "gt": "Great. Thanks for all the help!"}
+{"answer": "Sounds good. What is their postcode number as well as their phone number?", "gt": "Sounds good. What is their postcode number as well as their phone number?"}
+{"answer": "No, we're going to talk it over and reserve at a later date. Thanks for your help though.", "gt": "No, we're going to talk it over and reserve at a later date. Thanks for your help though."}
+{"answer": "Yes, I would like to reserve a table for a party of 8 at 16:00 on Friday. I've also got another question when you're done with that. Thank you.", "gt": "Yes, I would like to reserve a table for a party of 8 at 16:00 on Friday. I've also got another question when you're done with that. Thank you."}
+{"answer": "I also need a train, please, for Monday after 20:15.", "gt": "I also need a train, please, for Monday after 20:15."}
+{"answer": "Yes, it is in the centre of town. Is there anything else I can help with?", "gt": "I need something moderately priced."}
+{"answer": "Yes, can you reserve a room for me. There are 7 of us and we want to stay for 4 nights arriving on Sunday.", "gt": "Yes, can you reserve a room for me. There are 7 of us and we want to stay for 4 nights arriving on Sunday."}
+{"answer": "Is there a particular side of town you prefer?", "gt": "Great, is it moderately priced?"}
+{"answer": "Thanks a ton. That's all I want to know for now. Bye.", "gt": "Thanks a ton. That's all I want to know for now. Bye."}
+{"answer": "I am also looking for a train.", "gt": "I am also looking for a train."}
+{"answer": "I'm looking for a place to stay, some place expensive and with a 2 star rating.", "gt": "I'm looking for a place to stay, some place expensive and with a 2 star rating."}
+{"answer": "I need help finding a hotel that has free wifi and parking, can you help?", "gt": "I need help finding a hotel that has free wifi and parking, can you help?"}
+{"answer": "Yeah, that would be great.", "gt": "Please just tell me the ticket price and travel time"}
+{"answer": "It doesn't matter.", "gt": "It doesn't matter."}
+{"answer": "Is there anything else I may help you with today?", "gt": "Nope, that's all I needed today. Thanks!"}
+{"answer": "Do you need anything else today?", "gt": "I think I'll go with Dojo Nooodle Bar. What is the address?"}
+{"answer": "Is there anything fun to do in the centre?", "gt": "Is there anything fun to do in the centre?"}
+{"answer": "Great, that's all I needed. Thank you!", "gt": "Are you sure? Could you possibly try again, just to make sure?"}
+{"answer": "no, just find me a college anywhere in town please and I'll need their phone number and post code when you find it please.", "gt": "no, just find me a college anywhere in town please and I'll need their phone number and post code when you find it please."}
+{"answer": "I would like to leave by 17:15.", "gt": "I would like to leave by 17:15."}
+{"answer": "Yes, I'll need a taxi to get me from the cinema to the restaurant in time for that reservation.", "gt": "Yes, I'll need a taxi to get me from the cinema to the restaurant in time for that reservation."}
+{"answer": "Does it have free wifi?", "gt": "Does it have free wifi?"}
+{"answer": "Hi, I am looking for some train information for my trip. Also, I can't wait to try some of your local restaurants.", "gt": "Hi, I am looking for some train information for my trip. Also, I can't wait to try some of your local restaurants."}
+{"answer": "Thank you, this is very helpful.", "gt": "I'm looking in the moderate price range and should be located in the centre."}
+{"answer": "Thank you that is all I needed.", "gt": "Thank you that is all I needed."}
+{"answer": "Thrusday. Can I also ask the price of these trains?", "gt": "Thrusday. Can I also ask the price of these trains?"}
+{"answer": "How many days will you be staying?", "gt": "Sorry, can you actually book it for 3 people for 2 nights, please?"}
+{"answer": "i want to book a taxi.", "gt": "i want to book a taxi."}
+{"answer": "I am looking for an expensive 4 star hotel.", "gt": "I am looking for an expensive 4 star hotel."}
+{"answer": "It doesn't matter, just as long as it arrive by 17:15.", "gt": "It doesn't matter, just as long as it arrive by 17:15."}
+{"answer": "The train should leave on Friday.", "gt": "The train should leave on Friday."}
+{"answer": "How many tickets would you like me to book?", "gt": "I would like to arrive by 18:00 if possible."}
+{"answer": "What is the reference number?", "gt": "What is the reference number?"}
+{"answer": "I am looking to visit a college in Cambridge and I will need to know the area, entrance fee, and phone number.", "gt": "I am looking to visit a college in Cambridge and I will need to know the area, entrance fee, and phone number."}
+{"answer": "Please book TR8176 for 6 people.", "gt": "Please book TR8176 for 6 people."}
+{"answer": "I'd like to book at the expensive place. There will be 8 of us, and we'd like to eat at 15:00 on Monday.", "gt": "I'd like to book at the expensive place. There will be 8 of us, and we'd like to eat at 15:00 on Monday."}
+{"answer": "I am also going to need a taxi to get me to the restaurant before my reservation. Can you get me their contact number and car type?", "gt": "I am also going to need a taxi to get me to the restaurant before my reservation. Can you get me their contact number and car type?"}
+{"answer": "Can I have the phone number for that location as well as the address?", "gt": "Can I have the phone number for that location as well as the address?"}
+{"answer": "I am also looking for a restaurant that serves Korean food, and is located in the same area as Great saint mary's church.", "gt": "I am also looking for a restaurant that serves Korean food, and is located in the same area as Great saint mary's church."}
+{"answer": "Well, how about a moderate price range and a star rating of zero? Oh, and I don't need free parking.", "gt": "Well, how about a moderate price range and a star rating of zero? Oh, and I don't need free parking."}
+{"answer": "Can you give me the address please?", "gt": "Can you give me the address please?"}
+{"answer": "No, thanks. I will head there myself. Thanks for your help. Bye.", "gt": "No, thanks. I will head there myself. Thanks for your help. Bye."}
+{"answer": "I AM looking for a restaurant. The restaurant should be in the expensive price range and should be in the east.", "gt": "I AM looking for a restaurant. The restaurant should be in the expensive price range and should be in the east."}
+{"answer": "Does it also have free wifi?", "gt": "Does it also have free wifi?"}
+{"answer": "I need to go tot he Standsted Airport on Tuesday.", "gt": "I need to go tot he Standsted Airport on Tuesday."}
+{"answer": "I am looking to leave on Thursday. Can you also please give me the train ID for this trip?", "gt": "I am looking to leave on Thursday. Can you also please give me the train ID for this trip?"}
+{"answer": "I need a cheap place to eat on the south side of town.", "gt": "I would really like asian oriental food tonight."}
+{"answer": "Great can you book it for one person, for 4 nights starting friday?", "gt": "Great can you book it for one person, for 4 nights starting friday?"}
+{"answer": "I'm looking for a chinese restaurant in city centre.", "gt": "I'm looking for a chinese restaurant in city centre."}
+{"answer": "No thank you. That is all. Have a good night. Goodbye", "gt": "I also need a really expensive place to stay."}
+{"answer": "No thank you.", "gt": "Thank You"}
+{"answer": "I need to arrive by 21:30 please.", "gt": "I am looking for an attraction called Cambridge Artworks."}
+{"answer": "I'm looking for a place to visit. Are there any attractions in town that are boats?", "gt": "I'm looking for a place to visit. Are there any attractions in town that are boats?"}
+{"answer": "Thank you for the recommendation. Is there an entrance fee at Nusha?", "gt": "Thank you for the recommendation. Is there an entrance fee at Nusha?"}
+{"answer": "I need to arrive by 12:15 please.", "gt": "I need to arrive by 12:15 please."}
+{"answer": "Okay, great. Please book that for me then. It'll be 1 person for 2 nights", "gt": "Okay, great. Please book that for me then. It'll be 1 person for 2 nights"}
+{"answer": "I'm also looking for a cheap place to eat in the centre area, what do you recommend?", "gt": "That would work, can you give me the price, train ID, and travel time on that?"}
+{"answer": "I would like a restaurant in the centre of town that serves caribbean food", "gt": "I would like a restaurant in the centre of town that serves caribbean food"}
+{"answer": "I need a place to dine, and I'd like to know what my options are in the way of moderately priced vietnamese cuisine.", "gt": "I need a place to dine, and I'd like to know what my options are in the way of moderately priced vietnamese cuisine."}
+{"answer": "Just one please. I also need a place to stay with 0 stars and an expensive price.", "gt": "Just one please. I also need a place to stay with 0 stars and an expensive price."}
+{"answer": "You're welcome. Please feel free to let us know if there's anything else we can assist you with.", "gt": "No, I would like its general phone number."}
+{"answer": "that will be fine. i also want a taxi to commute between the to places.", "gt": "that will be fine. i also want a taxi to commute between the to places."}
+{"answer": "No that is not necessary. Thanks for your help, that's all I need for today.", "gt": "Yes please book that for 7 people for 2 nights starting saturday."}
+{"answer": "Yes, I will need a taxi to take me from the hotel to the restaurant and back to the hotel.", "gt": "Yes, I will need a taxi to take me from the hotel to the restaurant and back to the hotel."}
+{"answer": "I am also looking for a nice theatre to visit in the centre of town.", "gt": "I am also looking for a nice theatre to visit in the centre of town."}
+{"answer": "I need a cheap hotel for 6 people on wednesday for 3 nights please.", "gt": "I need a cheap hotel for 6 people on wednesday for 3 nights please."}
+{"answer": "What is the entrance fee?", "gt": "What is the entrance fee?"}
+{"answer": "The train should leave after 08:45 and should leave on saturday. I will need a arrival time and price", "gt": "The train should leave after 08:45 and should leave on saturday. I will need a arrival time and price"}
+{"answer": "That's an excellent idea. Could you help me find a hotel in the north?", "gt": "That's an excellent idea. Could you help me find a hotel in the north?"}
+{"answer": "Can I have the phone number and postcode for the one in the south?", "gt": "Can I have the phone number and postcode for the one in the south?"}
+{"answer": "Nope, that's it. Thanks!", "gt": "Nope, that's it. Thanks!"}
+{"answer": "Great! I also need a college to go see in the centre. I need the phone number and entrance fee to one you recommend.", "gt": "Great! I also need a college to go see in the centre. I need the phone number and entrance fee to one you recommend."}
+{"answer": "That is everything I need.", "gt": "That is everything I need."}
+{"answer": "I will need to also book a taxi from to the restaurant.", "gt": "I will need to also book a taxi from to the restaurant."}
+{"answer": "No thank you. That was all I needed.", "gt": "No thank you. That was all I needed."}
+{"answer": "Thanks so much, but I just realized I am missing a crucial bit of info. What is the departure time on my train, please? The corrected train, that is.", "gt": "Thanks so much, but I just realized I am missing a crucial bit of info. What is the departure time on my train, please? The corrected train, that is."}
+{"answer": "I would like to leave our attraction by 2:30 and head to the restaurant.", "gt": "I would like to leave our attraction by 2:30 and head to the restaurant."}
+{"answer": "Great, no thank you. I appreciate all your help today, have a good day!", "gt": "Great, no thank you. I appreciate all your help today, have a good day!"}
+{"answer": "I want to find an expensive restaurant in the north.", "gt": "I want to find an expensive restaurant in the north."}
+{"answer": "thanks for using our services. have a good day", "gt": "I need the reference number for the booking. Also can you help me find a train going to Cambridge Wednesday?"}
+{"answer": "No, that's it. Good bye.", "gt": "No, that's it. Good bye."}
+{"answer": "Thank you for that, I am also looking for a train as well. It should depart from cambridge on Monday.", "gt": "Thank you for that, I am also looking for a train as well. It should depart from cambridge on Monday."}
+{"answer": "it doesn't matter", "gt": "it doesn't matter"}
+{"answer": "Ok, then. I'll take Mexican. Can I get an address and phone number for the restaurant?", "gt": "Yes the next one down the list"}
+{"answer": "Yes, I'm looking for some sports activities in the same area. Are there any places like that nearby?", "gt": "Yes, I'm looking for some sports activities in the same area. Are there any places like that nearby?"}
+{"answer": "I want to go eat so please find me a restaurant in the South. Money is no object so something expensive please", "gt": "I want to go eat so please find me a restaurant in the South. Money is no object so something expensive please"}
+{"answer": "Thanks. I will also need a taxi to the restaurant for our reservation.", "gt": "Thanks. I will also need a taxi to the restaurant for our reservation."}
+{"answer": "May I assist you with anything else today?", "gt": "Perfect, Thank you so much."}
+{"answer": "You're welcome. Have a great day!", "gt": "I will be traveling on Sunday to London Kings Cross"}
+{"answer": "Thank you for all your help today. Have a great day.", "gt": "Thank you for all your help today. Have a great day."}
+{"answer": "Thanks, that's all I need today. Goodbye!", "gt": "What kind of attraction is that specifically please?"}
+{"answer": "May I have the phone number, please?", "gt": "May I have the phone number, please?"}
+{"answer": "Hold on a moment. Can I first make a restaurant booking?", "gt": "Hold on a moment. Can I first make a restaurant booking?"}
+{"answer": "Okay would you be able to make a reservation for me for 4 nights for 5 people starting Saturday?", "gt": "Okay would you be able to make a reservation for me for 4 nights for 5 people starting Saturday?"}
+{"answer": "Could you give me the phone number?", "gt": "Could you give me the phone number?"}
+{"answer": "No, address will do just fine. I need to book a hotel room that has free parking, can you help me please?", "gt": "No, address will do just fine. I need to book a hotel room that has free parking, can you help me please?"}
+{"answer": "No that was all I needed. I appreciate your help.", "gt": "No that was all I needed. I appreciate your help."}
+{"answer": "I am also looking for a train to go to Birmingham New Street and to leave after 21:30. Can you book me a train that leaves on Saturday?", "gt": "I am also looking for a train to go to Birmingham New Street and to leave after 21:30. Can you book me a train that leaves on Saturday?"}
+{"answer": "Actually, I would prefer a nightclub.", "gt": "Actually, I would prefer a nightclub."}
+{"answer": "No thank you.", "gt": "No thank you."}
+{"answer": "yes. also find a hotel in the north and should be a 4 star", "gt": "yes. also find a hotel in the north and should be a 4 star"}
+{"answer": "Great. I'll also need to find a train out of cambridge. I need to leave sometime after 13:45.", "gt": "Great. I'll also need to find a train out of cambridge. I need to leave sometime after 13:45."}
+{"answer": "You're welcome! Have a wonderful day.", "gt": "That would be all, thanks for assistance!"}
+{"answer": "I am also looking for a train that goes to kings lynn leaving after 12:30. I would prefer it to leave on Tuesday and depart from cambridge", "gt": "I am also looking for a train that goes to kings lynn leaving after 12:30. I would prefer it to leave on Tuesday and depart from cambridge"}
+{"answer": "I'm open to different price ranges. What is available?", "gt": "I'm open to different price ranges. What is available?"}
+{"answer": "Yes, can you book for 1 person, 3 nights, starting Saturday.", "gt": "Yes, can you book for 1 person, 3 nights, starting Saturday."}
+{"answer": "No that's okay. However, I am also looking for a train from Cambridge to Ely, could you help me find one?", "gt": "i did not have any in mind"}
+{"answer": "Awesome. That's all I needed.", "gt": "Awesome. That's all I needed."}
+{"answer": "Any would be fine. I just need to know the price range.", "gt": "Any would be fine. I just need to know the price range."}
+{"answer": "Hi, where can I find Addenbrookes Hospital?", "gt": "Hi, where can I find Addenbrookes Hospital?"}
+{"answer": "Thank you. I also need to find out about trains.", "gt": "Thank you. I also need to find out about trains."}
+{"answer": "I also need a moderate priced place to stay in the North.", "gt": "I also need a moderate priced place to stay in the North."}
+{"answer": "That's all the help I need. Thank you.", "gt": "Sure, could I get the phone number and postcode?"}
+{"answer": "Thank you, can you also give me info on tandoori palace, I hear that it rocks the house like mickey mouse.", "gt": "Thank you, can you also give me info on tandoori palace, I hear that it rocks the house like mickey mouse."}
+{"answer": "Moderate price range please.", "gt": "Moderate price range please."}
+{"answer": "Of course. The phone number is 01223334900. The address is saint andrew's street. Can I help you with anything else today?", "gt": "Thanks very much. Goodbye"}
+{"answer": "I would like to visit Clare College. Can you give me more information on it?", "gt": "I would like to visit Clare College. Can you give me more information on it?"}
+{"answer": "I need some information on a hotel, can you help with that?", "gt": "I need some information on a hotel, can you help with that?"}
+{"answer": "I'd like to find a place to eat on the west side. Something moderately priced, please.", "gt": "I'd like to find a place to eat on the west side. Something moderately priced, please."}
+{"answer": "You're welcome, have a wonderful day.", "gt": "Can you tell what kind of food the restaurant serves and their address and phone number."}
+{"answer": "A train that departs from broxbourne and going to cambridge. Leaves monday after 09:00.", "gt": "A train that departs from broxbourne and going to cambridge. Leaves monday after 09:00."}
+{"answer": "What is the reference number for the reservation?", "gt": "I need to depart from Cambridge."}
+{"answer": "Train TR2130 goes from cambridge to broxbourne, the travel time is 60 minutes. Can I book that train for you?", "gt": "I would like it on the expensive price range please."}
+{"answer": "What do you have in the expensive price range?", "gt": "What do you have in the expensive price range?"}
+{"answer": "Nope, that should be it!", "gt": "Nope, that should be it!"}
+{"answer": "Sure, is there a college I could visit? I'd like it to be in the town's centre please.", "gt": "Sure, is there a college I could visit? I'd like it to be in the town's centre please."}
+{"answer": "Are there any expensive restaurants in the city centre you could recommend?", "gt": "Are there any expensive restaurants in the city centre you could recommend?"}
+{"answer": "Yes, that would be fine. Please book it for 7 people starting Tuesday for 2 nights.", "gt": "Yes, that would be fine. Please book it for 7 people starting Tuesday for 2 nights."}
+{"answer": "I am looking for places to go in town. The attraction should be in the type of museum and should be in the same area as the restaurant", "gt": "I am looking for places to go in town. The attraction should be in the type of museum and should be in the same area as the restaurant"}
+{"answer": "i don't have any hotels in the south part of town.", "gt": "I would also like to find a boat attraction."}
+{"answer": "What is the price for the TR2025? And how long is the trip?", "gt": "What is the price for the TR2025? And how long is the trip?"}
+{"answer": "I want to book a table for 6 people at 20:00 on thursday.", "gt": "I want to book a table for 6 people at 20:00 on thursday."}
+{"answer": "I would like to find a place with multiple sports in the centre of the city.", "gt": "I would like to find a place with multiple sports in the centre of the city."}
+{"answer": "Graffiti sounds good. May I have their phone number, address, and postcode, please?", "gt": "Graffiti sounds good. May I have their phone number, address, and postcode, please?"}
+{"answer": "Thank you for using our service today.", "gt": "Sounds good. May I have their telephone number please?"}
+{"answer": "Actually, skip that. Let's see if there's a great restaurant to try instead. I am open as far as cuisine but want something expensive in the centre of town.", "gt": "Actually, skip that. Let's see if there's a great restaurant to try instead. I am open as far as cuisine but want something expensive in the centre of town."}
+{"answer": "I'm also looking for a train on tuesday and leaving after 19:30", "gt": "I'm also looking for a train on tuesday and leaving after 19:30"}
+{"answer": "Can you please provide me the entrance fee, phone number and address of a contemporary art museum in the centre of town?", "gt": "Can you please provide me the entrance fee, phone number and address of a contemporary art museum in the centre of town?"}
+{"answer": "I am looking for a place to eat that serves gastropub food in the centre.", "gt": "I am looking for a place to eat that serves gastropub food in the centre."}
+{"answer": "Does it have free parking?", "gt": "Does it have free parking?"}
+{"answer": "I need to get there by 17:15", "gt": "I need to get there by 17:15"}
+{"answer": "I'm looking for a 4 star hotel with free wifi.", "gt": "I'm looking for a 4 star hotel with free wifi."}
+{"answer": "Booking was successful. The table will be reserved for 15 minutes. Reference number is : 5KFVOKBO .", "gt": "How about indian food?"}
+{"answer": "Thank you. That's everything I needed.", "gt": "Thank you. That's everything I needed."}
+{"answer": "I'm looking for information on an attraction called lynne strover gallery.", "gt": "I'm looking for information on an attraction called lynne strover gallery."}
+{"answer": "Phone number, please.", "gt": "Phone number, please."}
+{"answer": "Thank you so much for all of your help. Have a great day.", "gt": "Can you arrange for a taxi to bring me to kohinoor?"}
+{"answer": "No thank you. I am looking for an expensive place to stay that includes free parking.", "gt": "No thank you. I am looking for an expensive place to stay that includes free parking."}
+{"answer": "Perfect, thank you very much for your help", "gt": "Perfect, thank you very much for your help"}
+{"answer": "British food sounds good. What options do I have?", "gt": "British food sounds good. What options do I have?"}
+{"answer": "Okay, is there anything else I can help you with today?", "gt": "Can they handle 8 people? And we'll need it for 3 nights starting the same day as the restaurant reservation."}
+{"answer": "I'll need to arrive by 11:00 and it should be going to london liverpool street.", "gt": "I'll need to arrive by 11:00 and it should be going to london liverpool street."}
+{"answer": "Yes I will need that for 2 people for 5 nights for Friday please. I also need the reference number.", "gt": "Yes I will need that for 2 people for 5 nights for Friday please. I also need the reference number."}
+{"answer": "I need an expensive place to dine in the center of town.", "gt": "Cheap price chinese in centre of town ?"}
+{"answer": "I would like to see some attractions in the North, what do you have up there?", "gt": "I would like to see some attractions in the North, what do you have up there?"}
+{"answer": "Three stars, moderate price range.", "gt": "Three stars, moderate price range."}
+{"answer": "Thank you for using our services.", "gt": "No, that is all I need, thank you."}
+{"answer": "Can I have their phone number?", "gt": "Can I have their phone number?"}
+{"answer": "I am interested in finding a great nightclub to take a friend to.", "gt": "I am interested in finding a great nightclub to take a friend to."}
+{"answer": "What are some attractions on the east side? Is there a swimming pool available?", "gt": "What are some attractions on the east side? Is there a swimming pool available?"}
+{"answer": "No, I just need to leave after 13:45. Give me which ever one is earliest.", "gt": "No, I just need to leave after 13:45. Give me which ever one is earliest."}
+{"answer": "You know, actually come to think of it I really need something 3 star that is in the centre of town instead of the west. Do you have anything?", "gt": "You know, actually come to think of it I really need something 3 star that is in the centre of town instead of the west. Do you have anything?"}
+{"answer": "No other preferences. Can you pick one and book it for 6 people for 3 nights starting Friday", "gt": "No other preferences. Can you pick one and book it for 6 people for 3 nights starting Friday"}
+{"answer": "The north part of town please. Are there any guesthouses?", "gt": "The north part of town please. Are there any guesthouses?"}
+{"answer": "Great! Thank you so much for your help.", "gt": "Thank you so much!"}
+{"answer": "we've got plenty of attractions in the centre of town, can you narrow down your interests please?", "gt": "I'm looking for a portuguese restaurant in the south side."}
+{"answer": "First can I have the price and what the travel time is?", "gt": "First can I have the price and what the travel time is?"}
+{"answer": "Yes, please make a booking for 7 people.", "gt": "I also need information on a hotel called hobsons house."}
+{"answer": "Thanks. Can I also get the address and postcode?", "gt": "Thanks. Can I also get the address and postcode?"}
+{"answer": "I need to book a train", "gt": "I need to book a train"}
+{"answer": "Moderately priced if possible.", "gt": "No thank you I do not need reservations."}
+{"answer": "I would like it moderate priced and make sure it is a guest house please.", "gt": "I would like it moderate priced and make sure it is a guest house please."}
+{"answer": "I will be leaving cambridge headed to birmingham new street.", "gt": "I will be leaving cambridge headed to birmingham new street."}
+{"answer": "Thanks for your help. Have a great day.", "gt": "Actually, could you shorten that to one night?"}
+{"answer": "I want to double check, is La Tasca in the centre of town?", "gt": "I want to double check, is La Tasca in the centre of town?"}
+{"answer": "Can I please speak with the manager? Giving me all this information at once is not helpful.", "gt": "Can I please speak with the manager? Giving me all this information at once is not helpful."}
+{"answer": "Is there anything else I can help you with today?", "gt": "Thanks a lot that would be all."}
+{"answer": "Thank you, that was all I needed.", "gt": "I would like a moderate price range."}
+{"answer": "If you'd like a reservation I will need to know what day and time you'd like your reservation and how many will be in your party.", "gt": "I'm leaving from castle galleries."}
+{"answer": "Thank you for using this system. Goodbye.", "gt": "How about turkish food?"}
+{"answer": "Please book it for 6 people, 5 nights starting on Saturday.", "gt": "Please book it for 6 people, 5 nights starting on Saturday."}
+{"answer": "I'd like to find a 4 star lodging with free parking.", "gt": "I would like to locate a particular hotel"}
+{"answer": "It doesn't matter", "gt": "It doesn't matter"}
+{"answer": "Is there anything else I can help you with?", "gt": "I need to book a taxi from the junction and I need to arrive by 04:00."}
+{"answer": "Great I am also looking for a hotel with a 2 star rating that has free parking.", "gt": "I don't care."}
+{"answer": "I also need a restaurant, preferably one that serves portuguese food and is the same price point as my hotel.", "gt": "I also need a restaurant, preferably one that serves portuguese food and is the same price point as my hotel."}
+{"answer": "I also need a room in Peterborough.", "gt": "I also need a room in Peterborough."}
+{"answer": "Thank you for your help.", "gt": "I'm looking for an attraction called the Cambridge Corn Exchange? Can you provide me with more information?"}
+{"answer": "Sorry, I'm looking for a 5 star hotel.", "gt": "What is the postcode of this restaurant? Thanks!"}
+{"answer": "No that's all! Thank you very much!", "gt": "No that's all! Thank you very much!"}
+{"answer": "I am also looking for places to go in town in the same area as the restaurant.", "gt": "I am also looking for places to go in town in the same area as the restaurant."}
+{"answer": "That's all, thank you.", "gt": "Is there anything matching that anywhere in the city?"}
+{"answer": "phone number and address, please.", "gt": "No I don't have a preference."}
+{"answer": "I'm looking for a place in the centre of town that is a nightclub.", "gt": "I'm looking for a place in the centre of town that is a nightclub."}
+{"answer": "I'm looking for somewhere to go in the east part of town. Can you help me?", "gt": "I'm looking for somewhere to go in the east part of town. Can you help me?"}
+{"answer": "Moderately priced, please.", "gt": "Moderately priced, please."}
+{"answer": "i want to book a taxi. The taxi should depart from la Margarita and should go to riverboat Georgina.", "gt": "i want to book a taxi. The taxi should depart from la Margarita and should go to riverboat Georgina."}
+{"answer": "No, that's all for today. Goodbye.", "gt": "No, that's all for today. Goodbye."}
+{"answer": "You're welcome. Have a great day.", "gt": "Thank you goodbye."}
+{"answer": "Trinity college has an entrance fee of 1 pound.", "gt": "Yes, how about the north?"}
+{"answer": "Please find me a place to stay in the centre that includes free wifi.", "gt": "Please find me a place to stay in the centre that includes free wifi."}
+{"answer": "There are 8 trains that meet your criteria. They run every two hours starting at 09:29. What time would you like to arrive in Cambridge?", "gt": "Thanks so much. Good bye!"}
+{"answer": "No. I think that's all I need. Have a good day. Bye.", "gt": "No. I think that's all I need. Have a good day. Bye."}
+{"answer": "You're welcome, have a great day!", "gt": "I am looking for a train to Petersborough."}
+{"answer": "Corpus Christi is fine. May I have the address and phone number? What is the entrance fee?", "gt": "Corpus Christi is fine. May I have the address and phone number? What is the entrance fee?"}
+{"answer": "That's perfect, thanks. I have everything I need for today.", "gt": "That's perfect, thanks. I have everything I need for today."}
+{"answer": "I'm looking for a hotel to stay in the north, specifically, a guesthouse.", "gt": "I'm looking for a hotel to stay in the north, specifically, a guesthouse."}
+{"answer": "Yes, I'm looking for a restaurant in the east part of town serving international food.", "gt": "I would to visit a college in the west."}
+{"answer": "I'm also looking for a train that departs from cambridge and is leaving on monday.", "gt": "I'm also looking for a train that departs from cambridge and is leaving on monday."}
+{"answer": "Hello, I am interested in seeing the attractions on the west side of town. Can you assist me?", "gt": "Hello, I am interested in seeing the attractions on the west side of town. Can you assist me?"}
+{"answer": "I need help finding a train departing from Cambridge and going to Leicester. Can you help?", "gt": "I need help finding a train departing from Cambridge and going to Leicester. Can you help?"}
+{"answer": "What is the cost and departure time of the TR7802 train?", "gt": "What is the cost and departure time of the TR7802 train?"}
+{"answer": "thanks for all of your help today", "gt": "thanks for all of your help today"}
+{"answer": "My husband is into the arts so that might actually work out perfect. Can I get their phone number please?", "gt": "My husband is into the arts so that might actually work out perfect. Can I get their phone number please?"}
+{"answer": "what do you want to know?", "gt": "what do you want to know?"}
+{"answer": "No area does not matter but I need free wifi.", "gt": "No area does not matter but I need free wifi."}
+{"answer": "That will be fine. book for 3 people", "gt": "That will be fine. book for 3 people"}
+{"answer": "anywhere is fine. May I get a postcode ?", "gt": "anywhere is fine. May I get a postcode ?"}
+{"answer": "That sounds perfect. Can I get the postcode for it please?", "gt": "That sounds perfect. Can I get the postcode for it please?"}
+{"answer": "Thank you very much.", "gt": "That is all, thank you."}
+{"answer": "Thank you so much for your help, that's all I will need today!", "gt": "Thank you so much for your help, that's all I will need today!"}
+{"answer": "What is the address?", "gt": "What is the address?"}
+{"answer": "May I have their phone number?", "gt": "May I have their phone number?"}
+{"answer": "Yes, please. I'd also like to know what area of town it's in and what type of food it serves.", "gt": "Yes, please. I'd also like to know what area of town it's in and what type of food it serves."}
+{"answer": "I'm interested in 4 star hotels in the centre of town.", "gt": "I'm interested in 4 star hotels in the centre of town."}
+{"answer": "Thanks so much! Have a great day. Goodbye", "gt": "Thanks so much! Have a great day. Goodbye"}
+{"answer": "I am traveling to Cambridge on Saturday.", "gt": "I am traveling to Cambridge on Saturday."}
+{"answer": "I don't have a departure time but I want to arrive by 21:30.", "gt": "I don't have a departure time but I want to arrive by 21:30."}
+{"answer": "No thank you that will be all", "gt": "No thank you that will be all"}
+{"answer": "I'm also looking for a place to stay in the centre of town that includes free parking.", "gt": "I'm also looking for a place to stay in the centre of town that includes free parking."}
+{"answer": "Friday at 5:59 would you like me to book it for you ?", "gt": "Yes, can I have their post code and phone number?"}
+{"answer": "Have a great day!", "gt": "It should be in the moderate price range with free parking"}
+{"answer": "Thanks, that is all", "gt": "Thanks, that is all"}
+{"answer": "No, that's all I need today. I appreciate your help.", "gt": "i also will be needing a trian"}
+{"answer": "Yes, I would like to book it for 4 people for 5 nights starting from Tuesday.", "gt": "Yes, I would like to book it for 4 people for 5 nights starting from Tuesday."}
+{"answer": "That's perfect. Thanks so much!", "gt": "That's perfect. Thanks so much!"}
+{"answer": "How about a cheap Indian restaurant?", "gt": "How about a cheap Indian restaurant?"}
+{"answer": "I am looking for a high scale restaurant located in the city centre.", "gt": "I am looking for a high scale restaurant located in the city centre."}
+{"answer": "yes, I would prefer it to be in the west area.", "gt": "Do you have their contact number?"}
+{"answer": "Yes. I need a table for 4 people at 19:15 on Sunday.", "gt": "Yes. I need a table for 4 people at 19:15 on Sunday."}
+{"answer": "Have a wonderful day!", "gt": "book TR6334 and get me the train ID please"}
+{"answer": "Thank you for using our service. Have a great day!", "gt": "Yes, I am looking for a expensive scottish restaurant."}
+{"answer": "I want some entertainment in the centre. What do you have?", "gt": "I want some entertainment in the centre. What do you have?"}
+{"answer": "Does it have free wifi and free parking?", "gt": "Does it have free wifi and free parking?"}
+{"answer": "I am going to Cambridge from Leicester. I am planning to leave on Sunday and I need to be there by 11:45.", "gt": "I am going to Cambridge from Leicester. I am planning to leave on Sunday and I need to be there by 11:45."}
+{"answer": "Grand. Please can you give me the postcode and phone?", "gt": "Grand. Please can you give me the postcode and phone?"}
+{"answer": "I need help booking a train from cambridge to ely.", "gt": "I need help booking a train from cambridge to ely."}
+{"answer": "That sounds great! Thank you for the information.", "gt": "That sounds great! Thank you for the information."}
+{"answer": "Great. Can you give me the address and phone number for The Place? Thank you for your help.", "gt": "Great. Can you give me the address and phone number for The Place? Thank you for your help."}
+{"answer": "OK, what is your arrival date, number of nights, and number of people in your party?", "gt": "Okay, thanks. I am need some assistance booking a train for Monday."}
+{"answer": "Yes, can i have a reference number please?", "gt": "Yes, can i have a reference number please?"}
+{"answer": "Great, can you help me find an expensive 2 star hotel that has free wifi?", "gt": "Great, can you help me find an expensive 2 star hotel that has free wifi?"}
+{"answer": "Goodbye.", "gt": "Thanks. I would also like to book a taxi between the two places."}
+{"answer": "I am not ready to book the train yet. Thanks for the help.", "gt": "I am not ready to book the train yet. Thanks for the help."}
+{"answer": "Happy to help. Please let us know if you need anything else.", "gt": "Great! Thank you for your help."}
+{"answer": "Is there a train that leaves to london liverpool street on friday? Thankyou.", "gt": "Is there a train that leaves to london liverpool street on friday? Thankyou."}
+{"answer": "That is all I need. Thank you for your help.", "gt": "That is all I need. Thank you for your help."}
+{"answer": "I would like to arrive by 11:00 if possible please.", "gt": "I would like to arrive by 11:00 if possible please."}
+{"answer": "Hello. I'd like to find a hotel to stay in for the weekend. I'd like one with restaurants and entertainment within walking distance.", "gt": "Hello. I'd like to find a hotel to stay in for the weekend. I'd like one with restaurants and entertainment within walking distance."}
+{"answer": "I want it to arrive by 16:00.", "gt": "I want it to arrive by 16:00."}
+{"answer": "Was there anything else you needed today?", "gt": "I want to go to Ely."}
+{"answer": "I'm also looking for a train that goes to Birmingham New Street and leaves on Saturday", "gt": "I'm also looking for a train that goes to Birmingham New Street and leaves on Saturday"}
+{"answer": "Actually, no I will book it later but can I please get the price of the ticket and the travel time?", "gt": "Actually, no I will book it later but can I please get the price of the ticket and the travel time?"}
+{"answer": "No, that about covers it. Thanks for your help today.", "gt": "No, that about covers it. Thanks for your help today."}
+{"answer": "I'm looking for a restaurant in the center of town that serves european food.", "gt": "I'll need a taxi to get to the restaurant from the college"}
+{"answer": "I'm not ready for a reservation, but can I get the address for Anatolia?", "gt": "I'm not ready for a reservation, but can I get the address for Anatolia?"}
+{"answer": "Do either of those have a 2-star rating?", "gt": "Do either of those have a 2-star rating?"}
+{"answer": "Which one of these restaurants is in the centre of town?", "gt": "What about something in the expensive price range?"}
+{"answer": "You are quite welcome, thank you for using our services.", "gt": "Thank you, thats all I need today"}
+{"answer": "I'm not picky, I'm totally open to suggestions. Can you pick your favorite and let me know the address?", "gt": "I'm not picky, I'm totally open to suggestions. Can you pick your favorite and let me know the address?"}
+{"answer": "Do you know what area you would like to stay in?", "gt": "Yes please get me 5 tickets for that"}
+{"answer": "Thank you for using our service, have a nice day.", "gt": "What about a park?"}
+{"answer": "no, that's it. thanks for your help!", "gt": "no, that's it. thanks for your help!"}
+{"answer": "Curry Prince is a moderately priced restaurant in the east of town that serves Indian food.", "gt": "Thank you. Please book a reservation for 6 people for 2 nights starting tuesday."}
+{"answer": "No thanks, I'm not sure when exactly I am going to be eating, but thank you very much for the assistance.", "gt": "No thanks, I'm not sure when exactly I am going to be eating, but thank you very much for the assistance."}
+{"answer": "I would like the eraina, can I get the reference number please?", "gt": "I would like the eraina, can I get the reference number please?"}
+{"answer": "You are welcome. Have a great day. Goodbye", "gt": "It's a place called Don Pasquale Pizzeria."}
+{"answer": "Where's a good place to eat crossover food in Cambridge?", "gt": "Where's a good place to eat crossover food in Cambridge?"}
+{"answer": "Okay, thank you.", "gt": "I am looking for a train to Ely."}
+{"answer": "I need a train to go from Cambridge to Norwich.", "gt": "I need a train to go from Cambridge to Norwich."}
+{"answer": "Do you have there phone number?", "gt": "Do you have there phone number?"}
+{"answer": "Thanks for all the help.", "gt": "Thanks for all the help."}
+{"answer": "Thank you I also need a train going to Cambridge leaving after 17:00", "gt": "Thank you I also need a train going to Cambridge leaving after 17:00"}
+{"answer": "Can you see if they have just 1 night available?", "gt": "Can you see if they have just 1 night available?"}
+{"answer": "Can you book me two taxi cabs that offer groupon discounts to take us to the restaurant?", "gt": "Can you book me two taxi cabs that offer groupon discounts to take us to the restaurant?"}
+{"answer": "Can I help you with anything else today?", "gt": "ok thats it thank you."}
+{"answer": "No thanks, but I am interested in getting a tax from Old Schools to the Cambridge Chop House. Can you help?", "gt": "No thanks, but I am interested in getting a tax from Old Schools to the Cambridge Chop House. Can you help?"}
+{"answer": "I just need to leave on Wednesday and should arrive by 18:15.", "gt": "I just need to leave on Wednesday and should arrive by 18:15."}
+{"answer": "Can I have the reference number for the train booking please?", "gt": "Thank you for the phone number. Thanks for the help!"}
+{"answer": "I don't need anything else.", "gt": "I don't need anything else."}
+{"answer": "I want to find a restaurant in the east part of town. It serves chinese food. What is the address, phone number, and postcode?", "gt": "I want to find a restaurant in the east part of town. It serves chinese food. What is the address, phone number, and postcode?"}
+{"answer": "I need free parking in the moderate pricerange.", "gt": "I need free parking in the moderate pricerange."}
+{"answer": "I need to find a place to eat in the centre of Cambridge.", "gt": "I need to find a place to eat in the centre of Cambridge."}
+{"answer": "Perfect, thank you for all your help.", "gt": "Perfect, thank you for all your help."}
+{"answer": "You're welcome, have a great day!", "gt": "I would like that. A table for 8 at 12:00."}
+{"answer": "Not really anywhere specific, and I don't care about the price range.", "gt": "Not really anywhere specific, and I don't care about the price range."}
+{"answer": "That is everything, thanks for your help.", "gt": "That is everything, thanks for your help."}
+{"answer": "No thanks, I am not quite ready to make a reservation yet. Thanks for the information.", "gt": "No thanks, I am not quite ready to make a reservation yet. Thanks for the information."}
+{"answer": "Not actually. I won't be needing anything else at this time. thank you. Good bye.", "gt": "Not actually. I won't be needing anything else at this time. thank you. Good bye."}
+{"answer": "Can you tell me the location of an Indian restaurant in the centre?", "gt": "I'm looking for an inexpensive African restaurant."}
+{"answer": "I'd like churches, and any really old buildings. If you could give me the addresses of a few of those that would be great.", "gt": "I'd like churches, and any really old buildings. If you could give me the addresses of a few of those that would be great."}
+{"answer": "I want to leave from Cambridge and arrive at London Liverpool Street.", "gt": "I want to leave from Cambridge and arrive at London Liverpool Street."}
+{"answer": "Is there a cheap restaurant serving belgian food?", "gt": "Is there a cheap restaurant serving belgian food?"}
+{"answer": "that is it for today thank you for asking", "gt": "that is it for today thank you for asking"}
+{"answer": "Can you give me the phone number for it?", "gt": "Can you give me the phone number for it?"}
+{"answer": "Thanks for allowing me to help you. Have a great day.", "gt": "Great that's all the info I needed today, thanks!"}
+{"answer": "You're very welcome! Can I help you with anything else?", "gt": "Are there any theatres near the University Arms Hotel?"}
+{"answer": "No thank you. You've been great!", "gt": "No thank you. You've been great!"}
+{"answer": "Stansted Airport, please.", "gt": "Stansted Airport, please."}
+{"answer": "The address is saint andrew's street and the postcode is cb23bu. Is there anything else I can help you with?", "gt": "Thank You"}
+{"answer": "No, that's all. Thanks.", "gt": "No, that's all. Thanks."}
+{"answer": "Thank you. I am also looking for a place to stay. It needs to be cheap and in the east.", "gt": "I just need the arrival time and price."}
+{"answer": "I'd like for a taxi to take me to autumn house from travellers rest", "gt": "I'd like for a taxi to take me to autumn house from travellers rest"}
+{"answer": "You're welcome. Have a great time!", "gt": "Yes please. There will be 5 of us and we would like to eat on Thursday at 17:45."}
+{"answer": "Thank you for contacting us and have a nice day.", "gt": "That sounds like a great place! What's the address?"}
+{"answer": "Please feel free to contact us with any other questions you have! Have a great day!", "gt": "No that will be all. Thanks."}
+{"answer": "you're very welcome. enjoy your visit.", "gt": "Okay, please pick one for me."}
+{"answer": "Great. Thank you.", "gt": "Great. Thank you."}
+{"answer": "Thanks. I also need an expensive restaurant. Do you know of any Asian Oriental places?", "gt": "Thanks. I also need an expensive restaurant. Do you know of any Asian Oriental places?"}
+{"answer": "I was really hoping for Sri Lankan.", "gt": "I was really hoping for Sri Lankan."}
+{"answer": "Their phone number is 01223448620. Is there anything else I can help you with?", "gt": "Yes, please tell me about Italian food."}
+{"answer": "I was hoping to find a place that serves Indian food.", "gt": "What star is it ?"}
+{"answer": "Yes, please go ahead and book the tickets. Can I have the reference number as well?", "gt": "Yes, please go ahead and book the tickets. Can I have the reference number as well?"}
+{"answer": "I also need a place to dine. I'm looking for something cheap in the south.", "gt": "Can you book that train for five people?"}
+{"answer": "There are several Indian restaurants in the area. Is there a certain price range you were looking for?", "gt": "Perfect! Can you also find me a restaurant?"}
+{"answer": "Thank you, I'm also looking for a hotel with free parking and wifi. Can you find me one?", "gt": "Thank you, I'm also looking for a hotel with free parking and wifi. Can you find me one?"}
+{"answer": "Hi, I'm looking for a place to stay with free parking and zero stars.", "gt": "Thank you, this is very helpful."}
+{"answer": "I need some recommendations for attractions in Cambridge at the centre, what would you suggest?", "gt": "I need some recommendations for attractions in Cambridge at the centre, what would you suggest?"}
+{"answer": "Thank you for using our service today.", "gt": "No, I'd like to keep looking for an expensive hotel."}
+{"answer": "What type of car is it? And is there a contact number?", "gt": "What type of car is it? And is there a contact number?"}
+{"answer": "I'd like to stay in the centre please.", "gt": "I'd like to stay in the centre please."}
+{"answer": "Not really. I won't be needing free parking.", "gt": "Not really. I won't be needing free parking."}
+{"answer": "I need to be at the avalon by 21:00. The taxi will have to arrive slightly earlier to get me to my destination on time.", "gt": "I need to be at the avalon by 21:00. The taxi will have to arrive slightly earlier to get me to my destination on time."}
+{"answer": "I am wanting to leave on Sunday after 18:30.", "gt": "I am wanting to leave on Sunday after 18:30."}
+{"answer": "Can you book it for 4 people and 4 nights starting from Monday?", "gt": "Can you book it for 4 people and 4 nights starting from Monday?"}
+{"answer": "No, I just need the general address and postcode.", "gt": "No, I just need the general address and postcode."}
+{"answer": "Great, is there anything else I can help you with?", "gt": "I'm not picky about the area of town or the price, but I absolutely need free wifi!"}
+{"answer": "i also want to book a taxi leaving the hotel by 20:15 and get contact number and car type", "gt": "i also want to book a taxi leaving the hotel by 20:15 and get contact number and car type"}
+{"answer": "How about one that serves British food? Get me an area and address if possible.", "gt": "How about one that serves British food? Get me an area and address if possible."}
+{"answer": "Certainly. On what day do you want me to look?", "gt": "just one, please"}
+{"answer": "Excellent. What is their address and phone number?", "gt": "Excellent. What is their address and phone number?"}
+{"answer": "I'm needing to find a train that goes to Cambridge. I want to arrive by 13:15.", "gt": "I'm needing to find a train that goes to Cambridge. I want to arrive by 13:15."}
+{"answer": "I would like a restaurant in the north part of town that serves canapes food.", "gt": "I would like a restaurant in the north part of town that serves canapes food."}
+{"answer": "Thank you for all your help. Good bye!", "gt": "Thank you for all your help. Good bye!"}
+{"answer": "That's all I need.", "gt": "That's all I need."}
+{"answer": "I guess I can do Spanish food, try to find something in the Centre area, please.", "gt": "I guess I can do Spanish food, try to find something in the Centre area, please."}
+{"answer": "Looking for a place to stay, can you help me pick?", "gt": "Looking for a place to stay, can you help me pick?"}
+{"answer": "No, that's all for now. Goodbye.", "gt": "Yes please. Book that."}
+{"answer": "I'll be going to Cambridge and need to arrive by 09:00.", "gt": "I'll be going to Cambridge and need to arrive by 09:00."}
+{"answer": "You're very welcome. Good day.", "gt": "Can I get the phone number and the entrance fee then?"}
+{"answer": "I'm so sorry, I misspoke, I need the train on Saturday. Is it possible to change the reservation?", "gt": "I'm so sorry, I misspoke, I need the train on Saturday. Is it possible to change the reservation?"}
+{"answer": "The Cambridge Belfry fits your needs. It has free parking and free internet too!", "gt": "Thank you goodbye."}
+{"answer": "Honestly, any price range will do. Can you suggest one for me and help me with booking a room?", "gt": "Honestly, any price range will do. Can you suggest one for me and help me with booking a room?"}
+{"answer": "I can help you with that. Where will be departing and where do you want to go?", "gt": "Could you give me the price of the ticket?"}
+{"answer": "Can you give me the postcode and star rating for Lovell Lodge and tell me if they have wifi?", "gt": "Can you give me the postcode and star rating for Lovell Lodge and tell me if they have wifi?"}
+{"answer": "I need a hotel to stay in for the same group of people just for 1 night though, and a reference number too please", "gt": "I need a hotel to stay in for the same group of people just for 1 night though, and a reference number too please"}
+{"answer": "No, that is all I need. Thank you.", "gt": "I am looking to leave for bishops stortford after 15:15 by train."}
+{"answer": "I'd like free wifi included please.", "gt": "I'd like free wifi included please."}
+{"answer": "Can I get information on places to stay in the north that have free internet?", "gt": "Can I get information on places to stay in the north that have free internet?"}
+{"answer": "yes, please - table for 4 at 13:45 on tuesday", "gt": "yes, please - table for 4 at 13:45 on tuesday"}
+{"answer": "Unfortunately, I do not have any guesthouses or hotels that fit your criteria. Is there a different price range, area, etc. I can check for you?", "gt": "no thats enough for today. thanks"}
+{"answer": "I also need to find a hotel in the area. Can you help me with that?", "gt": "I also need to find a hotel in the area. Can you help me with that?"}
+{"answer": "Was there anything else I could help you with today?", "gt": "I also need a train ticket on friday leaving peterborough arriving by 15:00"}
+{"answer": "I am looking for a train leaving Cambridge.", "gt": "I am looking for a train leaving Cambridge."}
+{"answer": "I'm sorry. I don't actually need to reserve at this time. I just need the phone number and address if you could provide that.", "gt": "I'm sorry. I don't actually need to reserve at this time. I just need the phone number and address if you could provide that."}
+{"answer": "That would be all thank you very much.", "gt": "That would be all thank you very much."}
+{"answer": "I'm leaving from the Marriott Hotel in downtown Cambridge next to the theatre.", "gt": "I'm leaving from the Marriott Hotel in downtown Cambridge next to the theatre."}
+{"answer": "Booking was successful. The table will be reserved for 15 minutes. Your Reference number is Q9MQW1Q4 .", "gt": "What is the postcode and address?"}
+{"answer": "That is all I need today thank you.", "gt": "That is all I need today thank you."}
+{"answer": "Well, I like Mexican food, and will be staying in the south part of town.", "gt": "Well, I like Mexican food, and will be staying in the south part of town."}
+{"answer": "Cambridge Lodge Restaurant is in the west part of town, and it serves European food.", "gt": "That will be fine. Can you book the Allenbell for my stay?"}
+{"answer": "Yes, can you book me a table at the Copper Kettle on Tuesday at 19:15 for 2 people?", "gt": "Yes, can you book me a table at the Copper Kettle on Tuesday at 19:15 for 2 people?"}
+{"answer": "Have a great day", "gt": "I also need a hotel."}
+{"answer": "Thanks for the help, that's all for now.", "gt": "I would like to make a booking for 7 people please."}
+{"answer": "I wouldn't mind seeing Emmanuel College. Can you give me the postcode?", "gt": "I wouldn't mind seeing Emmanuel College. Can you give me the postcode?"}
+{"answer": "Thank you, that's all I need. Good bye.", "gt": "What time will it arrive?"}
+{"answer": "Sure but I also need to book a taxi to leave the attraction by 6:45.", "gt": "Sure but I also need to book a taxi to leave the attraction by 6:45."}
+{"answer": "Moderately priced in the city centre.", "gt": "Moderately priced in the city centre."}
+{"answer": "They do have parking. They are on Regent Street. Can I help you with anything else?", "gt": "Can you book it for me?"}
+{"answer": "I just need to know the price range please. And confirm that it has free parking?", "gt": "I just need to know the price range please. And confirm that it has free parking?"}
+{"answer": "Please ignore my last post, I was distracted. I need to leave Ely and get to Cambridge by 16:00.", "gt": "Please ignore my last post, I was distracted. I need to leave Ely and get to Cambridge by 16:00."}
+{"answer": "Sorry I just need to get to the restaurant from The Mumford Theatre.", "gt": "Sorry I just need to get to the restaurant from The Mumford Theatre."}
+{"answer": "I'm looking for a train departing from ely and should arrive by 14:30.", "gt": "I'm looking for a restaurant called Mahal of Cambridge."}
+{"answer": "How about a restaurant. Can you recommend a Vietnamese place in the north that is cheap?", "gt": "How about a restaurant. Can you recommend a Vietnamese place in the north that is cheap?"}
+{"answer": "Wonderful, thank you for your time!", "gt": "In that case, how about just a hotel in the east that has free parking?"}
+{"answer": "I need to find a hospital in town. It should have a children's surgical and medicine department.", "gt": "I need to find a hospital in town. It should have a children's surgical and medicine department."}
+{"answer": "can you give me the address and post code?", "gt": "I'd like 3 nights for 6 people, please."}
+{"answer": "Thank you for all your help. Have a great day.", "gt": "Thank you. I appreciate your help."}
+{"answer": "That sounds nice. Can you give me their address, postcode, and phone number, please?", "gt": "That sounds nice. Can you give me their address, postcode, and phone number, please?"}
+{"answer": "Great! That is all I needed, thanks.", "gt": "Yes, can you book it for me?"}
+{"answer": "The taxi should arrive at the Rajmahal by 16:15", "gt": "The taxi should arrive at the Rajmahal by 16:15"}
+{"answer": "I'm also looking for places to go in town.", "gt": "I'm also looking for places to go in town."}
+{"answer": "I'm looking for a moderately priced place to stay in the south.", "gt": "I'm looking for a moderately priced place to stay in the south."}
+{"answer": "Yes, I would. I need 3 nights, 7 people, starting Wednedady. I need the reference number. I also need a train to Cambridge after 14:45.", "gt": "Yes, I would. I need 3 nights, 7 people, starting Wednedady. I need the reference number. I also need a train to Cambridge after 14:45."}
+{"answer": "Between $100-$300 per night.", "gt": "Between $100-$300 per night."}
+{"answer": "Is there a hotel called Hobsons House?", "gt": "Is there a hotel called Hobsons House?"}
+{"answer": "I am looking for a restaurant. The restaurant should serve modern american food and should be in the centre", "gt": "I am looking for a restaurant. The restaurant should serve modern american food and should be in the centre"}
+{"answer": "Sorry, how silly of me. I want to stay at a hotel, not a guesthouse. A cheap 4 star with free wifi, please.", "gt": "Sorry, how silly of me. I want to stay at a hotel, not a guesthouse. A cheap 4 star with free wifi, please."}
+{"answer": "I also need to find an attraction while I'm there.", "gt": "I also need to find an attraction while I'm there."}
+{"answer": "Actually I need the reservation to be for 4 nights, 6 people, starting from wednesday. Could you change the reservation for me please?", "gt": "Actually I need the reservation to be for 4 nights, 6 people, starting from wednesday. Could you change the reservation for me please?"}
+{"answer": "I would like to leave by 11:15 please.", "gt": "What is their entrance fee?"}
+{"answer": "Anything in the west that seems interesting, I just need the postcode and entrance fee.", "gt": "Anything in the west that seems interesting, I just need the postcode and entrance fee."}
+{"answer": "Nope, that's all I needed. Thanks!", "gt": "Nope, that's all I needed. Thanks!"}
+{"answer": "No, you have been a great help. That's it for now. Goodbye.", "gt": "No, you have been a great help. That's it for now. Goodbye."}
+{"answer": "great, thanks for your help.", "gt": "great, thanks for your help."}
+{"answer": "Can I get their postcode please? I also am looking for a good restaurant in town.", "gt": "Can I get their postcode please? I also am looking for a good restaurant in town."}
+{"answer": "Have a great day!", "gt": "Thank you goodbye."}
+{"answer": "I'm looking for a train.", "gt": "I'm looking for a train."}
+{"answer": "I'm looking for a hotel with a 3 star rating in the north.", "gt": "No. I just need to arrive by 14:45. I would also like the price."}
+{"answer": "I need a train leaving cambridge. I have to arrive by 20:15.", "gt": "I need a train leaving cambridge. I have to arrive by 20:15."}
+{"answer": "Alright. Where are you headed?", "gt": "That could work. Where is Allenbell located?"}
+{"answer": "Can you provide the phone number for me?", "gt": "Can you provide the phone number for me?"}
+{"answer": "Do you have a particular type of cuisine in mind?", "gt": "I'm looking for an expensive British restaurant."}
+{"answer": "Yes it is Monday, sorry for any confusion", "gt": "Yes it is Monday, sorry for any confusion"}
+{"answer": "I would like to arrive by 11:00 in Cambridge.", "gt": "I would like to arrive by 11:00 in Cambridge."}
+{"answer": "I would also like a train that leaves on Tuesday and arrive by 14:30.", "gt": "I would also like a train that leaves on Tuesday and arrive by 14:30."}
+{"answer": "I'm looking for an expensive restaurant in the centre", "gt": "I'm looking for an expensive restaurant in the centre"}
+{"answer": "That will do. Please get me their address.", "gt": "What about an international restaurant?"}
+{"answer": "Thanks very much for your help, that's everything I needed.", "gt": "I'm looking for a train that is leaving on Friday after 21:45."}
+{"answer": "It doesn't matter when I leave, as long as I arrive by 12:45.", "gt": "It doesn't matter when I leave, as long as I arrive by 12:45."}
+{"answer": "Is there anything else I can help you with today?", "gt": "Yes please. I will need 5 seats."}
+{"answer": "Thanks! That's all I needed today. Goodbye!", "gt": "Thanks! That's all I needed today. Goodbye!"}
+{"answer": "That is all I need thank you for your time.", "gt": "How about does anyone serve European food?"}
+{"answer": "I am in the market to book a hotel tonight.", "gt": "I am in the market to book a hotel tonight."}
+{"answer": "I also need to book a taxi to leave the hotel by 05:45, contact number and car type.", "gt": "I also need to book a taxi to leave the hotel by 05:45, contact number and car type."}
+{"answer": "Great! I am also looking for a train going to Broxbourne on Thursday.", "gt": "Great! I am also looking for a train going to Broxbourne on Thursday."}
+{"answer": "sorry, i'm being such a confusing pain. i don't want to reserve a table. i just need the address.", "gt": "sorry, i'm being such a confusing pain. i don't want to reserve a table. i just need the address."}
+{"answer": "Let's book the earliest train, to give us more time to enjoy the city. Please book seats for two and let me know the reference number.", "gt": "Let's book the earliest train, to give us more time to enjoy the city. Please book seats for two and let me know the reference number."}
+{"answer": "Which type of museums are available?", "gt": "Which type of museums are available?"}
+{"answer": "Thank you and have a wonderful day!", "gt": "Ok, well how about something educational--like a museum maybe?"}
+{"answer": "Yes, what other restaurants are in the same area in price range?", "gt": "Yes, what other restaurants are in the same area in price range?"}
+{"answer": "Planning for a trip in Cambridge.", "gt": "Planning for a trip in Cambridge."}
+{"answer": "I am looking for a cheap hotel in Cambridge.", "gt": "I am looking for a cheap hotel in Cambridge."}
+{"answer": "Thank you, you've been very helpful. I don't need anything else. Have a great day.", "gt": "Thank you, you've been very helpful. I don't need anything else. Have a great day."}
+{"answer": "We are happy to help. Thank you for using our service. Have a great day!", "gt": "No, that will be all for today. Thank you!"}
+{"answer": "Yes, I am looking for a hotel please. I would need free wifi and free parking.", "gt": "Yes, I am looking for a hotel please. I would need free wifi and free parking."}
+{"answer": "Sure, can you recommend one to me and give me the address and type?", "gt": "Sure, can you recommend one to me and give me the address and type?"}
+{"answer": "Pick a good one for me. I need the phone number and postcode for it too.", "gt": "Pick a good one for me. I need the phone number and postcode for it too."}
+{"answer": "I'd like to stay in the north part of town.", "gt": "I'd like to stay in the north part of town."}
+{"answer": "Sure. Could you tell me the typical travel time, and price for a ticket?", "gt": "Sure. Could you tell me the typical travel time, and price for a ticket?"}
+{"answer": "I would like the taxi to leave the hotel by 21:15.", "gt": "I would like the taxi to leave the hotel by 21:15."}
+{"answer": "That is all, thanks!", "gt": "That is all, thanks!"}
+{"answer": "I'm not sure, actually. Just doing some research. Could you tell me what the price range is on the Warkworth?", "gt": "I'm not sure, actually. Just doing some research. Could you tell me what the price range is on the Warkworth?"}
+{"answer": "Well, everyone said it s my choice, so I think I would like Italian.", "gt": "Well, everyone said it s my choice, so I think I would like Italian."}
+{"answer": "I have 2 that offer free wifi. One is rated 3 stars, the other is 4. Do you have a preference?", "gt": "There will be 8 of us."}
+{"answer": "No, that's all I need.", "gt": "Thanks! Now could you make a reservation for me? I need a table for 1 on Saturday at 12:15, please."}
+{"answer": "No thank you! Thanks for all your help!", "gt": "No thank you! Thanks for all your help!"}
+{"answer": "Absolutely. What is the name of the restaraunt you are interested in?", "gt": "Thank you. Could you please get me the phone number?"}
+{"answer": "Can you book the room for me?", "gt": "Can you book the room for me?"}
+{"answer": "Thank you, and please remember you can contact us at any time if you need any further assistance! Have a great day!", "gt": "Are there any in the east part of town?"}
+{"answer": "How about for only 1 night?", "gt": "How about for only 1 night?"}
+{"answer": "The price is 17.90 pounds. Can I help you with anything else today?", "gt": "That is all I needed. Thanks!"}
+{"answer": "I want to find a restaurant serving basque food. I don't care about the price range", "gt": "I want to find a restaurant serving basque food. I don't care about the price range"}
+{"answer": "Sunday at 19:00 please.", "gt": "Sunday at 19:00 please."}
+{"answer": "Great! Thank you! That's all I need.", "gt": "I don't care."}
+{"answer": "The price doesn't matter.", "gt": "The price doesn't matter."}
+{"answer": "I actually don't want to book tickets today. I just need the train ID and the times it runs.", "gt": "Yes could you check there please."}
+{"answer": "Thank you for all your help.", "gt": "That does sound like just the place."}
+{"answer": "Please book any Indian restaurant in the same area and price range as Tandoori Palace. This is for 8 people at 19:45 on sunday.", "gt": "Please book any Indian restaurant in the same area and price range as Tandoori Palace. This is for 8 people at 19:45 on sunday."}
+{"answer": "Oh, I have heard of that. Is in in the North part of town? I am looking for a place in the moderate price range also.", "gt": "Oh, I have heard of that. Is in in the North part of town? I am looking for a place in the moderate price range also."}
+{"answer": "Okay, thank you for your help!", "gt": "Okay, thank you for your help!"}
+{"answer": "I need a train ticket from cambridge to ely. I want to arrive at least by 21:15, can I get the reference # too please?", "gt": "I need a train ticket from cambridge to ely. I want to arrive at least by 21:15, can I get the reference # too please?"}
+{"answer": "You have been very helpful, that is everything. Thank you.", "gt": "You have been very helpful, that is everything. Thank you."}
+{"answer": "That is all. thank you very much.", "gt": "That is all. thank you very much."}
+{"answer": "How about helping me find a place to eat, then?", "gt": "How about helping me find a place to eat, then?"}
+{"answer": "Hi, can you help me find an upscale restaurant in Cambridge that is centrally located?", "gt": "Hi, can you help me find an upscale restaurant in Cambridge that is centrally located?"}
+{"answer": "I am looking for a place to dine that serves chinese food and located in the centre.", "gt": "I am looking for a place to dine that serves chinese food and located in the centre."}
+{"answer": "Thanks so much, that's very helpful. Could I get the postcode as well, please?", "gt": "It doesn't matter. What do you recommend?"}
+{"answer": "No thank you- please just give me the address and phone number.", "gt": "No thank you- please just give me the address and phone number."}
+{"answer": "Yes, are you familiar with any of the attractions around The Ashley Hotel?", "gt": "Yes, are you familiar with any of the attractions around The Ashley Hotel?"}
+{"answer": "No that is all thanks for your help. Have a good day.", "gt": "No that is all thanks for your help. Have a good day."}
+{"answer": "I need to locate the nearest police station please.", "gt": "I need to locate the nearest police station please."}
+{"answer": "That is all. Thank you.", "gt": "That is all. Thank you."}
+{"answer": "Certainly! I'd like an expensive 4-star hotel, please. No guesthouses.", "gt": "Certainly! I'd like an expensive 4-star hotel, please. No guesthouses."}
+{"answer": "That's great. What time does each attraction open?", "gt": "That's great. What time does each attraction open?"}
+{"answer": "I need help finding a very cheap restaurant located in the centre, can you help me?", "gt": "I need help finding a very cheap restaurant located in the centre, can you help me?"}
+{"answer": "Can you book that for me.", "gt": "Can you book that for me."}
+{"answer": "Yes, I'm also looking for a train that leaves on Friday after 11:15.", "gt": "Yes, I'm also looking for a train that leaves on Friday after 11:15."}
+{"answer": "Can you help me find a restaurant in the north that is cheap?", "gt": "I'd like to find a cheap Indonesian restaurant. Can you help?"}
+{"answer": "You're welcome. Do you need any further assistance?", "gt": "Thank you that's all the help I need today."}
+{"answer": "free parking and very expensive money is no object located in the north", "gt": "free parking and very expensive money is no object located in the north"}
+{"answer": "Thanks for your help. That's all I need.", "gt": "Thanks for your help. That's all I need."}
+{"answer": "I actually would like it to be on Sunday for 2 nights.", "gt": "I actually would like it to be on Sunday for 2 nights."}
+{"answer": "Nothing else. Thank you for getting us booked.", "gt": "Nothing else. Thank you for getting us booked."}
+{"answer": "No, I'm going to have my car with me so I can get to any part of town. But now that I think of it, I'd like to have free parking.", "gt": "No, I'm going to have my car with me so I can get to any part of town. But now that I think of it, I'd like to have free parking."}
+{"answer": "Have a great day!", "gt": "Can you tell me the entrance fee?"}
+{"answer": "A 3 star hotel in the cheap price range", "gt": "A 3 star hotel in the cheap price range"}
+{"answer": "Can you help me find some local restaurants to dine in during my visit to Cambridge?", "gt": "Can you help me find some local restaurants to dine in during my visit to Cambridge?"}
+{"answer": "We're willing to experiment. I have 7 people. Anything you recommend?", "gt": "We're willing to experiment. I have 7 people. Anything you recommend?"}
+{"answer": "There are 7 now that fit your criteria. Are you looking for a certain area?", "gt": "Yes, are there any boat attractions?"}
+{"answer": "No thank you, that's all for today. Goodbye!", "gt": "No, you helped me out. Thanks. Goodbye."}
+{"answer": "No, I am all set. Bye.", "gt": "No, I am all set. Bye."}
+{"answer": "Let's try for 15:30 and can I get a reference number please?", "gt": "That one sounds great. Can you give the address and hours?"}
+{"answer": "Any time after 08:30 would work.", "gt": "Any time after 08:30 would work."}
+{"answer": "I need to arrive in Cambridge by 17:00.", "gt": "I really don't care you choose"}
+{"answer": "Yes, I was also hoping to find a museum to visit while I'm in town.", "gt": "Yes, I was also hoping to find a museum to visit while I'm in town."}
+{"answer": "Yes I would like a room for 3 nights please.", "gt": "Yes I would like a room for 3 nights please."}
+{"answer": "Thank you, that'll be all!", "gt": "I need to book a table for 3 people at 16:00 on friday at galleria"}
+{"answer": "Thank you. What is the post code?", "gt": "Thank you. What is the post code?"}
+{"answer": "Thank you but I will book it myself. This is all I needed, you were great thanks again!!", "gt": "Thank you but I will book it myself. This is all I needed, you were great thanks again!!"}
+{"answer": "I want to leave the hotel by 23:45, please. I will need the contact number and car type as well.", "gt": "I want to leave the hotel by 23:45, please. I will need the contact number and car type as well."}
+{"answer": "Yes, I would like to book this. There are 5 people that will be staying for 4 nights starting Saturday. Can I get a reference number?", "gt": "Yes, I would like to book this. There are 5 people that will be staying for 4 nights starting Saturday. Can I get a reference number?"}
+{"answer": "No, thank you. I think I have everything I need at this time.", "gt": "Yes, Australian, please."}
+{"answer": "Yes please. It needs to be for 4 people for 4 nights starting on Monday.", "gt": "Yes please. It needs to be for 4 people for 4 nights starting on Monday."}
+{"answer": "Send a taxi to the Parkside Police Station to go to Little Seoul", "gt": "Send a taxi to the Parkside Police Station to go to Little Seoul"}
+{"answer": "Hi, I've booked a table for 4 at the Copper Kettle! Will that be all?", "gt": "Could you help me locate a 4 star lodging on the north side of town?"}
+{"answer": "am looking for a train. The train should arrive by 18:00 and should go to stevenage.", "gt": "am looking for a train. The train should arrive by 18:00 and should go to stevenage."}
+{"answer": "I would like a taxi to commute between the two places.", "gt": "I would like a taxi to commute between the two places."}
+{"answer": "Can you direct me towards a moderately priced restaurant serving fusion food?", "gt": "Can you direct me towards a moderately priced restaurant serving fusion food?"}
+{"answer": "Can I please get the reference number and I also need to book a train for Tuesday.", "gt": "Can I please get the reference number and I also need to book a train for Tuesday."}
+{"answer": "Thank you for your help.", "gt": "I need one for monday to go to birmingham new street."}
+{"answer": "No, that's all I need. Thanks for your help.", "gt": "Okay, great. Can I have the phone number and address please?"}
+{"answer": "Can you book that for me?", "gt": "I need a cheap one that has free wifi."}
+{"answer": "Thanks so much. You have been very helpful. That is all I'll be needing for today. Bye.", "gt": "Thanks so much. You have been very helpful. That is all I'll be needing for today. Bye."}
+{"answer": "Awesome, thanks so much for your help! That is all I needed, have a good day.", "gt": "Awesome, thanks so much for your help! That is all I needed, have a good day."}
+{"answer": "Yes, of course.", "gt": "can you try entertainment ?"}
+{"answer": "Yes, could you help me find a train to birmingham new street on saturday?", "gt": "Yes, could you help me find a train to birmingham new street on saturday?"}
+{"answer": "Thank you, that's all I need today.", "gt": "I would like Catalan food."}
+{"answer": "Yes, that's Broxbourne to Cambridge on Thursday, leaving after 17:45.", "gt": "Yes, that's Broxbourne to Cambridge on Thursday, leaving after 17:45."}
+{"answer": "Thank you so much. Have a nice day!", "gt": "Hello. Can you please recommend a Korean restaurant for me?"}
+{"answer": "Yes, I'm also looking for a place to stay, preferably somewhere with free wifi. Can you assist me with that?", "gt": "Yes, I'm also looking for a place to stay, preferably somewhere with free wifi. Can you assist me with that?"}
+{"answer": "Yes, I'd like to find a place to go in the same area as the restaurant.", "gt": "I am looking for a train that will depart from Norwich on Sunday"}
+{"answer": "That's great. Would you book 5 nights for 3 people, please?", "gt": "That's great. Would you book 5 nights for 3 people, please?"}
+{"answer": "That was all. Thank you", "gt": "How many stars is it?"}
+{"answer": "Is there any place that serves BBQ around here?", "gt": "Is there any place that serves BBQ around here?"}
+{"answer": "I'll need to book a taxi from the Cambridge Museum of Technology to the Kohinoor, arriving by 14:45.", "gt": "I'll need to book a taxi from the Cambridge Museum of Technology to the Kohinoor, arriving by 14:45."}
+{"answer": "No, that's OK, I have everything I need now. Thanks very much for your help!", "gt": "No, that's OK, I have everything I need now. Thanks very much for your help!"}
+{"answer": "Yes, that would be great. I'd like to book two tickets and I'll need a reference number, please?", "gt": "Yes, that would be great. I'd like to book two tickets and I'll need a reference number, please?"}
+{"answer": "I need a taxi to take me from the guesthouse to the restaurant please. I'll need to arrive by 15:15.", "gt": "I need a taxi to take me from the guesthouse to the restaurant please. I'll need to arrive by 15:15."}
+{"answer": "My destination is saigon city and I need it to leave after 10:45.", "gt": "My destination is saigon city and I need it to leave after 10:45."}
+{"answer": "Sure, I would like to book that train for 4 passengers.", "gt": "Sure, I would like to book that train for 4 passengers."}
+{"answer": "Ok great. Can I get the address and phone number?", "gt": "Ok great. Can I get the address and phone number?"}
+{"answer": "You're welcome. Is there anything else I can help you with?", "gt": "No, that's all I need. Thanks!"}
+{"answer": "No, I believe that is everything. Thank you!", "gt": "No, I believe that is everything. Thank you!"}
+{"answer": "jesus green outdoor pool and i want to leave after 23:00", "gt": "jesus green outdoor pool and i want to leave after 23:00"}
+{"answer": "Hi, I'm looking to book a train out of Cambridge that I want to arrive in Ely. Can you assist me with finding times and dates?", "gt": "Hi, I'm looking to book a train out of Cambridge that I want to arrive in Ely. Can you assist me with finding times and dates?"}
+{"answer": "Awesome! Thank you, could you give me their address?", "gt": "Awesome! Thank you, could you give me their address?"}
+{"answer": "I'd like to depart from Ely on Wednesday after 12:15.", "gt": "I'd like to depart from Ely on Wednesday after 12:15."}
+{"answer": "Thanks! That's all I need for now.", "gt": "Hi. Can you help me find a restaurant?"}
+{"answer": "I need a 4 star place that has free wifi.", "gt": "I need a 4 star place that has free wifi."}
+{"answer": "I am also looking for train schedules. Can you help me with that?", "gt": "No that's it. Thank you very much."}
+{"answer": "I need a train that will leave after 12:15 please.", "gt": "I need a train that will leave after 12:15 please."}
+{"answer": "I'm sorry. I'm not showing any British restaurants in the centre of town, either? Would you like to try another part of town or a different type of food?", "gt": "It will be 5 nights"}
+{"answer": "I'm leaving from Bishops Stortford on Thursday. I'd like to leave after 18:30.", "gt": "That sounds great! What area and can I get the postcode?"}
+{"answer": "I did not find a hotel that fits your criteria on the north side of town, but there are several guesthouses. Would a guesthouse be okay?", "gt": "yes for 5 nights please."}
+{"answer": "Great can you also direct me to a college to visit in the same area?", "gt": "Great can you also direct me to a college to visit in the same area?"}
+{"answer": "Nope, that should be everything. Thank you so much for all of your help.", "gt": "Nope, that should be everything. Thank you so much for all of your help."}
+{"answer": "Yes, I am also looking for a place to stay, that has moderate pricing.", "gt": "Yes, I am also looking for a place to stay, that has moderate pricing."}
+{"answer": "Let's go with the one that leaves at 7:11. Can you tell me what the price is?", "gt": "Let's go with the one that leaves at 7:11. Can you tell me what the price is?"}
+{"answer": "No, that will be all. Thank you for your help!", "gt": "No, that will be all. Thank you for your help!"}
+{"answer": "Hello, I am looking for an Indonesian restaurant. Can you help me with that?", "gt": "Hello, I am looking for an Indonesian restaurant. Can you help me with that?"}
+{"answer": "I want to arrive at or a little before 12:15, please.", "gt": "I want to arrive at or a little before 12:15, please."}
+{"answer": "I guess I need to book the hotel first. Is there a guesthouse in the same area as La Raza?", "gt": "I guess I need to book the hotel first. Is there a guesthouse in the same area as La Raza?"}
+{"answer": "no thank you good bye", "gt": "no thank you good bye"}
+{"answer": "It's more important to me that it has free parking.", "gt": "It's more important to me that it has free parking."}
+{"answer": "That is all for now, thank you. Goodbye", "gt": "That is all for now, thank you. Goodbye"}
+{"answer": "Thank you! I am also looking for a guesthouse in the same area as the restaurant. Can you help with that too?", "gt": "Thank you! I am also looking for a guesthouse in the same area as the restaurant. Can you help with that too?"}
+{"answer": "Is that in the Centre? If so, could I get the postcode, and how much the entrance fee is?", "gt": "Is that in the Centre? If so, could I get the postcode, and how much the entrance fee is?"}
+{"answer": "Can they accommodate a party of 8 for 2 nights, beginning Saturday?", "gt": "Can they accommodate a party of 8 for 2 nights, beginning Saturday?"}
+{"answer": "Could you just pick one and book it for 6 people for 2 nights from Friday?", "gt": "Could you just pick one and book it for 6 people for 2 nights from Friday?"}
+{"answer": "Thanks for all your help today!", "gt": "Maybe a museum then?"}
+{"answer": "Ok I have a red ford and the contact number is 07619968321. Anything else I can do for you?", "gt": "Sorry what type of food do they serve?"}
+{"answer": "No. Also, I forgot to mention that I would like a guesthouse also.", "gt": "No. Also, I forgot to mention that I would like a guesthouse also."}
+{"answer": "You're certain that, with no particular cuisine needed, there were no cheap restaurants at all?", "gt": "You're certain that, with no particular cuisine needed, there were no cheap restaurants at all?"}
+{"answer": "Great! Can I get the phone number?", "gt": "Yes I need the cheap price range"}
+{"answer": "Yes, I need a train out of Cambridge on Thursday, please.", "gt": "Yes, I need a train out of Cambridge on Thursday, please."}
+{"answer": "I need it in the centre and you can make a suggestion.", "gt": "I need it in the centre and you can make a suggestion."}
+{"answer": "Awesome! I also need help finding a place to stay in the South. Not driving so don't need parking.", "gt": "Awesome! I also need help finding a place to stay in the South. Not driving so don't need parking."}
+{"answer": "Yes, please. I'll need it for 3 people, 3 nights, and we will be arriving on Sunday.", "gt": "Yes, please. I'll need it for 3 people, 3 nights, and we will be arriving on Sunday."}
+{"answer": "enjoy your time", "gt": "I guess I'll book the guesthouse for 4 people, 4 nights starting wednesday."}
+{"answer": "I need to leave from Cambridge on Wednesday. Can you help me find a train?", "gt": "I need to leave from Cambridge on Wednesday. Can you help me find a train?"}
+{"answer": "Would you like me to make a reservation for you then?", "gt": "Just pick one."}
+{"answer": "i want to travel on sunday. i need to leave cambridge at 20:00.", "gt": "i want to travel on sunday. i need to leave cambridge at 20:00."}
+{"answer": "Yes, I am looking for something expensive.", "gt": "Yes, I am looking for something expensive."}
+{"answer": "Thank you for visiting Cambridge and have a great weekend.", "gt": "Nothing specific, anything in the centre is fine."}
+{"answer": "I don't need to book it. Thanks for the help.", "gt": "I don't need to book it. Thanks for the help."}
+{"answer": "Thank you for your help, that is all for now.", "gt": "Thank you for your help, that is all for now."}
+{"answer": "What is the address?", "gt": "You too thank you! Goodbye."}
+{"answer": "As long as La Tasca is located in the centre of town and is moderately priced. If it is, yes that would be great. I need a reservation.", "gt": "As long as La Tasca is located in the centre of town and is moderately priced. If it is, yes that would be great. I need a reservation."}
+{"answer": "I am looking for a moderately priced restaurant in the north part of town. I would also like the address and phone number.", "gt": "how about one that is in the type of college?"}
+{"answer": "No, that's all I need. Thanks so much.", "gt": "No, that's all I need. Thanks so much."}
+{"answer": "I am actually looking for a moderately priced hotel and I will need free wifi.", "gt": "I am actually looking for a moderately priced hotel and I will need free wifi."}
+{"answer": "Thank you for the reservation. I also need a train for the same day as the restaurant. A train which arrives by 8:00.", "gt": "Thank you for the reservation. I also need a train for the same day as the restaurant. A train which arrives by 8:00."}
+{"answer": "Another hotel then, same price range.", "gt": "Another hotel then, same price range."}
+{"answer": "I'm so sorry. I need to leave Cambridge after 13:00 on Tuesday and I'm going to Ely. I need 6 tickets.", "gt": "I'm so sorry. I need to leave Cambridge after 13:00 on Tuesday and I'm going to Ely. I need 6 tickets."}
+{"answer": "I would like some North Indian Food that is expensive, in the south.", "gt": "I would like some North Indian Food that is expensive, in the south."}
+{"answer": "That sounds great! May I have the address? Also, what part of town is it located in?", "gt": "That sounds great! May I have the address? Also, what part of town is it located in?"}
+{"answer": "Yes, I need to book that for 8 people. Can I have the reference number?", "gt": "Great. Can I have the phone number?"}
+{"answer": "I would like to leave from the closest station to my location.", "gt": "I would like to leave from the closest station to my location."}
+{"answer": "That sounds perfect. I will need the taxi for going between the two places. As well as the car type and contact number.", "gt": "That sounds perfect. I will need the taxi for going between the two places. As well as the car type and contact number."}
+{"answer": "Going to the sweet land of Stevenage, on tuesday. I need to get there by 17:00", "gt": "Going to the sweet land of Stevenage, on tuesday. I need to get there by 17:00"}
+{"answer": "yes i am also looking for an expensive hotel", "gt": "yes i am also looking for an expensive hotel"}
+{"answer": "that's great. thanks", "gt": "that's great. thanks"}
+{"answer": "Yes. The phone number is 01223360966. Can I help you with anything else?", "gt": "What is the postcode?"}
+{"answer": "I also need their address and postcodes please", "gt": "I also need their address and postcodes please"}
+{"answer": "Friday, 4 nights. Reference number please.", "gt": "Friday, 4 nights. Reference number please."}
+{"answer": "I'll need it to pick me up from the hotel and arrive at the restaurant at least 10 min before our reservation?", "gt": "I'll need it to pick me up from the hotel and arrive at the restaurant at least 10 min before our reservation?"}
+{"answer": "Lets do a table for two people at 14:15 on Sunday", "gt": "Lets do a table for two people at 14:15 on Sunday"}
+{"answer": "Yes, I would like to book a taxi to leave the hotel by 11:00.", "gt": "Yes, I would like to book a taxi to leave the hotel by 11:00."}
+{"answer": "Yes I'm sure. I need to book that for 5 people.", "gt": "Yes I'm sure. I need to book that for 5 people."}
+{"answer": "No. I need a train that arrives by 12:30 and departs from Stevenage, not London Kings Cross.", "gt": "No. I need a train that arrives by 12:30 and departs from Stevenage, not London Kings Cross."}
+{"answer": "That's all I need. Thank you for your assistance!", "gt": "I'm looking for an expensive restaurant in the centre of town."}
+{"answer": "Well, that's a little early, but it should work. I'd like to make a booking for 7 people actually.", "gt": "Well, that's a little early, but it should work. I'd like to make a booking for 7 people actually."}
+{"answer": "I do not have a preference on the type of food but it does need to be near the hotel.", "gt": "I do not have a preference on the type of food but it does need to be near the hotel."}
+{"answer": "Would you be able to help me find a room that has free wifi?", "gt": "Would you be able to help me find a room that has free wifi?"}
+{"answer": "I'll need the train to come to Cambridge, please, so that I can make it to the restaurant that you've booked for me.", "gt": "I'll need the train to come to Cambridge, please, so that I can make it to the restaurant that you've booked for me."}
+{"answer": "I'm looking for a hotel with free wifi.", "gt": "I'm looking for a hotel with free wifi."}
+{"answer": "I have no more specific needs. Can you select your favorite and tell me their area, if they have internet, and how many stars they have?", "gt": "I have no more specific needs. Can you select your favorite and tell me their area, if they have internet, and how many stars they have?"}
+{"answer": "I am looking for a cheap modern European restaurant. Can you help me?", "gt": "I am looking for a cheap modern European restaurant. Can you help me?"}
+{"answer": "Yes the boat attraction, can I get the address and do the charge a fee, what is it?", "gt": "Yes the boat attraction, can I get the address and do the charge a fee, what is it?"}
+{"answer": "Yes please. Book it for he same group of people and 3 nights starting from the same day.", "gt": "Yes please. Book it for he same group of people and 3 nights starting from the same day."}
+{"answer": "You're welcome. Have a great day!", "gt": "I just need the address, price range, and the postcode."}
+{"answer": "Hi there. Can you help me find a museum in the west part of town?", "gt": "Hi there. Can you help me find a museum in the west part of town?"}
+{"answer": "I'm looking for some type of entertainment venue in the centre of town.", "gt": "I'm looking for some type of entertainment venue in the centre of town."}
+{"answer": "I am looking for a restaurant that serves Japanese food. I don't care about the price range.", "gt": "I am looking for a restaurant that serves Japanese food. I don't care about the price range."}
+{"answer": "I have located one hotel matching your search criteria, the Alpha-Milton Guest House. The phone number is 01223311625. Would you like to make a reservation?", "gt": "It will work for me Thank you"}
+{"answer": "Yes please, I would like the address and phone number.", "gt": "Yes please, I would like the address and phone number."}
+{"answer": "Thank you! That's all I need from you today.", "gt": "Thank you! That's all I need from you today."}
+{"answer": "No thanks. I think that answered all my questions. Have a nice day. Bye.", "gt": "What is the address?"}
+{"answer": "Yes, I would like to book one seat that leaves on Sunday. Please provide the price, arrival time and train ID. Thank you.", "gt": "Yes, I would like to book one seat that leaves on Sunday. Please provide the price, arrival time and train ID. Thank you."}
+{"answer": "Thank you for your help. That is all I need today.", "gt": "That sounds good. What is the phone number there?"}
+{"answer": "tang chinese. Once you find the restaurant you want to book a table for 6 people at 16:45 on tuesday", "gt": "tang chinese. Once you find the restaurant you want to book a table for 6 people at 16:45 on tuesday"}
+{"answer": "Yes, please.", "gt": "Yes, please."}
+{"answer": "I can't wait to try some of your local restaurants. Can you help me with an attraction to visit also?", "gt": "I can't wait to try some of your local restaurants. Can you help me with an attraction to visit also?"}
+{"answer": "Are there any French restaurants in the same area as the Hamilton Lodge?", "gt": "Are there any French restaurants in the same area as the Hamilton Lodge?"}
+{"answer": "Price is not an issue for me. Please recommend one of them for me.", "gt": "Price is not an issue for me. Please recommend one of them for me."}
+{"answer": "Of course, the phone number is 01223334900, and the post code is cb23bu.", "gt": "How much would the ticket cost?"}
+{"answer": "No that is everything that I need. Thank you so much for your help.", "gt": "Thank you! Goodbye!"}
+{"answer": "Is there anything else?", "gt": "Sounds great, what is the address to that guesthouse?"}
+{"answer": "I have no preference but can I get a phone number to one of them?", "gt": "I have no preference but can I get a phone number to one of them?"}
+{"answer": "rad, thanks. i also need a train ticket", "gt": "rad, thanks. i also need a train ticket"}
+{"answer": "I've booked your taxi! A Grey Volkswagen will you pick you up and take you to the restaurant. The contact number is 07776457787. Can I help you with anything else?", "gt": "I think that's good, give me the address and postcode."}
+{"answer": "Thanks so much. That's all. Goodbye", "gt": "Thanks so much. That's all. Goodbye"}
+{"answer": "I'm also looking for an attraction called scott polar museum.", "gt": "I'm also looking for an attraction called scott polar museum."}
+{"answer": "Hi, I am looking for a nice moderately priced hotel located in the east.", "gt": "Hi, I am looking for a nice moderately priced hotel located in the east."}
+{"answer": "The train should leave on Saturday and arrive by 15:15.", "gt": "The train should leave on Saturday and arrive by 15:15."}
+{"answer": "Does Cambridge have an establishment called the Shanghai Family Restaurant?", "gt": "Does Cambridge have an establishment called the Shanghai Family Restaurant?"}
+{"answer": "Yes, please. I'd also like to know what area of town it's in and what type of food it serves.", "gt": "Yes, I need one ticket, please."}
+{"answer": "The Gonville Hotel meets your requirements. Would you like me to book you a room?", "gt": "Need restaurant thats expensive and in the east of town."}
+{"answer": "Yes. The hotel should be 4 stars and located in the west with free parking please.", "gt": "Yes. The hotel should be 4 stars and located in the west with free parking please."}
+{"answer": "Nope, I think that will do it. Thank you so much!", "gt": "Nope, I think that will do it. Thank you so much!"}
+{"answer": "Sounds good. I am also looking for a place to stay in the East. Can you help me find something?", "gt": "Could you get me the postcode and entrance fee for there?"}
+{"answer": "Yes I am looking for colleges in town to go visit", "gt": "Yes I am looking for colleges in town to go visit"}
+{"answer": "I also need a moderate restaurant in the town centre that serves European food.", "gt": "I also need a moderate restaurant in the town centre that serves European food."}
+{"answer": "Departure is Peterborough and arrival is Cambridge.", "gt": "Departure is Peterborough and arrival is Cambridge."}
+{"answer": "Awesome, thanks a lot! Have a great day!", "gt": "Awesome, thanks a lot! Have a great day!"}
+{"answer": "Addenbrookes Hospital is located at Hills Rd, Cambridge. Is there a particular department you're looking for?", "gt": "No I'll take care of that later. But can you arrange a taxi for me? Going from the hotel to The Oak Bistro."}
+{"answer": "Is there anything else I can do for you today?", "gt": "I am looking for a hotel by the name of home from home."}
+{"answer": "I also need a place to go. In the center, to do multiple sports", "gt": "I also need a place to go. In the center, to do multiple sports"}
+{"answer": "I need a place to eat with a moderate price.", "gt": "I need a place to eat with a moderate price."}
+{"answer": "Give me the address and phone number for the one you most recommend", "gt": "Give me the address and phone number for the one you most recommend"}
+{"answer": "Would you like me to book a reservation for you?", "gt": "Yes, that is correct"}
+{"answer": "Hi there, I've heard of something fun to do in the city called Nusha but I'm not sure where it is. Can you help me figure out how to get there?", "gt": "Hi there, I've heard of something fun to do in the city called Nusha but I'm not sure where it is. Can you help me figure out how to get there?"}
+{"answer": "A museum would be great. Could I have the address of one you suggest?", "gt": "A museum would be great. Could I have the address of one you suggest?"}
+{"answer": "I am traveling from Cambridge and heading to Birmingham New Street.", "gt": "I am traveling from Cambridge and heading to Birmingham New Street."}
+{"answer": "Yes, please. May I have their address and phone number?", "gt": "Yes, please. May I have their address and phone number?"}
+{"answer": "How about a museum in the centre of town?", "gt": "How about a museum in the centre of town?"}
+{"answer": "Yes, I would like to book 5 nights starting Wednesday for 6 people. May I also have the reference number please.", "gt": "Yes, I would like to book 5 nights starting Wednesday for 6 people. May I also have the reference number please."}
+{"answer": "I need to arrive by 05:15.", "gt": "I need to arrive by 05:15."}
+{"answer": "Thanks. I need a train for the same day but it needs to arrive by 09:30.", "gt": "Yes, could you book me tickets for 7 people on that train?"}
+{"answer": "I am looking for an expensive place in the centre area with free wifi?", "gt": "I am looking for an expensive place in the centre area with free wifi?"}
+{"answer": "Please book the hotel for 4 people and 2 nights. Thank you.", "gt": "Please book the hotel for 4 people and 2 nights. Thank you."}
+{"answer": "Great. Thanks for all your help!", "gt": "that is it thanks for your help"}
+{"answer": "Where are you traveling to please?", "gt": "it does may I please have the postcode and phone number?"}
+{"answer": "09:15 please, thank you for your help.", "gt": "09:15 please, thank you for your help."}
+{"answer": "How much does it cost?", "gt": "Can you book it for me and get a reference number ?"}
+{"answer": "No thank you. I did want to go to an attraction in the same area of town.", "gt": "No thank you. I did want to go to an attraction in the same area of town."}
+{"answer": "I'd like to leave after 10:45 on Monday. I'm departing from Ely.", "gt": "I'd like to leave after 10:45 on Monday. I'm departing from Ely."}
+{"answer": "I'm coming from Broxbourne going to Cambridge on Saturday.", "gt": "I'm coming from Broxbourne going to Cambridge on Saturday."}
+{"answer": "I would be happy to book that for you, what time would you like to arrive?", "gt": "Please tell me their phone number and address"}
+{"answer": "The phone number is 01223333200. What day would you like the train for?", "gt": "I would like it in the centre."}
+{"answer": "Great, now I need to book a taxi to go between the two, please.", "gt": "Great, now I need to book a taxi to go between the two, please."}
+{"answer": "What is the postcode for the hotel? I would also like to visit a museum.", "gt": "What is the postcode for the hotel? I would also like to visit a museum."}
+{"answer": "I am looking for a hotel with free parking and wifi.", "gt": "I need 5 tickets. Can I please also have the reference number?"}
+{"answer": "That is all I need today thank you for your time.", "gt": "That is all I need today thank you for your time."}
+{"answer": "thank you.", "gt": "The one in the center sounds fun. How much is the entrance fee?"}
+{"answer": "I will be departing from Cambridge and I'll need 7 tickets total. Can I have the reference number after you book the tickets,please?", "gt": "I will be departing from Cambridge and I'll need 7 tickets total. Can I have the reference number after you book the tickets,please?"}
+{"answer": "The cambridge belfry is in the cheap range, with 4 star rating has internet and parking. Should I book a room for you?", "gt": "Could I get the phone number for that attraction?"}
+{"answer": "A hotel would be good, please.", "gt": "A hotel would be good, please."}
+{"answer": "I am open to whatever you suggest as long as it is in the centre area.", "gt": "I am open to whatever you suggest as long as it is in the centre area."}
+{"answer": "What is the address and phone number?", "gt": "Yes, please. I need 2 tickets please and the reference number."}
+{"answer": "Thank you I also need a taxi between the two places, I want to leave curry garden at 12:00 and go to jesus green outdoor pool.", "gt": "Thank you I also need a taxi between the two places, I want to leave curry garden at 12:00 and go to jesus green outdoor pool."}
+{"answer": "I am looking for a reasonably priced restaurant in the north part of town.", "gt": "I am looking for a reasonably priced restaurant in the north part of town."}
+{"answer": "Ok, I guess we can book that one then. There will be 3 of us staying 4 nights, starting sunday.", "gt": "Ok, I guess we can book that one then. There will be 3 of us staying 4 nights, starting sunday."}
+{"answer": "i want to leave after 13:00", "gt": "I will be departing from frankie and bennys."}
+{"answer": "I don't really have a preference, so surprise me!", "gt": "I don't really have a preference, so surprise me!"}
+{"answer": "can you give me the address and post code?", "gt": "Hello, I'd like some information about a place to go in the west."}
+{"answer": "Thats all for today! Thanks so much!", "gt": "Thats all for today! Thanks so much!"}
+{"answer": "Is there such a train that leaves to cambridge, might I include on a tuesday?", "gt": "Is there such a train that leaves to cambridge, might I include on a tuesday?"}
+{"answer": "I'd like to leave from Cambridge to arrive at Broxbourne by 10:45.", "gt": "I'd like to leave from Cambridge to arrive at Broxbourne by 10:45."}
+{"answer": "Perfect, could you also assist me in finding a place to stay?", "gt": "Perfect, could you also assist me in finding a place to stay?"}
+{"answer": "Yes I am looking for someplace to tour in town in the south involving architecture.", "gt": "Yes I am looking for someplace to tour in town in the south involving architecture."}
+{"answer": "I need to book a train that leaves Cambridge after 17:30.", "gt": "I need to book a train that leaves Cambridge after 17:30."}
+{"answer": "If you could find one in the same price range that would be best.", "gt": "If you could find one in the same price range that would be best."}
+{"answer": "i am looking for a place to dine. The restaurant should serve chinese food and should be in the expensive price range.", "gt": "i am looking for a place to dine. The restaurant should serve chinese food and should be in the expensive price range."}
+{"answer": "I am open to price, I would like it to have a 3-star rating and free wifi included.", "gt": "I am open to price, I would like it to have a 3-star rating and free wifi included."}
+{"answer": "Thanks, that's all i need!", "gt": "Thanks, that's all i need!"}
+{"answer": "Is there anything else I can assist you with today?", "gt": "I need the train to leave on Monday before 16:30 for Ely."}
+{"answer": "What is the postcode and address please?", "gt": "What is the postcode and address please?"}
+{"answer": "No, that is all I need today, thank you.", "gt": "That is all I needed today, thank you."}
+{"answer": "Yes. Please. Three people, wednesday, two nights.", "gt": "Yes. Please. Three people, wednesday, two nights."}
+{"answer": "Yes, I'd also like to check out a cool place in the centre area.", "gt": "Yes, I'd also like to check out a cool place in the centre area."}
+{"answer": "Thank you so much for your help! That's all I needed!", "gt": "Thank you so much for your help! That's all I needed!"}
+{"answer": "Before I commit, what would the price of the ticket be?", "gt": "Before I commit, what would the price of the ticket be?"}
+{"answer": "Actually I need to go to London Liverpool Street from Cabridge.", "gt": "Actually I need to go to London Liverpool Street from Cabridge."}
+{"answer": "can i find the parkside police station", "gt": "can i find the parkside police station"}
+{"answer": "Yes, please. A hotel with 2 stars with free wifi is fine.", "gt": "Yes, please. A hotel with 2 stars with free wifi is fine."}
+{"answer": "Is there anything else I can do for you?", "gt": "No certain area, but I'd like one in a moderate price range please."}
+{"answer": "I am also looking for a restaurant in the same area that serves Italian food.", "gt": "That sounds great, can I please get their phone number?"}
+{"answer": "Thanks so much for your help", "gt": "Thanks so much for your help"}
+{"answer": "I think that is all I need to know about the restaurant.", "gt": "I think that is all I need to know about the restaurant."}
+{"answer": "Thank you for your help.", "gt": "Thank you for your help."}
+{"answer": "Great. Can I book it for 2 people for 3 nights starting Saturday?", "gt": "Great. Can I book it for 2 people for 3 nights starting Saturday?"}
+{"answer": "It is a special occasion so it can be expensive!", "gt": "It is a special occasion so it can be expensive!"}
+{"answer": "Okay, thank you. That's all I need. Bye!", "gt": "Can you possibly find me a swimming pool in the West?"}
+{"answer": "Sounds great. I'd love to know the postcode, phone number, and address for that attraction if you wouldn't mind.", "gt": "Thank you goodbye."}
+{"answer": "I need to leave at 11:45", "gt": "I need to leave at 11:45"}
+{"answer": "I would like to book for 5 people for 4 nights starting on Monday", "gt": "I would like to book for 5 people for 4 nights starting on Monday"}
+{"answer": "Yes, If you could that would be great. Thank you", "gt": "Yes, If you could that would be great. Thank you"}
+{"answer": "No thank you. Good bye.", "gt": "I'll also need a taxi."}
+{"answer": "excellent, have a great day!", "gt": "Centre of Cambridge"}
+{"answer": "I am looking for places to go in the east.", "gt": "Thank you. I intend to!"}
+{"answer": "Can you please give me the postcode and phone number?", "gt": "Can you please give me the postcode and phone number?"}
+{"answer": "And what's the post code that goes with that address?", "gt": "And what's the post code that goes with that address?"}
+{"answer": "I'm looking for an expensive restaurant in the west.", "gt": "No, what can you recommend?"}
+{"answer": "should depart from cambridge at 17:15", "gt": "should depart from cambridge at 17:15"}
+{"answer": "I am trying to find a hotel called alpha-milton guest house", "gt": "I am trying to find a hotel called alpha-milton guest house"}
+{"answer": "Sure, we have 6 guesthouses and 1 hotel. What is your price range?", "gt": "I want a place to stay in the east."}
+{"answer": "Arrival time is 12:07 does that work for you?", "gt": "Yes that's all. thanks for the help!"}
+{"answer": "Yes, and please be sure to give me the ID.", "gt": "Yes, and please be sure to give me the ID."}
+{"answer": "That is all I need today. Thank you.", "gt": "That is all I need today. Thank you."}
+{"answer": "I would like to stay in the east, there is no need for parking.", "gt": "I would like to stay in the east, there is no need for parking."}
+{"answer": "Can you help me find a place to stay? I am looking for an expensive hotel, but it doesn't need free parking.", "gt": "Can you help me find a place to stay? I am looking for an expensive hotel, but it doesn't need free parking."}
+{"answer": "The type of food doesn't matter to me.", "gt": "The type of food doesn't matter to me."}
+{"answer": "Thank you so much for your help. No, that is all.", "gt": "I would like a hotel in the western part of town."}
+{"answer": "As long as I arrive by 11:30 that is fine, I will also need the travel time and price please.", "gt": "As long as I arrive by 11:30 that is fine, I will also need the travel time and price please."}
+{"answer": "The train should go to Bishops Stortford and leave after 14:45.", "gt": "The train should go to Bishops Stortford and leave after 14:45."}
+{"answer": "Actually, I need it to be a hotel, not a bed and breakfast.", "gt": "Actually, I need it to be a hotel, not a bed and breakfast."}
+{"answer": "Yes. I need a train that leaves Cambridge and goes to Bishops Stortford.", "gt": "Yes. I need a train that leaves Cambridge and goes to Bishops Stortford."}
+{"answer": "Area does not matter.", "gt": "Area does not matter."}
+{"answer": "Have a great day!", "gt": "Can I get the postcode for the museum as well?"}
+{"answer": "I'm looking for a 3 star hotel to stay at.", "gt": "I'm looking for a 3 star hotel to stay at."}
+{"answer": "I'm also looking for an expensive restaurant in the centre of town.", "gt": "I'm also looking for an expensive restaurant in the centre of town."}
+{"answer": "please book it for 7 people and 5 nights starting from Wednesday.", "gt": "please book it for 7 people and 5 nights starting from Wednesday."}
+{"answer": "Please book a table for 3 people at 16:00 on Friday.", "gt": "No that will be all thank you so much for your assistance."}
+{"answer": "i want to be picked up at the hotel by 11:45", "gt": "i want to be picked up at the hotel by 11:45"}
+{"answer": "Can you tell me the price and travel time for that please?", "gt": "Can you tell me the price and travel time for that please?"}
+{"answer": "My preference is that it leaves Cambridge after 12:00, would that be possible?", "gt": "My preference is that it leaves Cambridge after 12:00, would that be possible?"}
+{"answer": "No thank you that is all I needed.", "gt": "I would like a hotel to stay in while I visit cambridge."}
+{"answer": "Great can I also get a taxi between the two places?", "gt": "Great can I also get a taxi between the two places?"}
+{"answer": "Can I get some information on the arbury lodge guesthouse?", "gt": "Can I get some information on the arbury lodge guesthouse?"}
+{"answer": "No that is all. Thank you.", "gt": "No that is all. Thank you."}
+{"answer": "I am coming to cambridge and need a hotel in the north area. Can you find me one?", "gt": "I am coming to cambridge and need a hotel in the north area. Can you find me one?"}
+{"answer": "I would like to book for Saturday at 12:15 for 3 people.", "gt": "I would like to book for Saturday at 12:15 for 3 people."}
+{"answer": "Sunday, and I will be departing Cambridge.", "gt": "Sunday, and I will be departing Cambridge."}
+{"answer": "That is it, thanks.", "gt": "That is it, thanks."}
+{"answer": "No, that's it. Thanks for your help. Have a great day. Goodbye.", "gt": "No, that's it. Thanks for your help. Have a great day. Goodbye."}
+{"answer": "We wouldn't mind trying something new. We'd like to treat ourselves to something in the expensive range. What do you recommend?", "gt": "We wouldn't mind trying something new. We'd like to treat ourselves to something in the expensive range. What do you recommend?"}
+{"answer": "I will need the price, travel time, and train id first please. Also looking for a park to go in town.", "gt": "I will need the price, travel time, and train id first please. Also looking for a park to go in town."}
+{"answer": "Yes I need a train that leaves on monday going to birmingham new street.", "gt": "Yes I need a train that leaves on monday going to birmingham new street."}
+{"answer": "Hi, would you be able to recommend a museum?", "gt": "I need a train from broxbourne"}
+{"answer": "I am looking for a train to go to London Kings Cross.", "gt": "I am looking for a train to go to London Kings Cross."}
+{"answer": "I am departing from birmingham new street, going to cambridge.", "gt": "I am departing from birmingham new street, going to cambridge."}
+{"answer": "I'm all set thanks for all your help, bye.", "gt": "Could you check fr mediterranean please?"}
+{"answer": "Great! That is all I needed, thanks.", "gt": "Great! That is all I needed, thanks."}
+{"answer": "Yes, I would like it to start Monday and be for 5 nights for 4 people. Can I get the reference number?", "gt": "Yes, I would like it to start Monday and be for 5 nights for 4 people. Can I get the reference number?"}
+{"answer": "I'd like to find an expensive restaurant where I can eat african food.", "gt": "Yes can you book that one please?"}
+{"answer": "Yes I would like a booking please. It will be just me.", "gt": "I'd like an expensive hotel please."}
+{"answer": "You're welcome. Have a great day!", "gt": "That's alright. I'm also looking for a train booking too. I need to go to cambridge from london liverpool street."}
+{"answer": "You're welcome! Have a great day!", "gt": "Is there another venue?"}
+{"answer": "Italian would work just as good.", "gt": "Italian would work just as good."}
+{"answer": "I can book you at 10:00 in the morning if you like. Is there a particular day of the week you had in mind?", "gt": "I would be going to cambridge from london liverpool street."}
+{"answer": "Anything else I can help you with today?", "gt": "I'm sorry, I'm just looking for information. Could you tell me the area, food type, and post code for that restaurant?"}
+{"answer": "I am interested in booking a taxi. I need to leave from Primavera and go to Christ's College by 07:15. I also need the contact number and car type.", "gt": "I am interested in booking a taxi. I need to leave from Primavera and go to Christ's College by 07:15. I also need the contact number and car type."}
+{"answer": "No I just needed the information, thanks for your help you've be so helpful!", "gt": "No I just needed the information, thanks for your help you've be so helpful!"}
+{"answer": "That will work! Thanks so much. Take care. Bye.", "gt": "That will work! Thanks so much. Take care. Bye."}
+{"answer": "Enjoy your trip!", "gt": "No, area doesn't matter."}
+{"answer": "Thank you so much for all your help. That is all I need.", "gt": "Thank you so much for all your help. That is all I need."}
+{"answer": "Hi, I'm looking for a cheap restaurant in the south. What do you have?", "gt": "Hi, I'm looking for a cheap restaurant in the south. What do you have?"}
+{"answer": "Could you please give me the arrival time and confirm that the price is still 12.80", "gt": "Could you please give me the arrival time and confirm that the price is still 12.80"}
+{"answer": "Yes thank you. I also needs a train on tuesday that arrives by 16:15.", "gt": "Yes thank you. I also needs a train on tuesday that arrives by 16:15."}
+{"answer": "Nothing particular. What is your favorite attraction in the centre of town?", "gt": "Nothing particular. What is your favorite attraction in the centre of town?"}
+{"answer": "Thank you for using our service. Have a great day!", "gt": "How about guesthouses? Any matches?"}
+{"answer": "No, that is all I need help with. Thank you very much!", "gt": "No, that is all I need help with. Thank you very much!"}
+{"answer": "Okay. Well, thank you and goodbye! Have a nice day.", "gt": "Okay. Well, thank you and goodbye! Have a nice day."}
+{"answer": "I do not have anything that meet that criteria. Can I try something else?", "gt": "Thanks! May I have the reference number?"}
+{"answer": "Can I get the precise address please?", "gt": "Can I get the precise address please?"}
+{"answer": "No, that will be all. Thank you very much for your time.", "gt": "No, that will be all. Thank you very much for your time."}
+{"answer": "Thank you for your help.", "gt": "I am looking for an expensive restaurant that serves Indian food."}
+{"answer": "I'm looking for a guest house with free parking.", "gt": "I'm looking for a guest house with free parking."}
+{"answer": "Yes please. There will 8 of us at 15:15 on Monday.", "gt": "Yes please. There will 8 of us at 15:15 on Monday."}
+{"answer": "Thanks, that's all I need.", "gt": "Thanks, that's all I need."}
+{"answer": "That is all I need, thank you, goodbye!", "gt": "That would be great thank you."}
+{"answer": "You're welcome! If you need anything else, feel free to ask.", "gt": "No thank you that will be all"}
+{"answer": "Thank you, that was everything I needed for this trip. Have a great day!", "gt": "Yes, please check one in the moderate range."}
+{"answer": "Yes. Ali Baba is moderately priced. Would you like me to make a reservation for you?", "gt": "How about Portuguese?"}
+{"answer": "book a table for 6 people at 12:00 on wednesday", "gt": "book a table for 6 people at 12:00 on wednesday"}
+{"answer": "Know any good bites around here?", "gt": "Know any good bites around here?"}
+{"answer": "Have a safe trip.", "gt": "yes, am also looking for a train. The train should leave after 16:45 and should leave on thursday"}
+{"answer": "That's all that I needed, thank you.", "gt": "I'm going to Liverpool Street in London."}
+{"answer": "I definitely need free parking also, please.", "gt": "I definitely need free parking also, please."}
+{"answer": "Thanks, what is the phone number and postcode?", "gt": "Thanks, what is the phone number and postcode?"}
+{"answer": "Would you like me to make a booking for you?", "gt": "Not at this time. I also need a train going from Cambridge to Kings Lynn."}
+{"answer": "Uh, you already did. That was all I needed today. Goodbye.", "gt": "Uh, you already did. That was all I needed today. Goodbye."}
+{"answer": "Yes, I'm traveling alone, so just one ticket. Don't forget to find me a guesthouse to stay in, as well!", "gt": "Yes, I'm traveling alone, so just one ticket. Don't forget to find me a guesthouse to stay in, as well!"}
+{"answer": "Do you need help with anything else?", "gt": "Yes, may I have the address, too?"}
+{"answer": "There are many restaurants to choose from, do you have any preferences?", "gt": "The hotel should include free wifi"}
+{"answer": "I like italian also. Are there any in that area?", "gt": "I like italian also. Are there any in that area?"}
+{"answer": "What is your departure day and time?", "gt": "Yes please if you do not mind."}
+{"answer": "Great that's all the info I need, thank you.", "gt": "How about one that serves Chinese food?"}
+{"answer": "Thank you. I also need help finding a place to stay. I'd prefer a guesthouse with free wifi", "gt": "That one will work just fine, thank you."}
+{"answer": "No thanks. I also need a taxi to commute between the two places. I want to leave the attraction by 03:45.", "gt": "No thanks. I also need a taxi to commute between the two places. I want to leave the attraction by 03:45."}
+{"answer": "Yes, please I will need 5 tickets.", "gt": "Yes, please I will need 5 tickets."}
+{"answer": "I'm looking for a hotel in the north part of town with free wifi.", "gt": "I'm looking for a hotel in the north part of town with free wifi."}
+{"answer": "Yes, I'd prefer a guesthouse that's cheap if any are available.", "gt": "Yes, I'd prefer a guesthouse that's cheap if any are available."}
+{"answer": "I would like to leave after 15:15 on Thursday.", "gt": "I would like to leave after 15:15 on Thursday."}
+{"answer": "i want to leave after 8:15 on wednesday", "gt": "i want to leave after 8:15 on wednesday"}
+{"answer": "To the restaurant, I would like to arrive before the reservation time of 18:45.", "gt": "To the restaurant, I would like to arrive before the reservation time of 18:45."}
+{"answer": "Thank you, that's all I need for now.", "gt": "That's all I needed, thanks so much for your help!"}

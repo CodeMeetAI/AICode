@@ -1,0 +1,6 @@
+model_name,turn,key,metric_score
+qwen_7b,5,qwen_7b-5-1,0.30746847720659554
+qwen_7b,5,qwen_7b-5-0,0.30746847720659554
+gemma_7b,1,gemma_7b-1-0,0.45919751889901145
+qwen_7b,5,qwen_7b-5-2,0.2857142857142857
+llama2_7b,1,llama2_7b-1-0,0.49757704981585577

@@ -37,7 +37,7 @@ def inference(args):
             prompt = tokenizer.apply_chat_template(tmp_context, tokenize=False, add_generation_prompt=True)
             context_input = tokenizer(prompt, return_tensors="pt", add_special_tokens=True).to(args.device)
             with torch.inference_mode(mode=True):
-                option_outputs = model(**context_input, labels=context_input["input_ids"])
+                option_outputs = model(**context_input, labels=context_input["input_ids"], use_cache=True)
             average_log_prob = option_outputs.loss * -1
             # logits = option_outputs.logits
             # length = len(tokenizer.encode(c))

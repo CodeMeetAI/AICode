@@ -17,7 +17,7 @@ def inference(args):
 
     options = json.load(open(args.option_file, 'r'))
     contexts = json.load(open(args.context_file, 'r'))
-    
+
     answers_file = args.answers_file + datetime.now().strftime("-%m-%d-%H-%M") + ".jsonl"
     answers_file = os.path.expanduser(answers_file)
     os.makedirs(os.path.dirname(answers_file), exist_ok=True)
@@ -29,24 +29,17 @@ def inference(args):
         prompt = tokenizer.apply_chat_template(context, tokenize=False, add_generation_prompt=True)
         context_input = tokenizer(prompt, return_tensors="pt", add_special_tokens=True).to(args.device)
         with torch.inference_mode(mode=True):
-            context_outputs = model(**context_input, use_cache=True)
+            context_outputs = model(**context_input, use_cache=True, labels=context_input['input_ids'])
         past_key_values = context_outputs.past_key_values
+        
         option_scores = []
         for c in option['options']:
             option_input = tokenizer(c, return_tensors='pt', add_special_tokens=True).to(args.device)
             with torch.inference_mode(mode=True):
-                option_outputs = model(**option_input, past_key_values=past_key_values)
-            logits = option_outputs.logits
-            log_probs = F.log_softmax(logits[:, 1:, :], dim=-1)
-            
-            # target_id = option_input['input_ids'][0, -1]
-            # log_prob = log_probs[:, target_id].item()
-            # option_scores.append(log_prob)
-            input_ids = option_input['input_ids']
-            gathered_log_probs = torch.gather(log_probs, 2, input_ids[:, 1:].unsqueeze(-1)).squeeze(-1)
-            average_log_prob = torch.mean(gathered_log_probs)
+                option_outputs = model(**option_input, past_key_values=past_key_values, use_cache=True, labels=option_input['input_ids'])
+            average_log_prob = option_outputs.loss * -1
             option_scores.append(average_log_prob.item())
-        
+
         best_option_index = option_scores.index(max(option_scores))
         best_option = option['options'][best_option_index]
         gt = option['gt']

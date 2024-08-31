@@ -1,0 +1,8250 @@
+[
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.restaurant"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.hotel"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.train"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.hotel"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "A.restaurant"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.restaurant",
+            "C.hospital"
+        ],
+        "gt": "B.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.hotel"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.attraction",
+            "C.hospital"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.attraction",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.restaurant"
+        ],
+        "gt": "C.restaurant"
+    },
+    {
+        "options": [
+            "A.train",
+            "B.hospital",
+            "C.attraction"
+        ],
+        "gt": "A.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.restaurant",
+            "C.hotel"
+        ],
+        "gt": "C.hotel"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "C.train"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.hotel",
+            "C.train"
+        ],
+        "gt": "B.hotel"
+    },
+    {
+        "options": [
+            "A.hotel",
+            "B.hospital",
+            "C.train"
+        ],
+        "gt": "A.hotel"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    },
+    {
+        "options": [
+            "A.attraction",
+            "B.hotel",
+            "C.hospital"
+        ],
+        "gt": "A.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.attraction",
+            "C.train"
+        ],
+        "gt": "B.attraction"
+    },
+    {
+        "options": [
+            "A.restaurant",
+            "B.hotel",
+            "C.attraction"
+        ],
+        "gt": "C.attraction"
+    },
+    {
+        "options": [
+            "A.hospital",
+            "B.train",
+            "C.restaurant"
+        ],
+        "gt": "B.train"
+    }
+]

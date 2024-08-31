@@ -1,0 +1,8250 @@
+[
+    {
+        "options": [
+            "train",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hospital"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "hotel"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "train"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "restaurant",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "train",
+            "hospital"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "train",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "restaurant",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hotel",
+            "attraction",
+            "hospital"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "train",
+            "attraction",
+            "hotel"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "train",
+            "hospital",
+            "attraction"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "hospital",
+            "restaurant"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "hospital",
+            "hotel",
+            "train"
+        ],
+        "gt": "hotel"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hospital",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "attraction",
+            "train",
+            "restaurant"
+        ],
+        "gt": "train"
+    },
+    {
+        "options": [
+            "attraction",
+            "hotel",
+            "hospital"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "restaurant",
+            "train"
+        ],
+        "gt": "restaurant"
+    },
+    {
+        "options": [
+            "restaurant",
+            "hotel",
+            "attraction"
+        ],
+        "gt": "attraction"
+    },
+    {
+        "options": [
+            "hospital",
+            "attraction",
+            "restaurant"
+        ],
+        "gt": "attraction"
+    }
+]
